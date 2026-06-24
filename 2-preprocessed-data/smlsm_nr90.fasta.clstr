@@ -1,0 +1,639 @@
+>Cluster 0
+0	2412aa, >XP_680858.1... *
+>Cluster 1
+0	1197aa, >NP_912805.1... *
+>Cluster 2
+0	873aa, >XP_680875.1... *
+>Cluster 3
+0	775aa, >XP_663817.1... *
+>Cluster 4
+0	119aa, >NP_008869.1... at 96.64%
+1	119aa, >XP_900187.1... at 92.44%
+2	119aa, >AAM34669.1... at 94.12%
+3	766aa, >XP_418799.1... *
+>Cluster 5
+0	725aa, >EAA65366.1... *
+>Cluster 6
+0	80aa, >AAD56230.1... at 100.00%
+1	614aa, >XP_420431.1... *
+2	80aa, >XP_694129.1... at 96.25%
+>Cluster 7
+0	395aa, >EAA60819.1... *
+>Cluster 8
+0	86aa, >sp|P62306.1|RUXF_HU... at 100.00%
+1	344aa, >XP_919276.1... *
+2	86aa, >AAT68156.1... at 97.67%
+>Cluster 9
+0	290aa, >XP_416157.1... *
+>Cluster 10
+0	288aa, >XP_480155.1... *
+1	93aa, >NP_563682.1... at 91.40%
+>Cluster 11
+0	274aa, >XP_645139.1... *
+>Cluster 12
+0	261aa, >XP_476727.1... *
+>Cluster 13
+0	257aa, >XP_636207.1... *
+>Cluster 14
+0	254aa, >NP_199263.1... *
+>Cluster 15
+0	240aa, >CAB46715.1... *
+1	231aa, >BAE27074.1... at 98.70%
+2	239aa, >NP_991230.1... at 95.40%
+3	240aa, >NP_989930.1... at 96.25%
+>Cluster 16
+0	96aa, >NP_598700.1... at 98.96%
+1	228aa, >XP_416009.1... *
+2	96aa, >XP_694374.1... at 92.71%
+>Cluster 17
+0	216aa, >AAW40622.1... *
+>Cluster 18
+0	213aa, >XP_331707.1... *
+>Cluster 19
+0	139aa, >AAH22198.1... at 94.24%
+1	212aa, >XP_418245.1... *
+2	137aa, >CAB65729.1... at 92.70%
+>Cluster 20
+0	205aa, >XP_653239.1... *
+>Cluster 21
+0	202aa, >EAA11463.2... *
+>Cluster 22
+0	201aa, >NP_702034.1... *
+>Cluster 23
+0	199aa, >AAL28719.1... *
+>Cluster 24
+0	199aa, >XP_327668.1... *
+>Cluster 25
+0	196aa, >ZP_00579646.1... *
+>Cluster 26
+0	195aa, >AAW45921.1... *
+>Cluster 27
+0	177aa, >XP_637396.1... *
+>Cluster 28
+0	175aa, >ABC63344.1... *
+>Cluster 29
+0	174aa, >YP_046973.1... *
+>Cluster 30
+0	173aa, >XP_917671.1... *
+>Cluster 31
+0	168aa, >XP_329871.1... *
+>Cluster 32
+0	165aa, >XP_457218.1... *
+>Cluster 33
+0	164aa, >XP_624908.1... *
+>Cluster 34
+0	91aa, >AAH05938.1... at 96.70%
+1	163aa, >XP_418849.1... *
+2	91aa, >XP_692400.1... at 92.31%
+>Cluster 35
+0	161aa, >YP_162082.1... *
+>Cluster 36
+0	160aa, >sp|P91918.1|RSMB_CA... *
+>Cluster 37
+0	154aa, >NP_001027236.1... *
+>Cluster 38
+0	151aa, >AAM29470.1... *
+>Cluster 39
+0	147aa, >CAA93231.1... *
+>Cluster 40
+0	144aa, >CAG85115.1... *
+>Cluster 41
+0	143aa, >AAH59435.1... *
+>Cluster 42
+0	143aa, >NP_700946.1... *
+>Cluster 43
+0	143aa, >EAA00211.2... *
+>Cluster 44
+0	137aa, >NP_611559.1... *
+>Cluster 45
+0	136aa, >EAA65409.1... *
+>Cluster 46
+0	136aa, >CAB55132.1... *
+>Cluster 47
+0	135aa, >NP_586275.1... *
+>Cluster 48
+0	132aa, >XP_329120.1... *
+>Cluster 49
+0	132aa, >XP_463791.1... *
+>Cluster 50
+0	131aa, >AAW46688.1... *
+>Cluster 51
+0	95aa, >AAD56226.1... at 98.95%
+1	95aa, >NP_571571.1... at 97.89%
+2	131aa, >AAG31428.1... *
+3	94aa, >XP_314020.1... at 93.62%
+4	95aa, >NP_648570.1... at 90.53%
+>Cluster 52
+0	131aa, >XP_642077.1... *
+>Cluster 53
+0	131aa, >CAG84914.1... *
+>Cluster 54
+0	130aa, >XP_328389.1... *
+>Cluster 55
+0	129aa, >XP_641509.1... *
+>Cluster 56
+0	129aa, >NP_198124.1... *
+>Cluster 57
+0	129aa, >AAX80265.1... *
+>Cluster 58
+0	126aa, >sp|P62318.1|SMD3_HU... at 97.62%
+1	126aa, >AAH11510.1... at 96.83%
+2	128aa, >AAH45929.1... *
+>Cluster 59
+0	128aa, >AAM64807.1... *
+>Cluster 60
+0	127aa, >EAN80340.1... *
+>Cluster 61
+0	126aa, >CAC28820.1... *
+>Cluster 62
+0	126aa, >XP_766985.1... *
+>Cluster 63
+0	126aa, >EAA04383.3... *
+>Cluster 64
+0	126aa, >AAA68313.1... *
+>Cluster 65
+0	126aa, >NP_701126.1... *
+>Cluster 66
+0	125aa, >NP_704638.1... *
+>Cluster 67
+0	124aa, >XP_770710.1... *
+>Cluster 68
+0	124aa, >XP_569278.1... *
+1	124aa, >AAW41971.1... at 100.00%
+>Cluster 69
+0	124aa, >NP_524774.1... *
+>Cluster 70
+0	123aa, >sp|Q19952.1|LSM4_CA... *
+>Cluster 71
+0	123aa, >XP_624938.1... *
+>Cluster 72
+0	123aa, >XP_324685.1... *
+>Cluster 73
+0	121aa, >CAB10801.1... *
+>Cluster 74
+0	121aa, >EAA64937.1... *
+>Cluster 75
+0	121aa, >XP_568761.1... *
+>Cluster 76
+0	118aa, >AAH93003.1... at 91.53%
+1	119aa, >NP_649645.1... at 93.28%
+2	120aa, >XP_397475.2... *
+3	118aa, >EAA13684.1... at 92.37%
+>Cluster 77
+0	118aa, >BAC32551.1... *
+>Cluster 78
+0	118aa, >sp|Q18786.1|SMD2_CA... *
+>Cluster 79
+0	117aa, >XP_061427.1... *
+>Cluster 80
+0	117aa, >XP_640635.1... *
+>Cluster 81
+0	117aa, >AAW42506.1... *
+>Cluster 82
+0	117aa, >sp|O42661.1|SMD1_SC... *
+>Cluster 83
+0	103aa, >AAH18621.1... at 96.12%
+1	103aa, >AAH81444.1... at 94.17%
+2	116aa, >NP_001006337.1... *
+3	103aa, >XP_684914.1... at 95.15%
+>Cluster 84
+0	116aa, >EAA64839.1... *
+1	116aa, >XP_659611.1... at 100.00%
+>Cluster 85
+0	116aa, >CAC28701.1... *
+1	116aa, >XP_322927.1... at 100.00%
+>Cluster 86
+0	116aa, >CAB77769.1... *
+1	114aa, >XP_472822.1... at 92.98%
+>Cluster 87
+0	115aa, >sp|O14036.1|SMD2_SC... *
+>Cluster 88
+0	115aa, >CAG88765.1... *
+>Cluster 89
+0	115aa, >AAX80930.1... *
+>Cluster 90
+0	113aa, >CAA20851.1... *
+>Cluster 91
+0	112aa, >XP_638255.1... *
+>Cluster 92
+0	111aa, >AAG00462.1... *
+1	111aa, >AAX79005.1... at 99.10%
+>Cluster 93
+0	111aa, >XP_569020.1... *
+>Cluster 94
+0	111aa, >XP_653731.1... *
+>Cluster 95
+0	111aa, >NP_584627.1... *
+>Cluster 96
+0	110aa, >AAM29642.1... *
+>Cluster 97
+0	110aa, >EAA62772.1... *
+>Cluster 98
+0	109aa, >YP_169651.1... *
+>Cluster 99
+0	76aa, >CAA59689.1... at 93.42%
+1	109aa, >XP_484457.2... *
+>Cluster 100
+0	109aa, >AAC63620.2... *
+1	105aa, >AAV32147.1... at 92.38%
+>Cluster 101
+0	108aa, >NP_701457.1... *
+>Cluster 102
+0	108aa, >AAW42222.1... *
+>Cluster 103
+0	108aa, >XP_779873.1... *
+>Cluster 104
+0	107aa, >XP_768512.1... *
+>Cluster 105
+0	106aa, >CAG88129.1... *
+>Cluster 106
+0	104aa, >BAD81919.1... *
+>Cluster 107
+0	104aa, >XP_134104.1... *
+>Cluster 108
+0	103aa, >NP_732931.1... *
+1	92aa, >EAA00883.2... at 95.65%
+>Cluster 109
+0	103aa, >XP_394397.1... *
+>Cluster 110
+0	103aa, >NP_506348.1... *
+>Cluster 111
+0	103aa, >CAD51568.1... *
+>Cluster 112
+0	103aa, >XP_656886.1... *
+>Cluster 113
+0	102aa, >CAD06838.1... *
+1	102aa, >NP_757104.1... at 94.12%
+>Cluster 114
+0	102aa, >CAE16953.1... *
+>Cluster 115
+0	102aa, >CAD26651.1... *
+>Cluster 116
+0	102aa, >NP_055278.1... *
+1	102aa, >XP_414380.1... at 99.02%
+>Cluster 117
+0	102aa, >NP_502579.1... *
+>Cluster 118
+0	101aa, >AAM84218.1... *
+>Cluster 119
+0	101aa, >ZP_00520729.1... *
+>Cluster 120
+0	101aa, >XP_651333.1... *
+>Cluster 121
+0	101aa, >NP_473101.1... *
+>Cluster 122
+0	101aa, >NP_702300.1... *
+>Cluster 123
+0	101aa, >XP_318746.2... *
+>Cluster 124
+0	101aa, >XP_465923.1... *
+>Cluster 125
+0	101aa, >CAG87972.1... *
+>Cluster 126
+0	100aa, >XP_655345.1... *
+>Cluster 127
+0	99aa, >AAD24820.1... *
+>Cluster 128
+0	99aa, >XP_476030.1... *
+>Cluster 129
+0	98aa, >AAM15936.1... *
+>Cluster 130
+0	98aa, >CAH89328.1... *
+>Cluster 131
+0	98aa, >XP_480353.1... *
+>Cluster 132
+0	98aa, >NP_176747.1... *
+>Cluster 133
+0	98aa, >NP_500964.1... *
+>Cluster 134
+0	98aa, >NP_177812.1... *
+>Cluster 135
+0	97aa, >XP_646895.1... *
+>Cluster 136
+0	97aa, >CAG89664.1... *
+>Cluster 137
+0	97aa, >sp|Q9UUC6.1|SMD3_SC... *
+1	97aa, >CAB52041.1... at 100.00%
+>Cluster 138
+0	96aa, >AAU38125.1... *
+>Cluster 139
+0	96aa, >XP_624537.1... *
+>Cluster 140
+0	96aa, >XP_326209.1... *
+>Cluster 141
+0	96aa, >sp|O94408.1|LSM2_SC... *
+>Cluster 142
+0	96aa, >EAL48785.1... *
+>Cluster 143
+0	95aa, >EAA00327.1... *
+>Cluster 144
+0	95aa, >XP_566856.1... *
+>Cluster 145
+0	95aa, >AAW41290.1... *
+>Cluster 146
+0	94aa, >NP_147628.1... *
+>Cluster 147
+0	94aa, >CAA20133.1... *
+>Cluster 148
+0	94aa, >NP_704263.1... *
+>Cluster 149
+0	94aa, >XP_955734.1... *
+>Cluster 150
+0	93aa, >CAB42366.2... *
+>Cluster 151
+0	93aa, >CAG89843.1... *
+>Cluster 152
+0	93aa, >NP_705387.1... *
+>Cluster 153
+0	92aa, >AAF82902.1... *
+1	92aa, >AAM36602.1... at 90.22%
+>Cluster 154
+0	92aa, >AAD35611.1... *
+>Cluster 155
+0	92aa, >pir||A32127... *
+1	81aa, >CAA46626.1... at 100.00%
+2	92aa, >AAH49062.1... at 94.57%
+>Cluster 156
+0	92aa, >AAW45599.1... *
+>Cluster 157
+0	92aa, >AAX80604.1... *
+>Cluster 158
+0	91aa, >AAX87465.1... *
+>Cluster 159
+0	91aa, >EAN38386.1... *
+>Cluster 160
+0	91aa, >NP_648022.1... *
+>Cluster 161
+0	91aa, >XP_316632.2... *
+>Cluster 162
+0	91aa, >NP_506870.1... *
+>Cluster 163
+0	91aa, >EAA58553.1... *
+>Cluster 164
+0	91aa, >CAB75800.1... *
+>Cluster 165
+0	91aa, >XP_641988.1... *
+>Cluster 166
+0	90aa, >ABA59043.1... *
+>Cluster 167
+0	90aa, >YP_075575.1... *
+>Cluster 168
+0	90aa, >BAB65195.1... *
+>Cluster 169
+0	90aa, >CAB11551.1... *
+>Cluster 170
+0	90aa, >CAG90229.1... *
+>Cluster 171
+0	90aa, >sp|Q9P5Z8.1|RUXF_NE... *
+>Cluster 172
+0	89aa, >ZP_00865893.1... *
+>Cluster 173
+0	89aa, >AAV31348.1... *
+>Cluster 174
+0	89aa, >XP_654638.1... *
+>Cluster 175
+0	88aa, >ZP_01133545.1... *
+>Cluster 176
+0	88aa, >CAG87742.1... *
+>Cluster 177
+0	88aa, >BAB09440.1... *
+>Cluster 178
+0	88aa, >XP_311506.2... *
+>Cluster 179
+0	88aa, >AAM64436.1... *
+1	88aa, >XP_463967.1... at 94.32%
+>Cluster 180
+0	88aa, >NP_597548.1... *
+>Cluster 181
+0	88aa, >XP_643590.1... *
+>Cluster 182
+0	88aa, >AAW47104.1... *
+>Cluster 183
+0	88aa, >AAF58559.2... *
+>Cluster 184
+0	88aa, >EAA07677.2... *
+>Cluster 185
+0	88aa, >sp|Q9SUM2.1|RUXF_AR... *
+>Cluster 186
+0	87aa, >BAB59502.1... *
+1	83aa, >sp|P57670.1|RUXX_TH... at 90.36%
+>Cluster 187
+0	87aa, >NP_341755.1... *
+>Cluster 188
+0	87aa, >NP_597593.1... *
+>Cluster 189
+0	87aa, >XP_570179.1... *
+>Cluster 190
+0	86aa, >NP_903203.1... *
+>Cluster 191
+0	86aa, >BAC95835.1... *
+1	85aa, >sp|Q9EYZ5.4|HFQ_PHO... at 90.59%
+>Cluster 192
+0	86aa, >ZP_00315670.1... *
+>Cluster 193
+0	86aa, >AAN70461.1... *
+>Cluster 194
+0	86aa, >NP_622978.1... *
+>Cluster 195
+0	86aa, >AAX80973.1... *
+>Cluster 196
+0	85aa, >ZP_00951845.1... *
+>Cluster 197
+0	85aa, >CAA53989.1... *
+>Cluster 198
+0	85aa, >AAV81176.1... *
+>Cluster 199
+0	85aa, >CAH14239.1... *
+>Cluster 200
+0	85aa, >EAN27633.1... *
+>Cluster 201
+0	85aa, >AAN48716.1... *
+>Cluster 202
+0	85aa, >XP_958647.1... *
+>Cluster 203
+0	85aa, >XP_639367.1... *
+>Cluster 204
+0	85aa, >sp|P34659.1|RUXF_CA... *
+>Cluster 205
+0	84aa, >CAD85198.1... *
+>Cluster 206
+0	84aa, >EAM93838.1... *
+>Cluster 207
+0	84aa, >CAD11394.1... *
+>Cluster 208
+0	84aa, >CAB59808.1... *
+>Cluster 209
+0	84aa, >XP_459280.1... *
+>Cluster 210
+0	83aa, >ABC22484.1... *
+>Cluster 211
+0	83aa, >AAZ27874.1... *
+>Cluster 212
+0	83aa, >NP_704332.1... *
+>Cluster 213
+0	83aa, >XP_653680.1... *
+>Cluster 214
+0	82aa, >NP_420553.1... *
+>Cluster 215
+0	82aa, >ABA04710.1... *
+>Cluster 216
+0	82aa, >ZP_00691419.1... *
+>Cluster 217
+0	82aa, >AAU91818.1... *
+>Cluster 218
+0	82aa, >ZP_01114501.1... *
+>Cluster 219
+0	82aa, >EAO24164.1... *
+>Cluster 220
+0	82aa, >YP_023448.1... *
+>Cluster 221
+0	82aa, >EAN80375.1... *
+>Cluster 222
+0	82aa, >CAC27096.1... *
+>Cluster 223
+0	81aa, >BAB47991.1... *
+1	78aa, >AAN30031.1... at 92.31%
+>Cluster 224
+0	81aa, >YP_157694.1... *
+>Cluster 225
+0	81aa, >ZP_00566358.1... *
+>Cluster 226
+0	81aa, >AAZ40725.1... *
+>Cluster 227
+0	81aa, >NP_348458.1... *
+>Cluster 228
+0	81aa, >sp|O26745.1|RUXX_ME... *
+>Cluster 229
+0	81aa, >YP_448199.1... *
+>Cluster 230
+0	81aa, >XP_650141.1... *
+>Cluster 231
+0	81aa, >XP_655862.1... *
+>Cluster 232
+0	81aa, >NP_584762.1... *
+>Cluster 233
+0	80aa, >ZP_01018241.1... *
+>Cluster 234
+0	80aa, >YP_315291.1... *
+>Cluster 235
+0	80aa, >ZP_01167593.1... *
+>Cluster 236
+0	80aa, >AAC06479.1... *
+>Cluster 237
+0	80aa, >AAL63028.1... *
+>Cluster 238
+0	80aa, >YP_504465.1... *
+>Cluster 239
+0	80aa, >sp|O82221.1|RUXG_AR... *
+>Cluster 240
+0	80aa, >AAR06315.1... *
+>Cluster 241
+0	80aa, >CAA16849.2... *
+>Cluster 242
+0	79aa, >ZP_00947690.1... *
+>Cluster 243
+0	79aa, >CAD14922.1... *
+1	79aa, >ZP_00421655.1... at 93.67%
+>Cluster 244
+0	79aa, >YP_188453.1... *
+>Cluster 245
+0	79aa, >AAK41053.1... *
+>Cluster 246
+0	79aa, >AAY80570.1... *
+>Cluster 247
+0	79aa, >NP_113459.1... *
+1	79aa, >CAC27028.1... at 100.00%
+>Cluster 248
+0	79aa, >AAM29479.1... *
+1	79aa, >XP_315329.2... at 94.94%
+>Cluster 249
+0	78aa, >CAE33662.1... *
+>Cluster 250
+0	78aa, >XP_659099.1... *
+>Cluster 251
+0	78aa, >XP_657435.1... *
+>Cluster 252
+0	78aa, >pir||T40388... *
+>Cluster 253
+0	78aa, >CAC27090.1... *
+>Cluster 254
+0	77aa, >ZP_00628710.1... *
+>Cluster 255
+0	77aa, >YP_013910.1... *
+>Cluster 256
+0	77aa, >NP_147300.1... *
+>Cluster 257
+0	77aa, >AAF36015.1... *
+1	77aa, >NP_491032.1... at 100.00%
+>Cluster 258
+0	77aa, >AAK73913.1... *
+>Cluster 259
+0	77aa, >CAD52398.1... *
+>Cluster 260
+0	77aa, >NP_113140.1... *
+>Cluster 261
+0	76aa, >ZP_01188379.1... *
+>Cluster 262
+0	76aa, >AAL81666.1... *
+1	75aa, >CAB49563.1... at 92.00%
+>Cluster 263
+0	76aa, >BAD85165.1... *
+>Cluster 264
+0	76aa, >NP_573139.1... *
+1	76aa, >sp|Q9VXE0.1|RUXG_DR... at 100.00%
+>Cluster 265
+0	76aa, >XP_625205.1... *
+>Cluster 266
+0	76aa, >XP_312222.2... *
+>Cluster 267
+0	76aa, >AAH81512.1... *
+>Cluster 268
+0	75aa, >NP_069198.1... *
+>Cluster 269
+0	75aa, >CAB54975.1... *
+>Cluster 270
+0	74aa, >ZP_00679600.1... *
+>Cluster 271
+0	74aa, >NP_953048.1... *
+>Cluster 272
+0	74aa, >AAM04828.1... *
+1	74aa, >NP_634407.1... at 97.30%
+>Cluster 273
+0	74aa, >ZP_01153344.1... *
+>Cluster 274
+0	74aa, >NP_704356.1... *
+>Cluster 275
+0	73aa, >CAB13618.1... *
+>Cluster 276
+0	73aa, >NP_613507.1... *
+>Cluster 277
+0	73aa, >XP_659406.1... *
+>Cluster 278
+0	73aa, >NP_113163.1... *
+>Cluster 279
+0	72aa, >EAN01277.1... *
+1	72aa, >ZP_00561685.1... at 100.00%
+>Cluster 280
+0	72aa, >ZP_00543408.1... *
+>Cluster 281
+0	72aa, >ZP_01153713.1... *
+>Cluster 282
+0	72aa, >NP_988268.1... *
+>Cluster 283
+0	71aa, >NP_111594.1... *
+>Cluster 284
+0	71aa, >AAT43306.1... *
+>Cluster 285
+0	71aa, >XP_655404.1... *
+>Cluster 286
+0	71aa, >CAD25474.1... *
+>Cluster 287
+0	70aa, >CAD26118.1... *
+>Cluster 288
+0	67aa, >AAB85915.1... *
+>Cluster 289
+0	66aa, >NP_963332.1... *
+>Cluster 290
+0	64aa, >ZP_00576148.1... *
+>Cluster 291
+0	56aa, >ZP_00563110.1... *

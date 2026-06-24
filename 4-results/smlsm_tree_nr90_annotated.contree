@@ -1,0 +1,394 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=292;
+	taxlabels
+	'AAA68313.1|Small_nuclear_ribonucleoprotei|Caenorhabditis_elegans'
+	'AAB85915.1|unknown|Methanothermobacter_therm'
+	'AAC06479.1|host_factor_I|Aquifex_aeolicus_VF5'
+	'AAC63620.2|putative_small_nuclear_ribonuc|Arabidopsis_thaliana'
+	'AAD24820.1|putative_snRNP_splicing_factor|Arabidopsis_thaliana'
+	'AAD35611.1|host_factor_I|Thermotoga_maritima_MSB8'
+	'AAF36015.1|Small_nuclear_ribonucleoprotei|Caenorhabditis_elegans'
+	'AAF58559.2|small_ribonucleoprotein_partic|Drosophila_melanogaster'
+	'AAF82902.1|host_factor-I_protein|Xylella_fastidiosa_9a5c'
+	'AAG00462.1|Sm-D2|Trypanosoma_brucei'
+	'AAG31428.1|snRNP_core_protein_SMX5|Mus_musculus'
+	'AAH45929.1|Small_nuclear_ribonucleoprotei|Danio_rerio'
+	'AAH59435.1|LSM4_homolog_U6_small_nuclear|Danio_rerio'
+	'AAH81512.1|Zgc103688|Danio_rerio'
+	'AAK41053.1|Small_nuclear_riboprotein_prot|Saccharolobus_solfataricu'
+	'AAK73913.1|Lsm_sm-like_protein_protein_6|Caenorhabditis_elegans'
+	'AAL28719.1|LD14049p|Drosophila_melanogaster'
+	'AAL63028.1|small_nuclear_ribonucleoprotei|Pyrobaculum_aerophilum_st'
+	'AAL81666.1|small_nuclear_ribonucleoprotei|Pyrococcus_furiosus_DSM_3'
+	'AAM04828.1|Sm_protein|Methanosarcina_acetivoran'
+	'AAM15936.1|NrfA|Gluconacetobacter_diazotr'
+	'AAM29470.1|RE39820p|Drosophila_melanogaster'
+	'AAM29479.1|RE43665p|Drosophila_melanogaster'
+	'AAM29642.1|RH73529p|Drosophila_melanogaster'
+	'AAM64436.1|putative_small_nuclear_ribonuc|Arabidopsis_thaliana'
+	'AAM64807.1|small_nuclear_ribonucleoprotei|Arabidopsis_thaliana'
+	'AAM84218.1|putative_host_factor_I_for_bac|Yersinia_pestis_KIM10+'
+	'AAN48716.1|host_factor_I_related_protein|Leptospira_interrogans_se'
+	'AAN70461.1|RNA-binding_protein_Hfq|Pseudomonas_putida_KT2440'
+	'AAR06315.1|putative_small_nuclear_ribonuc|Oryza_sativa_Japonica_Gro'
+	'AAT43306.1|snRNP_Sm-like_protein|Picrophilus_oshimae_DSM_9'
+	'AAU38125.1|Hfq_protein|[Mannheimia'
+	'AAU91818.1|hfq_protein|Methylococcus_capsulatus'
+	'AAV31348.1|putative_snRNA_associated_prot|Oryza_sativa_Japonica_Gro'
+	'AAV81176.1|Host_factor_I-like_protein|Idiomarina_loihiensis_L2T'
+	'AAW40622.1|conserved_hypothetical_protein|Cryptococcus_neoformans_v'
+	'AAW41290.1|Sm-like_protein_putative|Cryptococcus_deneoformans'
+	'AAW42222.1|u6_snRNA-associated_sm-like_pr|Cryptococcus_neoformans_v'
+	'AAW42506.1|glycine_rich_protein_putative|Cryptococcus_neoformans_v'
+	'AAW45599.1|small_nuclear_ribonucleoprotei|Cryptococcus_deneoformans'
+	'AAW45921.1|conserved_hypothetical_protein|Cryptococcus_neoformans_v'
+	'AAW46688.1|U6_snRNA_binding_protein_puta|Cryptococcus_neoformans_v'
+	'AAW47104.1|u6_snRNA-associated_sm-like_pr|Cryptococcus_deneoformans'
+	'AAX80265.1|U6_snRNA-associated_Sm-like_pr|Trypanosoma_brucei'
+	'AAX80604.1|U6_snRNA-associated_Sm-like_pr|Trypanosoma_brucei'
+	'AAX80930.1|small_nuclear_ribonucleoprotei|Trypanosoma_brucei'
+	'AAX80973.1|small_nuclear_ribonucleoprotei|Trypanosoma_brucei'
+	'AAX87465.1|host_factor-I_protein_Hfq|Haemophilus_influenzae_86'
+	'AAY80570.1|hypothetical_protein_Saci_1224|Sulfolobus_acidocaldarius'
+	'AAZ27874.1|host_factor-I_protein|Colwellia_psychrerythraea'
+	'AAZ40725.1|host_factor_I|Candidatus_Blochmanniella'
+	'ABA04710.1|RNA-binding_protein_Hfq|Nitrobacter_winogradskyi'
+	'ABA59043.1|RNA-binding_protein_Hfq|Nitrosococcus_oceani_ATCC'
+	'ABC22484.1|RNA-binding_protein_Hfq|Rhodospirillum_rubrum_ATC'
+	'ABC63344.1|hypothetical_protein_ELI_06260|Erythrobacter_litoralis_H'
+	'BAB09440.1|U6_snRNA-associated_Sm-like_pr|Arabidopsis_thaliana'
+	'BAB47991.1|host_factor-I_or_probable_NfrA|Mesorhizobium_japonicum_M'
+	'BAB59502.1|small_nuclear_ribonucleoprotei|Thermoplasma_volcanium_GS'
+	'BAB65195.1|90aa_long_hypothetical_small_n|Sulfolobus_tokodaii_str.'
+	'BAC32551.1|unnamed_protein_product|Mus_musculus'
+	'BAC95835.1|host_factor-I_putative|Vibrio_vulnificus_YJ016'
+	'BAD81919.1|small_nuclear_ribonucleoprotei|Oryza_sativa_Japonica_Gro'
+	'BAD85165.1|snRNP_component_Sm-like_prote|Thermococcus_kodakarensis'
+	'CAA16849.2|Lsm2-8_complex_subunit_Lsm5|Schizosaccharomyces_pombe'
+	'CAA20133.1|Lsm2-8_complex_subunit_Lsm8|Schizosaccharomyces_pombe'
+	'CAA20851.1|Lsm2-8_complex_subunit_Lsm7|Schizosaccharomyces_pombe'
+	'CAA53989.1|NFRA_protein|Azorhizobium_caulinodans'
+	'CAA93231.1|Sm_snRNP_core_protein_Smb1|Schizosaccharomyces_pombe'
+	'CAB10801.1|Lsm2-8_complex_subunit_Lsm4|Schizosaccharomyces_pombe'
+	'CAB11551.1|Probable_small_nuclear_ribonuc|Caenorhabditis_elegans'
+	'CAB13618.1|Hfq_RNA_chaperone|Bacillus_subtilis_subsp.'
+	'CAB42366.2|Lsm2-8_complex_subunit_Lsm3|Schizosaccharomyces_pombe'
+	'CAB46715.1|small_nuclear_ribonucleoprotei|Homo_sapiens'
+	'CAB54975.1|Lsm2-8_complex_subunit_Lsm6|Schizosaccharomyces_pombe'
+	'CAB55132.1|Small_nuclear_ribonucleoprotei|Caenorhabditis_elegans'
+	'CAB59808.1|Sm_snRNP_core_protein_Sme1|Schizosaccharomyces_pombe'
+	'CAB75800.1|U6_snRNA-associated_Sm-like_pr|Arabidopsis_thaliana'
+	'CAB77769.1|small_nuclear_riboprotein_Sm-D|Arabidopsis_thaliana'
+	'CAC27090.1|putative_small_nuclear_ribonuc|Guillardia_theta'
+	'CAC27096.1|small_nuclear_ribonucleoprotei|Guillardia_theta'
+	'CAC28701.1|probable_small_nuclear_ribonuc|Neurospora_crassa'
+	'CAC28820.1|probable_small_nuclear_ribonuc|Neurospora_crassa'
+	'CAD06838.1|host_factor-I_proteinHF-I|Salmonella_enterica_subsp'
+	'CAD11394.1|probable_U6_SNRNA-ASSOCIATED_S|Neurospora_crassa'
+	'CAD14922.1|putative_hfq_protein|Ralstonia_pseudosolanacea'
+	'CAD25474.1|U6-snRNA_ASSOCIATED_SMALL_NUCL|Encephalitozoon_cuniculi'
+	'CAD26118.1|Sm-LIKE_PROTEIN|Encephalitozoon_cuniculi'
+	'CAD26651.1|U6_snRNA-ASSOCIATED_SMALL_RIBO|Encephalitozoon_cuniculi'
+	'CAD51568.1|U6_snRNA-associated_Sm-like_pr|Plasmodium_falciparum_3D7'
+	'CAD52398.1|U6_snRNA-associated_Sm-like_pr|Plasmodium_falciparum_3D7'
+	'CAD85198.1|putative_host_factor-i_protein|Nitrosomonas_europaea_ATC'
+	'CAE16953.1|host_factor-I_protein_HF-I_|Photorhabdus_laumondii_su'
+	'CAE33662.1|putative_RNA-binding_regulator|Bordetella_bronchiseptica'
+	'CAG84914.1|unnamed_protein_product|Debaryomyces_hansenii_CBS'
+	'CAG85115.1|unnamed_protein_product|Debaryomyces_hansenii_CBS'
+	'CAG87742.1|DEHA2E04510p|Debaryomyces_hansenii_CBS'
+	'CAG87972.1|DEHA2E09878p|Debaryomyces_hansenii_CBS'
+	'CAG88129.1|DEHA2E13420p|Debaryomyces_hansenii_CBS'
+	'CAG88765.1|DEHA2F02156p|Debaryomyces_hansenii_CBS'
+	'CAG89664.1|DEHA2F21252p|Debaryomyces_hansenii_CBS'
+	'CAG89843.1|DEHA2F25036p|Debaryomyces_hansenii_CBS'
+	'CAG90229.1|unnamed_protein_product|Debaryomyces_hansenii_CBS'
+	'CAH14239.1|hypothetical_protein_lpl0009|Legionella_pneumophila_st'
+	'CAH89328.1|putative_snRNP_plasmid|Sulfolobus_neozealandicus'
+	'EAA00211.2|AGAP012380-PA|Anopheles_gambiae_str._PE'
+	'EAA00327.1|AGAP011837-PA|Anopheles_gambiae_str._PE'
+	'EAA04383.3|ENSANGP00000009562|Anopheles_gambiae_str._PE'
+	'EAA07677.2|AGAP002658-PA|Anopheles_gambiae_str._PE'
+	'EAA11463.2|ENSANGP00000007148_partial|Anopheles_gambiae_str._PE'
+	'EAA58553.1|hypothetical_protein_AN6735.2|Aspergillus_nidulans_FGSC'
+	'EAA60819.1|hypothetical_protein_AN4476.2|Aspergillus_nidulans_FGSC'
+	'EAA62772.1|hypothetical_protein_AN5679.2|Aspergillus_nidulans_FGSC'
+	'EAA64839.1|conserved_hypothetical_protein|Aspergillus_nidulans_FGSC'
+	'EAA64937.1|conserved_hypothetical_protein|Aspergillus_nidulans_FGSC'
+	'EAA65366.1|hypothetical_protein_AN0047.2|Aspergillus_nidulans_FGSC'
+	'EAA65409.1|hypothetical_protein_AN0767.2|Aspergillus_nidulans_FGSC'
+	'EAL48785.1|U6_snRNA-associated_Sm-like_pr|Entamoeba_histolytica_HM-'
+	'EAM93838.1|Small_nuclear_ribonucleoprotei|Ferroplasma_acidarmanus_F'
+	'EAN01277.1|Small_nuclear_ribonucleoprotei|Methanococcoides_burtonii'
+	'EAN27633.1|Small_nuclear_ribonucleoprotei|Magnetococcus_sp._MC-1'
+	'EAN38386.1|Small_nuclear_ribonucleoprotei|Shewanella_amazonensis_SB'
+	'EAN80340.1|U6_snRNA-associated_Sm-like_pr|Trypanosoma_brucei_brucei'
+	'EAN80375.1|small_nuclear_ribonucleoprotei|Trypanosoma_brucei_brucei'
+	'EAO24164.1|Small_nuclear_ribonucleoprotei|Syntrophomonas_wolfei_sub'
+	'NP_001006337.1|U6_snRNA-associated_Sm-like_pr|Gallus_gallus'
+	'NP_001027236.1|uncharacterized_protein_Dmel_C|Drosophila_melanogaster'
+	'NP_055278.1|U6_snRNA-associated_Sm-like_pr|Homo_sapiens'
+	'NP_069198.1|snRNP|Archaeoglobus_fulgidus_DS'
+	'NP_111594.1|small_nuclear_ribonucleoprotei|Thermoplasma_volcanium_GS'
+	'NP_113140.1|probable_small_nuclear_ribonuc|Guillardia_theta'
+	'NP_113163.1|small_nuclear_ribonucleoprotei|Guillardia_theta'
+	'NP_113459.1|putative_small_nuclear_ribonuc|Guillardia_theta'
+	'NP_147300.1|small_nucleolar_RNP_protein_Sm|Aeropyrum_pernix_K1'
+	'NP_147628.1|homolog_of_small_nuclear_ribon|Aeropyrum_pernix_K1'
+	'NP_176747.1|Small_nuclear_ribonucleoprotei|Arabidopsis_thaliana'
+	'NP_177812.1|Small_nuclear_ribonucleoprotei|Arabidopsis_thaliana'
+	'NP_198124.1|Small_nuclear_ribonucleoprotei|Arabidopsis_thaliana'
+	'NP_199263.1|Small_nuclear_ribonucleoprotei|Arabidopsis_thaliana'
+	'NP_341755.1|small_nuclear_riboprotein_snR|Sulfolobus_solfataricus_P'
+	'NP_348458.1|host_factor_I_protein_Hfq|Clostridium_acetobutylicu'
+	'NP_420553.1|RNA-binding_protein_Hfq|Caulobacter_vibrioides_CB'
+	'NP_473101.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7'
+	'NP_500964.1|U6_snRNA-associated_Sm-like_pr|Caenorhabditis_elegans'
+	'NP_502579.1|U6_snRNA-associated_Sm-like_pr|Caenorhabditis_elegans'
+	'NP_506348.1|u6_snRNA-associated_Sm-like_pr|Caenorhabditis_elegans'
+	'NP_506870.1|U6_snRNA-associated_Sm-like_pr|Caenorhabditis_elegans'
+	'NP_524774.1|small_ribonucleoprotein_partic|Drosophila_melanogaster'
+	'NP_573139.1|small_nuclear_ribonucleoprotei|Drosophila_melanogaster'
+	'NP_584627.1|SMALL_NUCLEAR_RIBONUCLEOPROTEI|Encephalitozoon_cuniculi'
+	'NP_584762.1|uncharacterized_protein_ECU04_|Encephalitozoon_cuniculi'
+	'NP_586275.1|uncharacterized_protein_ECU10_|Encephalitozoon_cuniculi'
+	'NP_597548.1|U6_snRNA_associated_Sm-like_pr|Encephalitozoon_cuniculi'
+	'NP_597593.1|mRNA_splicing_protein_SMD3|Encephalitozoon_cuniculi'
+	'NP_611559.1|uncharacterized_protein_Dmel_C|Drosophila_melanogaster'
+	'NP_613507.1|small_nuclear_ribonucleoprotei|Methanopyrus_kandleri_AV1'
+	'NP_622978.1|hypothetical_protein_TTE1360|Caldanaerobacter_subterra'
+	'NP_648022.1|uncharacterized_protein_Dmel_C|Drosophila_melanogaster'
+	'NP_700946.1|U6_snRNA_associated_Sm-like_pr|Plasmodium_falciparum_3D7'
+	'NP_701126.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7'
+	'NP_701457.1|u6_snRNA-associated_Sm-like_pr|Plasmodium_falciparum_3D7'
+	'NP_702034.1|ribonucleoprotein_putative|Plasmodium_falciparum_3D7'
+	'NP_702300.1|small_nuclear_ribonuclear_prot|Plasmodium_falciparum_3D7'
+	'NP_704263.1|u6_snRNA-associated_sm-like_pr|Plasmodium_falciparum_3D7'
+	'NP_704332.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7'
+	'NP_704356.1|ribonucleoprotein_putative|Plasmodium_falciparum_3D7'
+	'NP_704638.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7'
+	'NP_705387.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7'
+	'NP_732931.1|uncharacterized_protein_Dmel_C|Drosophila_melanogaster'
+	'NP_903203.1|host_factor-I_protein|Chromobacterium_violaceum'
+	'NP_912805.1|unnamed_protein_product|Oryza_sativa_japonica_cu'
+	'NP_953048.1|RNA-binding_protein_Hfq|Geobacter_sulfurreducens'
+	'NP_963332.1|hypothetical_protein_NEQ037|Nanoarchaeum_equitans_Kin'
+	'NP_988268.1|small_nuclear_ribonucleoprotei|Methanococcus_maripaludis'
+	'XP_061427.1|PREDICTED_hypothetical_protei|Homo_sapiens'
+	'XP_134104.1|PREDICTED_similar_to_U6_snRNA|Mus_musculus'
+	'XP_311506.2|ENSANGP00000022836_partial|Anopheles_gambiae_str._PE'
+	'XP_312222.2|probable_small_nuclear_ribonuc|Anopheles_gambiae'
+	'XP_316632.2|ENSANGP00000011511_partial|Anopheles_gambiae_str._PE'
+	'XP_318746.2|ENSANGP00000016613_partial|Anopheles_gambiae_str._PE'
+	'XP_324685.1|hypothetical_protein|Neurospora_crassa_OR74A'
+	'XP_326209.1|hypothetical_protein|Neurospora_crassa_OR74A'
+	'XP_327668.1|hypothetical_protein|Neurospora_crassa_OR74A'
+	'XP_328389.1|hypothetical_protein|Neurospora_crassa_OR74A'
+	'XP_329120.1|hypothetical_protein|Neurospora_crassa_OR74A'
+	'XP_329871.1|hypothetical_protein|Neurospora_crassa_OR74A'
+	'XP_331707.1|hypothetical_protein|Neurospora_crassa_OR74A'
+	'XP_394397.1|similar_to_CG31184-PA|Apis_mellifera'
+	'XP_397475.2|probable_small_nuclear_ribonuc|Apis_mellifera'
+	'XP_416009.1|PREDICTED_similar_to_U6_snRNA|Gallus_gallus'
+	'XP_416157.1|PREDICTED_similar_to_Small_nu|Gallus_gallus'
+	'XP_418245.1|PREDICTED_similar_to_Hypothet|Gallus_gallus'
+	'XP_418799.1|PREDICTED_similar_to_KIAA0851|Gallus_gallus'
+	'XP_418849.1|PREDICTED_similar_to_LSM5_hom|Gallus_gallus'
+	'XP_420431.1|PREDICTED_similar_to_U6_snRNA|Gallus_gallus'
+	'XP_457218.1|U6_snRNA-associated_Sm-like_pr|Debaryomyces_hansenii_CBS'
+	'XP_459280.1|U4/U6-U5_snRNP_complex_subunit|Debaryomyces_hansenii_CBS'
+	'XP_463791.1|putative_small_nuclear_ribonuc|Oryza_sativa_japonica_cu'
+	'XP_465923.1|putative_Sm_protein_F|Oryza_sativa_japonica_cu'
+	'XP_476030.1|unknown_protein|Oryza_sativa_japonica_cu'
+	'XP_476727.1|putative_snRNPsmall_nuclear_r|Oryza_sativa_japonica_cu'
+	'XP_480155.1|putative_snRNP_core_protein_SM|Oryza_sativa_japonica_cu'
+	'XP_480353.1|putative_snRNP_splicing_factor|Oryza_sativa_japonica_cu'
+	'XP_484457.2|PREDICTED_similar_to_small_nu|Mus_musculus'
+	'XP_566856.1|u6_snRNA-associated_sm-like_pr|Cryptococcus_deneoformans'
+	'XP_568761.1|pre-mRNA_splicing_factor|Cryptococcus_neoformans_v'
+	'XP_569020.1|pre-mRNA_splicing_factor_puta|Cryptococcus_deneoformans'
+	'XP_569278.1|pre-mRNA_splicing_factor_puta|Cryptococcus_deneoformans'
+	'XP_570179.1|mRNA_processing-related_protei|Cryptococcus_deneoformans'
+	'XP_624537.1|U6_snRNA-associated_Sm-like_pr|Apis_mellifera'
+	'XP_624908.1|PREDICTED_similar_to_Lsm4_pro|Apis_mellifera'
+	'XP_624938.1|probable_small_nuclear_ribonuc|Apis_mellifera'
+	'XP_625205.1|probable_small_nuclear_ribonuc|Apis_mellifera'
+	'XP_636207.1|hypothetical_protein_DDB_G0289|Dictyostelium_discoideum'
+	'XP_637396.1|LSM_domain-containing_protein|Dictyostelium_discoideum'
+	'XP_638255.1|LSM_domain-containing_protein|Dictyostelium_discoideum'
+	'XP_639367.1|LSM_domain-containing_protein|Dictyostelium_discoideum'
+	'XP_640635.1|LSM_domain-containing_protein|Dictyostelium_discoideum'
+	'XP_641509.1|LSM_domain-containing_protein|Dictyostelium_discoideum'
+	'XP_641988.1|LSM_domain-containing_protein|Dictyostelium_discoideum'
+	'XP_642077.1|LSM_domain-containing_protein|Dictyostelium_discoideum'
+	'XP_643590.1|LSM_domain-containing_protein|Dictyostelium_discoideum'
+	'XP_645139.1|hypothetical_protein_DDB_G0272|Dictyostelium_discoideum'
+	'XP_646895.1|LSM_domain-containing_protein|Dictyostelium_discoideum'
+	'XP_650141.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-'
+	'XP_651333.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-'
+	'XP_653239.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-'
+	'XP_653680.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-'
+	'XP_653731.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-'
+	'XP_654638.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-'
+	'XP_655345.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-'
+	'XP_655404.1|U6_snRNA-associated_Sm-like_pr|Entamoeba_histolytica_HM-'
+	'XP_655862.1|LSM_domain_containing_protein|Entamoeba_histolytica_HM-'
+	'XP_656886.1|hypothetical_protein_7.t00009|Entamoeba_histolytica_HM-'
+	'XP_657435.1|U6_snRNA-associated_Sm-like_pr|Entamoeba_histolytica_HM-'
+	'XP_659099.1|putative_small_nuclear_ribonuc|Aspergillus_nidulans_FGSC'
+	'XP_659406.1|hypothetical_protein_AN1802.2|Aspergillus_nidulans_FGSC'
+	'XP_663817.1|hypothetical_protein_AN6213.2|Aspergillus_nidulans_FGSC'
+	'XP_680858.1|hypothetical_protein_AN7589.2|Aspergillus_nidulans_FGSC'
+	'XP_680875.1|hypothetical_protein_AN7606.2|Aspergillus_nidulans_FGSC'
+	'XP_766985.1|hypothetical_protein_GLP_122_3|Giardia_lamblia_ATCC_5080'
+	'XP_768512.1|hypothetical_protein_GLP_0_185|Giardia_lamblia_ATCC_5080'
+	'XP_770710.1|hypothetical_protein_GLP_680_4|Giardia_lamblia_ATCC_5080'
+	'XP_779873.1|hypothetical_protein_GLP_170_1|Giardia_lamblia_ATCC_5080'
+	'XP_917671.1|PREDICTED_similar_to_LSM5_hom|Mus_musculus'
+	'XP_919276.1|PREDICTED_similar_to_Small_nu|Mus_musculus'
+	'XP_955734.1|U6_snRNA-associated_ribonucleo|Encephalitozoon_cuniculi'
+	'XP_958647.1|small_nuclear_ribonucleoprotei|Neurospora_crassa_OR74A'
+	'YP_013910.1|hfq_protein|Listeria_monocytogenes_se'
+	'YP_023448.1|small_nuclear_ribonucleoprotei|Picrophilus_torridus_DSM'
+	'YP_046973.1|host_factor_I_for_bacteriophag|Acinetobacter_sp._ADP1'
+	'YP_075575.1|host_factor-1_protein|Symbiobacterium_thermophi'
+	'YP_157694.1|RNA-binding_protein_Hfq|Aromatoleum_aromaticum_Eb'
+	'YP_162082.1|RNA-binding_protein_Hfq|Zymomonas_mobilis_subsp.'
+	'YP_169651.1|host_factor_I_for_bacteriophag|Francisella_tularensis_su'
+	'YP_188453.1|host_factor-I_protein|Staphylococcus_epidermidi'
+	'YP_315291.1|RNA-binding_protein_Hfq|Thiobacillus_denitrifican'
+	'YP_448199.1|small_nuclear_ribonucleoprotei|Methanosphaera_stadtmanae'
+	'YP_504465.1|like-Sm_ribonucleoprotein_cor|Methanospirillum_hungatei'
+	'ZP_00315670.1|COG1923_Uncharacterized_host|Microbulbifer_degradans_2'
+	'ZP_00520729.1|Small_nuclear_ribonucleoprotei|Solibacter_usitatus_Ellin'
+	'ZP_00543408.1|Small_nuclear_ribonucleoprotei|Methanosarcina_barkeri_st'
+	'ZP_00563110.1|Small_nuclear_ribonucleoprotei|Methanococcoides_burtonii'
+	'ZP_00566358.1|Small_nuclear_ribonucleoprotei|Methylobacillus_flagellat'
+	'ZP_00576148.1|Small_nuclear_ribonucleoprotei|Moorella_thermoacetica_AT'
+	'ZP_00579646.1|Small_nuclear_ribonucleoprotei|Sphingopyxis_alaskensis_R'
+	'ZP_00628710.1|Small_nuclear_ribonucleoprotei|Paracoccus_denitrificans'
+	'ZP_00679600.1|Small_nuclear_ribonucleoprotei|Pelobacter_propionicus_DS'
+	'ZP_00691419.1|Small_nuclear_ribonucleoprotei|Rhodoferax_ferrireducens'
+	'ZP_00865893.1|Host_factor_Hfq|Alkalilimnicola_ehrlichei'
+	'ZP_00947690.1|COG1923_Uncharacterized_host|Bartonella_bacilliformis'
+	'ZP_00951845.1|RNA-binding_protein_Hfq|Oceanicaulis_sp._HTCC2633'
+	'ZP_01018241.1|RNA-binding_protein_Hfq|Parvularcula_bermudensis'
+	'ZP_01114501.1|uncharacterized_host_factor_I|Reinekea_blandensis_MED29'
+	'ZP_01133545.1|RNA-binding_protein_Hfq|Pseudoalteromonas_tunicat'
+	'ZP_01153344.1|Like-Sm_ribonucleoprotein_cor|Methanosaeta_thermophila'
+	'ZP_01153713.1|Like-Sm_ribonucleoprotein_cor|Methanosaeta_thermophila'
+	'ZP_01167593.1|RNA-binding_protein_Hfq|Neptuniibacter_caesariens'
+	'ZP_01188379.1|Host_factor_Hfq|Halothermothrix_orenii_H'
+	'pir||A32127|small_nuclear_ribonucleoprotei|unknown'
+	'pir||T40388|small_nuclear_ribonucleoprotei|unknown'
+	'sp|O14036.1|RecName_Full=Small_nuclear_ri|unknown|SMD2_SCHPO'
+	'sp|O26745.1|RecName_Full=Putative_snRNP_S|unknown|RUXX_METTH'
+	'sp|O42661.1|RecName_Full=Small_nuclear_ri|unknown|SMD1_SCHPO'
+	'sp|O82221.1|RecName_Full=Probable_small_n|unknown|RUXG_ARATH'
+	'sp|O94408.1|RecName_Full=LSM_complex_subu|unknown|LSM2_SCHPO'
+	'sp|P34659.1|RecName_Full=Probable_small_n|unknown|RUXF_CAEEL'
+	'sp|P91918.1|RecName_Full=Probable_small_n|unknown|RSMB_CAEEL'
+	'sp|Q18786.1|RecName_Full=Probable_small_n|unknown|SMD2_CAEEL'
+	'sp|Q19952.1|RecName_Full=Probable_U6_snRN|unknown|LSM4_CAEEL'
+	'sp|Q9P5Z8.1|RecName_Full=Probable_small_n|unknown|RUXF_NEUCR'
+	'sp|Q9SUM2.1|RecName_Full=Probable_small_n|unknown|RUXF_ARATH'
+	'sp|Q9UUC6.1|RecName_Full=Small_nuclear_ri|unknown|SMD3_SCHPO'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('ZP_00628710.1|Small_nuclear_ribonucleoprotei|Paracoccus_denitrificans':0.222669,((('ZP_00579646.1|Small_nuclear_ribonucleoprotei|Sphingopyxis_alaskensis_R':0.328291,'YP_162082.1|RNA-binding_protein_Hfq|Zymomonas_mobilis_subsp.':0.349184)[&label=91]:0.05482,'ABC63344.1|hypothetical_protein_ELI_06260|Erythrobacter_litoralis_H':0.444973)[&label=99]:0.214857,((('NP_420553.1|RNA-binding_protein_Hfq|Caulobacter_vibrioides_CB':0.154409,'ZP_00951845.1|RNA-binding_protein_Hfq|Oceanicaulis_sp._HTCC2633':0.139981)[&label=84]:0.022248,((('AAM15936.1|NrfA|Gluconacetobacter_diazotr':0.261575,'ABC22484.1|RNA-binding_protein_Hfq|Rhodospirillum_rubrum_ATC':0.206877)[&label=96]:0.188883,('ABA04710.1|RNA-binding_protein_Hfq|Nitrobacter_winogradskyi':0.24593,'CAA53989.1|NFRA_protein|Azorhizobium_caulinodans':0.049672)[&label=96]:0.059443)[&label=99]:0.114872,('BAB47991.1|host_factor-I_or_probable_NfrA|Mesorhizobium_japonicum_M':0.107412,'ZP_00947690.1|COG1923_Uncharacterized_host|Bartonella_bacilliformis':0.38417)[&label=100]:0.115624)[&label=83]:0.091765)[&label=99]:0.055226,'ZP_01018241.1|RNA-binding_protein_Hfq|Parvularcula_bermudensis':0.511991)[&label=98]:0.030701)[&label=98]:0.076214,((((((((('CAD14922.1|putative_hfq_protein|Ralstonia_pseudosolanacea':0.078088,'ZP_00691419.1|Small_nuclear_ribonucleoprotei|Rhodoferax_ferrireducens':0.192251)[&label=100]:0.087416,'CAE33662.1|putative_RNA-binding_regulator|Bordetella_bronchiseptica':0.066656)[&label=100]:0.07723,('CAD85198.1|putative_host_factor-i_protein|Nitrosomonas_europaea_ATC':0.298509,'ZP_00566358.1|Small_nuclear_ribonucleoprotei|Methylobacillus_flagellat':0.09412)[&label=99]:0.144958)[&label=96]:0.047709,'YP_157694.1|RNA-binding_protein_Hfq|Aromatoleum_aromaticum_Eb':0.173678)[&label=91]:0.052348,'NP_903203.1|host_factor-I_protein|Chromobacterium_violaceum':0.092151)[&label=100]:0.117234,(((((('YP_315291.1|RNA-binding_protein_Hfq|Thiobacillus_denitrifican':0.704969,'AAN70461.1|RNA-binding_protein_Hfq|Pseudomonas_putida_KT2440':0.20531)[&label=66]:0.00992,'ZP_00315670.1|COG1923_Uncharacterized_host|Microbulbifer_degradans_2':0.22578)[&label=69]:0.109758,'ZP_01167593.1|RNA-binding_protein_Hfq|Neptuniibacter_caesariens':0.081555)[&label=79]:0.137929,(((((('CAD06838.1|host_factor-I_proteinHF-I|Salmonella_enterica_subsp':0.053498,'CAE16953.1|host_factor-I_protein_HF-I_|Photorhabdus_laumondii_su':0.156267)[&label=99]:0.122595,'AAM84218.1|putative_host_factor_I_for_bac|Yersinia_pestis_KIM10+':0.108069)[&label=85]:0.046069,((('BAC95835.1|host_factor-I_putative|Vibrio_vulnificus_YJ016':0.071176,'AAZ40725.1|host_factor_I|Candidatus_Blochmanniella':0.468554)[&label=96]:0.033698,'ZP_01133545.1|RNA-binding_protein_Hfq|Pseudoalteromonas_tunicat':0.319214)[&label=85]:0.076304,('AAX87465.1|host_factor-I_protein_Hfq|Haemophilus_influenzae_86':0.115246,'AAU38125.1|Hfq_protein|[Mannheimia':0.104124)[&label=99]:0.145647)[&label=75]:0.037067)[&label=65]:0.073744,('EAN38386.1|Small_nuclear_ribonucleoprotei|Shewanella_amazonensis_SB':0.109605,'AAZ27874.1|host_factor-I_protein|Colwellia_psychrerythraea':0.266299)[&label=98]:0.085968)[&label=75]:0.115771,('AAV81176.1|Host_factor_I-like_protein|Idiomarina_loihiensis_L2T':0.162836,'AAF82902.1|host_factor-I_protein|Xylella_fastidiosa_9a5c':0.240396)[&label=97]:0.140936)[&label=66]:0.083353,(('ZP_01114501.1|uncharacterized_host_factor_I|Reinekea_blandensis_MED29':0.15875,'ABA59043.1|RNA-binding_protein_Hfq|Nitrosococcus_oceani_ATCC':0.249403)[&label=90]:0.060161,('ZP_00865893.1|Host_factor_Hfq|Alkalilimnicola_ehrlichei':0.349173,'YP_169651.1|host_factor_I_for_bacteriophag|Francisella_tularensis_su':0.518498)[&label=69]:0.134109)[&label=66]:0.025682)[&label=90]:0.077593)[&label=75]:0.071492,'AAU91818.1|hfq_protein|Methylococcus_capsulatus':0.227126)[&label=57]:0.052044,'YP_046973.1|host_factor_I_for_bacteriophag|Acinetobacter_sp._ADP1':0.433907)[&label=77]:0.055986)[&label=83]:0.201999,'CAH14239.1|hypothetical_protein_lpl0009|Legionella_pneumophila_st':0.341515)[&label=98]:0.292182,'EAN27633.1|Small_nuclear_ribonucleoprotei|Magnetococcus_sp._MC-1':0.462346)[&label=100]:0.313725,(((('ZP_00679600.1|Small_nuclear_ribonucleoprotei|Pelobacter_propionicus_DS':0.203219,'NP_953048.1|RNA-binding_protein_Hfq|Geobacter_sulfurreducens':0.205848)[&label=100]:1.090238,('AAN48716.1|host_factor_I_related_protein|Leptospira_interrogans_se':0.764395,'ZP_00520729.1|Small_nuclear_ribonucleoprotei|Solibacter_usitatus_Ellin':0.807751)[&label=87]:0.23265)[&label=97]:0.090111,'AAC06479.1|host_factor_I|Aquifex_aeolicus_VF5':0.673062)[&label=99]:0.098642,(((('EAO24164.1|Small_nuclear_ribonucleoprotei|Syntrophomonas_wolfei_sub':0.419623,(('ZP_00576148.1|Small_nuclear_ribonucleoprotei|Moorella_thermoacetica_AT':0.345301,'NP_348458.1|host_factor_I_protein_Hfq|Clostridium_acetobutylicu':0.744399)[&label=97]:0.116766,'YP_075575.1|host_factor-1_protein|Symbiobacterium_thermophi':0.894656)[&label=41]:0.056971)[&label=73]:0.144688,(((('CAB13618.1|Hfq_RNA_chaperone|Bacillus_subtilis_subsp.':0.047373,'YP_188453.1|host_factor-I_protein|Staphylococcus_epidermidi':1.391499)[&label=99]:0.168686,'YP_013910.1|hfq_protein|Listeria_monocytogenes_se':0.735557)[&label=100]:0.230866,'ZP_01188379.1|Host_factor_Hfq|Halothermothrix_orenii_H':0.687989)[&label=94]:0.109074,'NP_622978.1|hypothetical_protein_TTE1360|Caldanaerobacter_subterra':0.507036)[&label=93]:0.083756)[&label=67]:0.040132,(((((((((('BAB59502.1|small_nuclear_ribonucleoprotei|Thermoplasma_volcanium_GS':0.445957,'YP_023448.1|small_nuclear_ribonucleoprotei|Picrophilus_torridus_DSM':0.13915)[&label=70]:0.138694,'EAM93838.1|Small_nuclear_ribonucleoprotei|Ferroplasma_acidarmanus_F':0.387246)[&label=100]:1.170141,((((((((('NP_055278.1|U6_snRNA-associated_Sm-like_pr|Homo_sapiens':0.160411,('NP_177812.1|Small_nuclear_ribonucleoprotei|Arabidopsis_thaliana':0.10254,'BAD81919.1|small_nuclear_ribonucleoprotei|Oryza_sativa_Japonica_Gro':0.064488)[&label=98]:0.232546)[&label=79]:0.031187,('NP_732931.1|uncharacterized_protein_Dmel_C|Drosophila_melanogaster':0.125036,'XP_394397.1|similar_to_CG31184-PA|Apis_mellifera':0.133007)[&label=99]:0.087981)[&label=84]:0.135557,'NP_502579.1|U6_snRNA-associated_Sm-like_pr|Caenorhabditis_elegans':0.311838)[&label=74]:0.271384,'XP_657435.1|U6_snRNA-associated_Sm-like_pr|Entamoeba_histolytica_HM-':1.243663)[&label=50]:0.131927,(('CAB42366.2|Lsm2-8_complex_subunit_Lsm3|Schizosaccharomyces_pombe':0.548912,('CAG87742.1|DEHA2E04510p|Debaryomyces_hansenii_CBS':1.094472,('EAA65366.1|hypothetical_protein_AN0047.2|Aspergillus_nidulans_FGSC':0.304868,'XP_329871.1|hypothetical_protein|Neurospora_crassa_OR74A':1.101261)[&label=73]:0.013349)[&label=90]:0.096947)[&label=93]:0.198209,'NP_704356.1|ribonucleoprotein_putative|Plasmodium_falciparum_3D7':1.169621)[&label=96]:0.0592)[&label=90]:0.537314,'AAW41290.1|Sm-like_protein_putative|Cryptococcus_deneoformans':0.881281)[&label=99]:0.443867,'XP_766985.1|hypothetical_protein_GLP_122_3|Giardia_lamblia_ATCC_5080':1.846388)[&label=42]:0.295002,'XP_636207.1|hypothetical_protein_DDB_G0289|Dictyostelium_discoideum':1.524283)[&label=39]:2.0E-6,((((((('AAG00462.1|Sm-D2|Trypanosoma_brucei':1.501465,'CAG88765.1|DEHA2F02156p|Debaryomyces_hansenii_CBS':0.377174)[&label=44]:0.187585,('sp|O14036.1|RecName_Full=Small_nuclear_ri|unknown|SMD2_SCHPO':0.169259,('CAC28820.1|probable_small_nuclear_ribonuc|Neurospora_crassa':0.371246,'XP_659406.1|hypothetical_protein_AN1802.2|Aspergillus_nidulans_FGSC':0.346617)[&label=100]:0.218587)[&label=100]:0.052833)[&label=44]:0.102602,'XP_569020.1|pre-mRNA_splicing_factor_puta|Cryptococcus_deneoformans':0.267783)[&label=31]:0.112176,(((('BAC32551.1|unnamed_protein_product|Mus_musculus':0.009543,'XP_061427.1|PREDICTED_hypothetical_protei|Homo_sapiens':0.123673)[&label=100]:0.103379,('AAC63620.2|putative_small_nuclear_ribonuc|Arabidopsis_thaliana':0.195261,('XP_638255.1|LSM_domain-containing_protein|Dictyostelium_discoideum':0.228612,('NP_473101.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7':0.483049,'CAC27096.1|small_nuclear_ribonucleoprotei|Guillardia_theta':1.780438)[&label=85]:0.250608)[&label=70]:0.118195)[&label=76]:0.070525)[&label=21]:2.0E-6,'sp|Q18786.1|RecName_Full=Probable_small_n|unknown|SMD2_CAEEL':0.230523)[&label=30]:0.030195,'XP_397475.2|probable_small_nuclear_ribonuc|Apis_mellifera':2.0E-6)[&label=31]:0.141743)[&label=44]:0.441495,'XP_651333.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-':0.506444)[&label=100]:1.162908,'NP_586275.1|uncharacterized_protein_ECU10_|Encephalitozoon_cuniculi':0.84322)[&label=100]:0.550066,'XP_770710.1|hypothetical_protein_GLP_680_4|Giardia_lamblia_ATCC_5080':1.292548)[&label=96]:0.585068)[&label=79]:0.162051)[&label=78]:0.138988,((('AAK41053.1|Small_nuclear_riboprotein_prot|Saccharolobus_solfataricu':0.276325,'AAY80570.1|hypothetical_protein_Saci_1224|Sulfolobus_acidocaldarius':0.415254)[&label=100]:0.687424,'NP_613507.1|small_nuclear_ribonucleoprotei|Methanopyrus_kandleri_AV1':1.369419)[&label=59]:0.315826,((('AAL63028.1|small_nuclear_ribonucleoprotei|Pyrobaculum_aerophilum_st':1.250739,('NP_988268.1|small_nuclear_ribonucleoprotei|Methanococcus_maripaludis':0.621465,'NP_963332.1|hypothetical_protein_NEQ037|Nanoarchaeum_equitans_Kin':2.452402)[&label=95]:0.749892)[&label=82]:0.269352,(('sp|O26745.1|RecName_Full=Putative_snRNP_S|unknown|RUXX_METTH':0.195421,'YP_448199.1|small_nuclear_ribonucleoprotei|Methanosphaera_stadtmanae':0.655232)[&label=99]:0.264609,((('EAN01277.1|Small_nuclear_ribonucleoprotei|Methanococcoides_burtonii':0.223452,('ZP_00543408.1|Small_nuclear_ribonucleoprotei|Methanosarcina_barkeri_st':0.050111,('AAL81666.1|small_nuclear_ribonucleoprotei|Pyrococcus_furiosus_DSM_3':0.04286,'BAD85165.1|snRNP_component_Sm-like_prote|Thermococcus_kodakarensis':0.212655)[&label=100]:1.124841)[&label=78]:0.162288)[&label=95]:0.306455,'ZP_01153713.1|Like-Sm_ribonucleoprotein_cor|Methanosaeta_thermophila':0.279096)[&label=79]:0.045523,'YP_504465.1|like-Sm_ribonucleoprotein_cor|Methanospirillum_hungatei':0.709514)[&label=99]:0.386742)[&label=95]:0.173594)[&label=42]:0.175029,'NP_147300.1|small_nucleolar_RNP_protein_Sm|Aeropyrum_pernix_K1':1.685391)[&label=25]:0.010683)[&label=86]:0.534454)[&label=73]:0.050211,(((((('NP_001006337.1|U6_snRNA-associated_Sm-like_pr|Gallus_gallus':0.397345,'AAM29642.1|RH73529p|Drosophila_melanogaster':0.362235)[&label=100]:0.258435,(('AAD24820.1|putative_snRNP_splicing_factor|Arabidopsis_thaliana':2.0E-6,'XP_480353.1|putative_snRNP_splicing_factor|Oryza_sativa_japonica_cu':0.237935)[&label=100]:0.440004,'XP_656886.1|hypothetical_protein_7.t00009|Entamoeba_histolytica_HM-':2.125768)[&label=62]:0.093728)[&label=73]:0.207014,'AAW46688.1|U6_snRNA_binding_protein_puta|Cryptococcus_neoformans_v':0.704464)[&label=62]:0.113064,'CAA20851.1|Lsm2-8_complex_subunit_Lsm7|Schizosaccharomyces_pombe':0.523461)[&label=59]:0.075898,(('EAA65409.1|hypothetical_protein_AN0767.2|Aspergillus_nidulans_FGSC':0.266552,'XP_329120.1|hypothetical_protein|Neurospora_crassa_OR74A':0.352663)[&label=99]:0.140984,'NP_701457.1|u6_snRNA-associated_Sm-like_pr|Plasmodium_falciparum_3D7':1.080809)[&label=73]:0.048411)[&label=78]:0.54632,((((((('AAF36015.1|Small_nuclear_ribonucleoprotei|Caenorhabditis_elegans':0.685193,'XP_625205.1|probable_small_nuclear_ribonuc|Apis_mellifera':0.027678)[&label=95]:0.052266,('XP_484457.2|PREDICTED_similar_to_small_nu|Mus_musculus':0.210741,'AAH81512.1|Zgc103688|Danio_rerio':0.141399)[&label=100]:0.277557)[&label=91]:0.096205,'XP_312222.2|probable_small_nuclear_ribonuc|Anopheles_gambiae':0.03154)[&label=91]:0.232753,'NP_573139.1|small_nuclear_ribonucleoprotei|Drosophila_melanogaster':0.048796)[&label=95]:0.242938,(('sp|O82221.1|RecName_Full=Probable_small_n|unknown|RUXG_ARATH':0.101752,'AAR06315.1|putative_small_nuclear_ribonuc|Oryza_sativa_Japonica_Gro':0.124029)[&label=100]:0.219011,('NP_704332.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7':0.929678,'XP_639367.1|LSM_domain-containing_protein|Dictyostelium_discoideum':0.768226)[&label=100]:0.256857)[&label=97]:0.31291)[&label=92]:0.262839,(('XP_659099.1|putative_small_nuclear_ribonuc|Aspergillus_nidulans_FGSC':0.307175,'XP_958647.1|small_nuclear_ribonucleoprotei|Neurospora_crassa_OR74A':0.272212)[&label=92]:0.339807,'XP_650141.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-':1.413258)[&label=93]:0.139349)[&label=67]:2.0E-6,'EAN80375.1|small_nuclear_ribonucleoprotei|Trypanosoma_brucei_brucei':1.579191)[&label=94]:0.536609)[&label=76]:0.21977)[&label=65]:0.133778,'AAX80604.1|U6_snRNA-associated_Sm-like_pr|Trypanosoma_brucei':1.72499)[&label=53]:0.096121,(('NP_111594.1|small_nuclear_ribonucleoprotei|Thermoplasma_volcanium_GS':0.426673,'AAT43306.1|snRNP_Sm-like_protein|Picrophilus_oshimae_DSM_9':0.105059)[&label=100]:0.918601,((('NP_611559.1|uncharacterized_protein_Dmel_C|Drosophila_melanogaster':0.796182,'XP_641509.1|LSM_domain-containing_protein|Dictyostelium_discoideum':0.209433)[&label=100]:0.603124,'CAD26651.1|U6_snRNA-ASSOCIATED_SMALL_RIBO|Encephalitozoon_cuniculi':1.400666)[&label=100]:0.659988,((((('XP_416009.1|PREDICTED_similar_to_U6_snRNA|Gallus_gallus':0.296712,('XP_624537.1|U6_snRNA-associated_Sm-like_pr|Apis_mellifera':0.122233,'EAA00327.1|AGAP011837-PA|Anopheles_gambiae_str._PE':0.292478)[&label=100]:0.108284)[&label=75]:0.092207,('NP_176747.1|Small_nuclear_ribonucleoprotei|Arabidopsis_thaliana':0.136262,'XP_476030.1|unknown_protein|Oryza_sativa_japonica_cu':0.10076)[&label=100]:0.284393)[&label=75]:0.157242,(('CAA20133.1|Lsm2-8_complex_subunit_Lsm8|Schizosaccharomyces_pombe':0.753875,'XP_566856.1|u6_snRNA-associated_sm-like_pr|Cryptococcus_deneoformans':0.53511)[&label=95]:0.093348,'NP_704263.1|u6_snRNA-associated_sm-like_pr|Plasmodium_falciparum_3D7':1.091958)[&label=55]:0.074224)[&label=96]:0.387993,'NP_500964.1|U6_snRNA-associated_Sm-like_pr|Caenorhabditis_elegans':0.43736)[&label=100]:0.602199,'AAX80265.1|U6_snRNA-associated_Sm-like_pr|Trypanosoma_brucei':1.817698)[&label=93]:0.185429)[&label=94]:0.436646)[&label=51]:0.257345)[&label=40]:0.166382,((((((('CAB46715.1|small_nuclear_ribonucleoprotei|Homo_sapiens':0.236281,(('AAL28719.1|LD14049p|Drosophila_melanogaster':0.112305,'EAA11463.2|ENSANGP00000007148_partial|Anopheles_gambiae_str._PE':0.146618)[&label=100]:0.207051,'sp|P91918.1|RecName_Full=Probable_small_n|unknown|RSMB_CAEEL':0.609272)[&label=100]:0.0498)[&label=100]:0.190632,('NP_199263.1|Small_nuclear_ribonucleoprotei|Arabidopsis_thaliana':0.220182,'XP_476727.1|putative_snRNPsmall_nuclear_r|Oryza_sativa_japonica_cu':0.158588)[&label=100]:0.324863)[&label=100]:0.177669,'XP_645139.1|hypothetical_protein_DDB_G0272|Dictyostelium_discoideum':0.711421)[&label=100]:0.134511,((('EAA60819.1|hypothetical_protein_AN4476.2|Aspergillus_nidulans_FGSC':0.242689,'XP_331707.1|hypothetical_protein|Neurospora_crassa_OR74A':0.236327)[&label=100]:0.275784,'CAA93231.1|Sm_snRNP_core_protein_Smb1|Schizosaccharomyces_pombe':0.44329)[&label=95]:0.115006,('AAW45921.1|conserved_hypothetical_protein|Cryptococcus_neoformans_v':0.418559,'CAG85115.1|unnamed_protein_product|Debaryomyces_hansenii_CBS':0.846357)[&label=83]:0.14534)[&label=87]:0.177339)[&label=90]:0.506263,'XP_653239.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-':0.977579)[&label=94]:0.146069,'NP_702034.1|ribonucleoprotein_putative|Plasmodium_falciparum_3D7':0.911889)[&label=100]:0.694384,'CAD26118.1|Sm-LIKE_PROTEIN|Encephalitozoon_cuniculi':2.549224)[&label=40]:3.0E-6)[&label=70]:0.130706,(((('AAM04828.1|Sm_protein|Methanosarcina_acetivoran':0.091158,('ZP_00563110.1|Small_nuclear_ribonucleoprotei|Methanococcoides_burtonii':0.307948,'ZP_01153344.1|Like-Sm_ribonucleoprotein_cor|Methanosaeta_thermophila':0.494055)[&label=100]:0.188149)[&label=100]:0.468083,'NP_069198.1|snRNP|Archaeoglobus_fulgidus_DS':0.725776)[&label=100]:1.191946,(((((('CAH89328.1|putative_snRNP_plasmid|Sulfolobus_neozealandicus':1.265185,(('NP_341755.1|small_nuclear_riboprotein_snR|Sulfolobus_solfataricus_P':0.127388,'BAB65195.1|90aa_long_hypothetical_small_n|Sulfolobus_tokodaii_str.':0.215134)[&label=94]:0.005988,'NP_147628.1|homolog_of_small_nuclear_ribon|Aeropyrum_pernix_K1':1.512323)[&label=80]:0.557796)[&label=99]:0.397899,'XP_779873.1|hypothetical_protein_GLP_170_1|Giardia_lamblia_ATCC_5080':2.657269)[&label=78]:0.707859,(((((((('XP_420431.1|PREDICTED_similar_to_U6_snRNA|Gallus_gallus':3.0E-6,'XP_134104.1|PREDICTED_similar_to_U6_snRNA|Mus_musculus':0.115276)[&label=91]:0.023828,('AAM29479.1|RE43665p|Drosophila_melanogaster':0.196419,'XP_643590.1|LSM_domain-containing_protein|Dictyostelium_discoideum':0.717905)[&label=47]:0.09819)[&label=47]:0.089254,('CAB75800.1|U6_snRNA-associated_Sm-like_pr|Arabidopsis_thaliana':0.351271,'XP_465923.1|putative_Sm_protein_F|Oryza_sativa_japonica_cu':2.0E-6)[&label=99]:0.194659)[&label=64]:0.193437,'AAK73913.1|Lsm_sm-like_protein_protein_6|Caenorhabditis_elegans':0.160727)[&label=95]:0.470555,('CAB54975.1|Lsm2-8_complex_subunit_Lsm6|Schizosaccharomyces_pombe':0.384931,'AAW47104.1|u6_snRNA-associated_sm-like_pr|Cryptococcus_deneoformans':0.787632)[&label=98]:0.135245)[&label=56]:0.082577,'CAD52398.1|U6_snRNA-associated_Sm-like_pr|Plasmodium_falciparum_3D7':0.82027)[&label=96]:0.332459,'XP_655404.1|U6_snRNA-associated_Sm-like_pr|Entamoeba_histolytica_HM-':1.800393)[&label=88]:0.197515,'XP_459280.1|U4/U6-U5_snRNP_complex_subunit|Debaryomyces_hansenii_CBS':0.883824)[&label=96]:0.280167)[&label=67]:0.13517,(((((((('XP_919276.1|PREDICTED_similar_to_Small_nu|Mus_musculus':0.357366,'XP_416157.1|PREDICTED_similar_to_Small_nu|Gallus_gallus':0.377964)[&label=100]:0.261913,('AAF58559.2|small_ribonucleoprotein_partic|Drosophila_melanogaster':0.207886,'EAA07677.2|AGAP002658-PA|Anopheles_gambiae_str._PE':0.149555)[&label=99]:0.066656)[&label=99]:0.203716,(('sp|P34659.1|RecName_Full=Probable_small_n|unknown|RUXF_CAEEL':0.336091,('XP_641988.1|LSM_domain-containing_protein|Dictyostelium_discoideum':0.498019,'XP_653680.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-':1.013874)[&label=100]:0.22258)[&label=100]:0.136827,'sp|Q9SUM2.1|RecName_Full=Probable_small_n|unknown|RUXF_ARATH':0.358676)[&label=92]:0.061927)[&label=96]:0.21264,'XP_570179.1|mRNA_processing-related_protei|Cryptococcus_deneoformans':0.483454)[&label=99]:0.19521,('pir||T40388|small_nuclear_ribonucleoprotei|unknown':0.662241,'sp|Q9P5Z8.1|RecName_Full=Probable_small_n|unknown|RUXF_NEUCR':0.752484)[&label=63]:0.054604)[&label=66]:0.149522,'CAG87972.1|DEHA2E09878p|Debaryomyces_hansenii_CBS':0.70197)[&label=99]:0.307899,'XP_680875.1|hypothetical_protein_AN7606.2|Aspergillus_nidulans_FGSC':0.745876)[&label=80]:0.070561,('NP_113163.1|small_nuclear_ribonucleoprotei|Guillardia_theta':1.399396,'NP_584762.1|uncharacterized_protein_ECU04_|Encephalitozoon_cuniculi':1.079414)[&label=93]:0.395813)[&label=93]:0.184784)[&label=82]:0.263818,'AAB85915.1|unknown|Methanothermobacter_therm':2.447818)[&label=56]:0.156077,(((((((((((('AAG31428.1|snRNP_core_protein_SMX5|Mus_musculus':0.080261,'NP_506348.1|u6_snRNA-associated_Sm-like_pr|Caenorhabditis_elegans':0.283221)[&label=100]:0.159632,'CAD51568.1|U6_snRNA-associated_Sm-like_pr|Plasmodium_falciparum_3D7':0.495017)[&label=99]:0.116859,(('XP_480155.1|putative_snRNP_core_protein_SM|Oryza_sativa_japonica_cu':0.507507,'XP_640635.1|LSM_domain-containing_protein|Dictyostelium_discoideum':0.345663)[&label=72]:0.012938,'EAL48785.1|U6_snRNA-associated_Sm-like_pr|Entamoeba_histolytica_HM-':0.897616)[&label=68]:0.085757)[&label=83]:0.198292,'AAW42222.1|u6_snRNA-associated_sm-like_pr|Cryptococcus_neoformans_v':0.377449)[&label=91]:0.271219,'sp|O94408.1|RecName_Full=LSM_complex_subu|unknown|LSM2_SCHPO':0.283779)[&label=80]:0.065403,'XP_327668.1|hypothetical_protein|Neurospora_crassa_OR74A':0.410571)[&label=81]:0.170869,'CAG89664.1|DEHA2F21252p|Debaryomyces_hansenii_CBS':0.185635)[&label=98]:0.927164,'XP_680858.1|hypothetical_protein_AN7589.2|Aspergillus_nidulans_FGSC':0.658447)[&label=91]:0.238608,'XP_955734.1|U6_snRNA-associated_ribonucleo|Encephalitozoon_cuniculi':2.174117)[&label=53]:0.041184,'XP_768512.1|hypothetical_protein_GLP_0_185|Giardia_lamblia_ATCC_5080':1.935733)[&label=96]:0.336739,(((((((((('XP_418245.1|PREDICTED_similar_to_Hypothet|Gallus_gallus':0.094474,'AAH59435.1|LSM4_homolog_U6_small_nuclear|Danio_rerio':5.32E-4)[&label=100]:0.218044,('XP_624908.1|PREDICTED_similar_to_Lsm4_pro|Apis_mellifera':0.152464,('XP_318746.2|ENSANGP00000016613_partial|Anopheles_gambiae_str._PE':0.010991,'NP_001027236.1|uncharacterized_protein_Dmel_C|Drosophila_melanogaster':0.227119)[&label=100]:0.187699)[&label=100]:0.088685)[&label=93]:0.04243,'sp|Q19952.1|RecName_Full=Probable_U6_snRN|unknown|LSM4_CAEEL':0.410982)[&label=99]:0.114681,('NP_198124.1|Small_nuclear_ribonucleoprotei|Arabidopsis_thaliana':0.090589,'NP_912805.1|unnamed_protein_product|Oryza_sativa_japonica_cu':0.12572)[&label=100]:0.415449)[&label=100]:0.356388,(((('XP_663817.1|hypothetical_protein_AN6213.2|Aspergillus_nidulans_FGSC':0.458481,'XP_328389.1|hypothetical_protein|Neurospora_crassa_OR74A':0.208021)[&label=100]:0.181615,'XP_457218.1|U6_snRNA-associated_Sm-like_pr|Debaryomyces_hansenii_CBS':0.835957)[&label=100]:0.079548,'CAB10801.1|Lsm2-8_complex_subunit_Lsm4|Schizosaccharomyces_pombe':0.310823)[&label=99]:0.089978,'AAW42506.1|glycine_rich_protein_putative|Cryptococcus_neoformans_v':0.622741)[&label=99]:0.136619)[&label=99]:0.197182,'XP_637396.1|LSM_domain-containing_protein|Dictyostelium_discoideum':0.334745)[&label=96]:0.192913,'NP_700946.1|U6_snRNA_associated_Sm-like_pr|Plasmodium_falciparum_3D7':0.462881)[&label=96]:0.38137,('NP_597548.1|U6_snRNA_associated_Sm-like_pr|Encephalitozoon_cuniculi':1.461649,'XP_655862.1|LSM_domain_containing_protein|Entamoeba_histolytica_HM-':1.355479)[&label=99]:0.518172)[&label=87]:0.154594,'EAN80340.1|U6_snRNA-associated_Sm-like_pr|Trypanosoma_brucei_brucei':1.314763)[&label=100]:0.39145,(('AAX80930.1|small_nuclear_ribonucleoprotei|Trypanosoma_brucei':1.856873,((('NP_113459.1|putative_small_nuclear_ribonuc|Guillardia_theta':2.259775,'NP_704638.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7':0.484311)[&label=94]:0.274835,((('AAH45929.1|Small_nuclear_ribonucleoprotei|Danio_rerio':0.066097,('AAM29470.1|RE39820p|Drosophila_melanogaster':0.057959,'EAA00211.2|AGAP012380-PA|Anopheles_gambiae_str._PE':0.155881)[&label=100]:0.181128)[&label=100]:0.193023,'CAB55132.1|Small_nuclear_ribonucleoprotei|Caenorhabditis_elegans':0.583104)[&label=96]:0.079321,(((((('EAA64839.1|conserved_hypothetical_protein|Aspergillus_nidulans_FGSC':0.167939,'CAC28701.1|probable_small_nuclear_ribonuc|Neurospora_crassa':2.0E-6)[&label=100]:0.169158,'CAG88129.1|DEHA2E13420p|Debaryomyces_hansenii_CBS':0.814884)[&label=92]:0.061264,'sp|Q9UUC6.1|RecName_Full=Small_nuclear_ri|unknown|SMD3_SCHPO':0.379576)[&label=94]:0.062705,'XP_569278.1|pre-mRNA_splicing_factor_puta|Cryptococcus_deneoformans':0.458436)[&label=96]:0.014336,'XP_653731.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-':1.065809)[&label=56]:0.117134,('AAM64807.1|small_nuclear_ribonucleoprotei|Arabidopsis_thaliana':0.327089,'XP_463791.1|putative_small_nuclear_ribonuc|Oryza_sativa_japonica_cu':3.0E-6)[&label=100]:0.347278)[&label=55]:0.059579)[&label=91]:0.194636)[&label=83]:0.141718,'NP_597593.1|mRNA_splicing_protein_SMD3|Encephalitozoon_cuniculi':1.027324)[&label=89]:0.214584)[&label=99]:0.362133,(((((((('XP_418799.1|PREDICTED_similar_to_KIAA0851|Gallus_gallus':0.156237,'AAA68313.1|Small_nuclear_ribonucleoprotei|Caenorhabditis_elegans':0.276823)[&label=100]:0.058246,(('XP_624938.1|probable_small_nuclear_ribonuc|Apis_mellifera':0.087542,'EAA04383.3|ENSANGP00000009562|Anopheles_gambiae_str._PE':0.088967)[&label=83]:0.017255,'NP_524774.1|small_ribonucleoprotein_partic|Drosophila_melanogaster':0.16444)[&label=91]:0.039281)[&label=97]:0.069716,(('CAB77769.1|small_nuclear_riboprotein_Sm-D|Arabidopsis_thaliana':0.157319,'XP_655345.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-':0.621679)[&label=96]:0.048432,'XP_642077.1|LSM_domain-containing_protein|Dictyostelium_discoideum':0.245427)[&label=98]:0.147529)[&label=98]:0.090151,'sp|O42661.1|RecName_Full=Small_nuclear_ri|unknown|SMD1_SCHPO':0.201403)[&label=98]:0.121399,(('EAA64937.1|conserved_hypothetical_protein|Aspergillus_nidulans_FGSC':0.048737,'XP_324685.1|hypothetical_protein|Neurospora_crassa_OR74A':0.231935)[&label=100]:0.104825,'CAG84914.1|unnamed_protein_product|Debaryomyces_hansenii_CBS':1.411438)[&label=80]:0.107707)[&label=62]:0.081012,'XP_568761.1|pre-mRNA_splicing_factor|Cryptococcus_neoformans_v':0.330598)[&label=70]:0.096365,'NP_701126.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7':0.722935)[&label=97]:0.312808,'NP_113140.1|probable_small_nuclear_ribonuc|Guillardia_theta':2.299805)[&label=98]:0.638217)[&label=98]:0.430022)[&label=99]:0.51809)[&label=55]:0.043095,'CAD25474.1|U6-snRNA_ASSOCIATED_SMALL_NUCL|Encephalitozoon_cuniculi':2.453848)[&label=83]:0.281013)[&label=52]:0.086605)[&label=47]:0.053115,(((((((('XP_418849.1|PREDICTED_similar_to_LSM5_hom|Gallus_gallus':0.207532,'XP_917671.1|PREDICTED_similar_to_LSM5_hom|Mus_musculus':0.826192)[&label=100]:0.077609,('NP_648022.1|uncharacterized_protein_Dmel_C|Drosophila_melanogaster':0.17747,'XP_316632.2|ENSANGP00000011511_partial|Anopheles_gambiae_str._PE':0.158724)[&label=100]:0.078925)[&label=100]:0.129492,'NP_506870.1|U6_snRNA-associated_Sm-like_pr|Caenorhabditis_elegans':0.157714)[&label=99]:0.037059,(('BAB09440.1|U6_snRNA-associated_Sm-like_pr|Arabidopsis_thaliana':0.194816,'AAV31348.1|putative_snRNA_associated_prot|Oryza_sativa_Japonica_Gro':2.0E-6)[&label=100]:0.203497,'NP_702300.1|small_nuclear_ribonuclear_prot|Plasmodium_falciparum_3D7':0.90175)[&label=99]:0.128835)[&label=98]:0.241268,'XP_646895.1|LSM_domain-containing_protein|Dictyostelium_discoideum':0.501268)[&label=93]:0.090275,('CAA16849.2|Lsm2-8_complex_subunit_Lsm5|Schizosaccharomyces_pombe':0.598973,'AAW40622.1|conserved_hypothetical_protein|Cryptococcus_neoformans_v':0.741543)[&label=94]:0.227518)[&label=97]:0.145994,('CAD11394.1|probable_U6_SNRNA-ASSOCIATED_S|Neurospora_crassa':0.06438,'EAA62772.1|hypothetical_protein_AN5679.2|Aspergillus_nidulans_FGSC':0.25335)[&label=99]:0.204587)[&label=98]:0.345196,'CAG89843.1|DEHA2F25036p|Debaryomyces_hansenii_CBS':0.706843)[&label=99]:1.274464)[&label=42]:0.067371)[&label=66]:0.357801,((((((('pir||A32127|small_nuclear_ribonucleoprotei|unknown':0.216718,'CAB11551.1|Probable_small_nuclear_ribonuc|Caenorhabditis_elegans':0.560202)[&label=60]:0.083023,('XP_311506.2|ENSANGP00000022836_partial|Anopheles_gambiae_str._PE':0.131024,('AAM64436.1|putative_small_nuclear_ribonuc|Arabidopsis_thaliana':0.259662,'NP_705387.1|small_nuclear_ribonucleoprotei|Plasmodium_falciparum_3D7':0.614103)[&label=100]:0.2759)[&label=63]:0.105341)[&label=77]:0.144259,('XP_654638.1|small_nuclear_ribonucleoprotei|Entamoeba_histolytica_HM-':0.964591,'AAX80973.1|small_nuclear_ribonucleoprotei|Trypanosoma_brucei':1.394769)[&label=60]:0.350634)[&label=76]:0.153321,('CAB59808.1|Sm_snRNP_core_protein_Sme1|Schizosaccharomyces_pombe':0.292406,('CAG90229.1|unnamed_protein_product|Debaryomyces_hansenii_CBS':0.460419,('XP_326209.1|hypothetical_protein|Neurospora_crassa_OR74A':0.262202,'EAA58553.1|hypothetical_protein_AN6735.2|Aspergillus_nidulans_FGSC':0.624987)[&label=100]:0.401205)[&label=65]:0.090617)[&label=99]:0.318354)[&label=96]:0.204332,'AAW45599.1|small_nuclear_ribonucleoprotei|Cryptococcus_deneoformans':0.334693)[&label=76]:0.224849,'CAC27090.1|putative_small_nuclear_ribonuc|Guillardia_theta':1.600898)[&label=99]:1.166506,'NP_584627.1|SMALL_NUCLEAR_RIBONUCLEOPROTEI|Encephalitozoon_cuniculi':2.204954)[&label=91]:0.329744)[&label=100]:1.615182)[&label=97]:0.094612,'AAD35611.1|host_factor_I|Thermotoga_maritima_MSB8':0.907117)[&label=99]:0.122778)[&label=100]:0.223336)[&label=100]:0.313156);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=false;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

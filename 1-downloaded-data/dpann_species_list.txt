@@ -1,0 +1,20 @@
+taxon	species	assemblies
+Parvarchaeota	Candidatus Acidifodinimicrobium sp.	241
+Aenigmarchaeota	Candidatus Aenigmatarchaeota archaeon	685
+Diapherotrites	Candidatus Iainarchaeales archaeon	216
+Diapherotrites	Candidatus Iainarchaeia archaeon	216
+Diapherotrites	Candidatus Iainarchaeum sp.	216
+Micrarchaeota	Candidatus Mancarchaeum acidiphilum	2
+Micrarchaeota	Candidatus Micrarchaeum sp.	2
+Nanoarchaeales	Candidatus Nanobsidianus stetteri	2
+Nanohaloarchaeota	Candidatus Nanohalobium constans	4
+Nanohaloarchaeota	Candidatus Nanohalococcus occultus	4
+Nanohaloarchaeota	Candidatus Nanohalovita haloferacivicina	4
+Nanoarchaeales	Candidatus Nanopusillus massiliensis	2
+Pacearchaeota	Candidatus Pacearchaeota archaeon	438
+Parvarchaeota	Candidatus Parvarchaeota archaeon	241
+Parvarchaeota	Candidatus Parvarchaeum sp.	241
+Parvarchaeota	Candidatus Rehaiarchaeum fermentans	241
+Woesearchaeota	Candidatus Woesearchaeota archaeon	1957
+Nanoarchaeota	Nanobdella aerobiophila	3
+Woesearchaeota	uncultured Candidatus Woesearchaeota archaeon	1957
