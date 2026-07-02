@@ -33,3 +33,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+# 例外: 解析入力となる配列は保存する（NCBI由来で再取得すると内容が変わり再現不可のため）
+!1-downloaded-data/*.fasta
+!2-preprocessed-data/smlsm_all_curated.fasta
