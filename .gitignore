@@ -39,3 +39,6 @@ Thumbs.db
 
 # 例外: Claude Science 生成の文献参照データ（再取得不可）
 !0-literature/*.csv
+
+# bulk proteome downloads (regenerable by accession)
+1-downloaded-data/proteomes/
