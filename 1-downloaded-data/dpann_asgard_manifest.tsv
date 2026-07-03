@@ -1,0 +1,51 @@
+taxon	species	accession	completeness	contamination	source	n_proteins
+Nanoarchaeota	Nanoarchaeum equitans Kin4-M	GCF_000008085.1	73.13		prodigal	573
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_022014835.1	73.13		annotated	659
+Nanoarchaeota	Nanobdella aerobiophila	GCF_023169545.1	72.66		annotated	723
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_022015015.1	72.2		annotated	579
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_022014935.1	72.2		annotated	683
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_028275885.1	71.26		prodigal	611
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_049414405.1	71.26		annotated	811
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_028276855.1	71.26		prodigal	689
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_046533775.1	69.63		annotated	659
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_046533395.1	69.39	7.63	annotated	772
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_032249435.1	68.46		annotated	669
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_046536775.1	66.74	1.87	annotated	778
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_028275775.1	65.81	0.31	prodigal	631
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_028276785.1	64.25		prodigal	723
+Nanoarchaeota	Candidatus Nanobsidianus stetteri	GCF_003086415.1	54.67		annotated	512
+Nanoarchaeota	Candidatus Nanopusillus sp.	GCA_028276585.1	50.98	2.34	prodigal	491
+Nanohaloarchaeota	Candidatus Nanohalococcus occultus	GCF_029207735.1	86.06		annotated	1050
+Nanohaloarchaeota	Candidatus Nanohalovita haloferacivicina	GCF_029232205.1	85.36	0.93	annotated	1169
+Nanohaloarchaeota	Candidatus Nanohalobium constans	GCF_009617975.1	85.2	0.93	annotated	1186
+Nanohaloarchaeota	Candidatus Nanohalococcus occultus	GCF_047555075.1	85.12		annotated	1082
+Micrarchaeota	Candidatus Bilamarchaeum sp.	GCA_053576655.1	92.4		annotated	1367
+Micrarchaeota	Candidatus Burarchaeum sp.	GCF_030646255.1	89.49	1.87	annotated	1318
+Micrarchaeota	Candidatus Mancarchaeum acidiphilum	GCF_002214165.1	81.46		annotated	961
+Micrarchaeota	Candidatus Micrarchaeum sp.	GCF_016806735.1	81.42	0.93	annotated	1007
+Parvarchaeota	Candidatus Acidifodinimicrobium sp.	GCA_049967035.1	80.3	0.93	annotated	639
+Parvarchaeota	Candidatus Acidifodinimicrobium sp.	GCA_049967895.1	77.49	0.93	annotated	814
+Parvarchaeota	Candidatus Acidifodinimicrobium sp.	GCA_049965335.1	76.56	0.93	annotated	628
+Parvarchaeota	Candidatus Acidifodinimicrobium mancum	GCA_015122075.1	66.74	0.93	annotated	604
+Parvarchaeota	Candidatus Acidifodinimicrobium mancum	GCA_015122035.1	56.46		annotated	462
+Parvarchaeota	Candidatus Acidifodinimicrobium mancum	GCA_015122025.1	55.69		annotated	444
+Parvarchaeota	Candidatus Acidifodinimicrobium mancum	GCA_015122065.1	55.06	0.93	annotated	477
+Lokiarchaeia	Promethearchaeum syntrophicum	GCF_008000775.2	92.06	5.14	annotated	3862
+Lokiarchaeia	Candidatus Lokiarchaeum ossiferum	GCF_025839675.1	91.74	7.01	annotated	5052
+Lokiarchaeia	Candidatus Harpocratesius sp.	GCF_054039255.1	91.12	4.21	annotated	3361
+Lokiarchaeia	Candidatus Lokiarchaeum ossiferum	GCF_041410205.1	90.65	7.94	annotated	5261
+Lokiarchaeia	Promethearchaeum sp.	GCA_030612265.1	81.15	2.8	prodigal	3695
+Lokiarchaeia	Promethearchaeum sp.	GCA_030611625.1	70.56	4.21	prodigal	3137
+Lokiarchaeia	Promethearchaeum sp.	GCA_030600675.1	56.15	1.87	prodigal	2247
+Lokiarchaeia	Promethearchaeum sp.	GCA_030588345.1	54.21	8.41	prodigal	3165
+Asgardarchaeota	Candidatus Margulisarchaeum peptidophila	GCA_055385335.1	94.86	8.41	annotated	6554
+Asgardarchaeota	Candidatus Hodarchaeum mangrovi	GCF_975850365.1	94.55	2.8	annotated	2880
+Asgardarchaeota	Candidatus Flexarchaeum multiprotrusionis	GCA_055394625.1	94.39	9.35	annotated	5480
+Asgardarchaeota	Candidatus Jordarchaeum sp.	GCF_052745115.1	91.74	4.21	annotated	4041
+Asgardarchaeota	Candidatus Borrarchaeum sp.	GCF_019058535.1	91.73	4.67	annotated	3573
+Asgardarchaeota	Candidatus Hodarchaeum mangrovi	GCF_975970155.1	81.46	2.8	annotated	2742
+Asgardarchaeota	Candidatus Jordarchaeum sp.	GCA_058422185.1	81.4	2.34	annotated	2331
+Asgardarchaeota	Candidatus Jordarchaeum sp.	GCA_058420545.1	79.33	4.05	annotated	2395
+Asgardarchaeota	Candidatus Jordarchaeum sp.	GCA_058432505.1	77.62	1.87	annotated	1974
+Asgardarchaeota	Candidatus Jordarchaeum sp.	GCA_058435725.1	73.37	3.81	annotated	2668
+Asgardarchaeota	Candidatus Jordarchaeum sp. ERP4	GCA_019057695.1	51.32	0.93	prodigal	1436

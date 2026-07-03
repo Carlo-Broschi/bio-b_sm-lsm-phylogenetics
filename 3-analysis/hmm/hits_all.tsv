@@ -1,0 +1,71 @@
+taxon	accession	species	protein	best_model	score_lsm	score_hfq	type
+Asgardarchaeota	GCA_019057695.1	Candidatus Jordarchaeum sp. ERP4	Asgardarchaeota|GCA_019057695.1|DXJB01000056.1_2	PF01423	72.7	0.0	Sm/Lsm
+Asgardarchaeota	GCA_019057695.1	Candidatus Jordarchaeum sp. ERP4	Asgardarchaeota|GCA_019057695.1|DXJB01000029.1_10	PF01423	27.7	0.0	Sm/Lsm
+Asgardarchaeota	GCA_019057695.1	Candidatus Jordarchaeum sp. ERP4	Asgardarchaeota|GCA_019057695.1|DXJB01000139.1_2	PF01423	84.4	0.0	Sm/Lsm
+Asgardarchaeota	GCA_055385335.1	Candidatus Margulisarchaeum peptidophila	Asgardarchaeota|GCA_055385335.1|BEU40145.1	PF01423	68.0	0.0	Sm/Lsm
+Asgardarchaeota	GCA_055385335.1	Candidatus Margulisarchaeum peptidophila	Asgardarchaeota|GCA_055385335.1|BEU40046.1	PF01423	67.7	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058420545.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058420545.1|MHY9858430.1	PF01423	84.2	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058420545.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058420545.1|MHY9858420.1	PF01423	29.6	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058420545.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058420545.1|MHY9859083.1	PF01423	40.9	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058422185.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058422185.1|MHZ0036680.1	PF01423	84.2	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058422185.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058422185.1|MHZ0037669.1	PF01423	29.6	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058432505.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058432505.1|MHZ1648785.1	PF01423	84.2	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058432505.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058432505.1|MHZ1649683.1	PF01423	29.6	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058432505.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058432505.1|MHZ1650146.1	PF01423	74.3	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058435725.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058435725.1|MHZ1624000.1	PF01423	73.5	0.0	Sm/Lsm
+Asgardarchaeota	GCA_058435725.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCA_058435725.1|MHZ1626049.1	PF01423	84.2	0.0	Sm/Lsm
+Asgardarchaeota	GCF_019058535.1	Candidatus Borrarchaeum sp.	Asgardarchaeota|GCF_019058535.1|WP_287582781.1	PF01423	86.0	0.0	Sm/Lsm
+Asgardarchaeota	GCF_019058535.1	Candidatus Borrarchaeum sp.	Asgardarchaeota|GCF_019058535.1|WP_287587207.1	PF01423	76.6	0.0	Sm/Lsm
+Asgardarchaeota	GCF_052745115.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCF_052745115.1|WP_445870172.1	PF01423	72.5	0.0	Sm/Lsm
+Asgardarchaeota	GCF_052745115.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCF_052745115.1|WP_445870673.1	PF01423	32.0	0.0	Sm/Lsm
+Asgardarchaeota	GCF_052745115.1	Candidatus Jordarchaeum sp.	Asgardarchaeota|GCF_052745115.1|WP_445869414.1	PF01423	81.0	0.0	Sm/Lsm
+Asgardarchaeota	GCF_975850365.1	Candidatus Hodarchaeum mangrovi	Asgardarchaeota|GCF_975850365.1|WP_455140011.1	PF01423	76.2	0.0	Sm/Lsm
+Asgardarchaeota	GCF_975850365.1	Candidatus Hodarchaeum mangrovi	Asgardarchaeota|GCF_975850365.1|WP_455143245.1	PF01423	63.4	0.0	Sm/Lsm
+Asgardarchaeota	GCF_975970155.1	Candidatus Hodarchaeum mangrovi	Asgardarchaeota|GCF_975970155.1|WP_455143245.1	PF01423	63.4	0.0	Sm/Lsm
+Asgardarchaeota	GCF_975970155.1	Candidatus Hodarchaeum mangrovi	Asgardarchaeota|GCF_975970155.1|WP_455140011.1	PF01423	76.2	0.0	Sm/Lsm
+Lokiarchaeia	GCA_030588345.1	Promethearchaeum sp.	Lokiarchaeia|GCA_030588345.1|JAUUYA010000325.1_1	PF01423	46.4	0.0	Sm/Lsm
+Lokiarchaeia	GCA_030600675.1	Promethearchaeum sp.	Lokiarchaeia|GCA_030600675.1|JAUVLR010000397.1_2	PF01423	47.7	0.0	Sm/Lsm
+Lokiarchaeia	GCA_030611625.1	Promethearchaeum sp.	Lokiarchaeia|GCA_030611625.1|JAUWPK010000018.1_11	PF01423	66.1	0.0	Sm/Lsm
+Lokiarchaeia	GCA_030611625.1	Promethearchaeum sp.	Lokiarchaeia|GCA_030611625.1|JAUWPK010000323.1_2	PF01423	44.7	0.0	Sm/Lsm
+Lokiarchaeia	GCA_030611625.1	Promethearchaeum sp.	Lokiarchaeia|GCA_030611625.1|JAUWPK010000085.1_5	PF01423	85.5	0.0	Sm/Lsm
+Lokiarchaeia	GCA_030612265.1	Promethearchaeum sp.	Lokiarchaeia|GCA_030612265.1|JAUWOE010000142.1_11	PF01423	82.7	0.0	Sm/Lsm
+Lokiarchaeia	GCA_030612265.1	Promethearchaeum sp.	Lokiarchaeia|GCA_030612265.1|JAUWOE010000033.1_6	PF01423	44.6	0.0	Sm/Lsm
+Lokiarchaeia	GCA_030612265.1	Promethearchaeum sp.	Lokiarchaeia|GCA_030612265.1|JAUWOE010000023.1_2	PF01423	66.0	0.0	Sm/Lsm
+Lokiarchaeia	GCF_008000775.2	Promethearchaeum syntrophicum	Lokiarchaeia|GCF_008000775.2|WP_147662778.1	PF01423	45.9	0.0	Sm/Lsm
+Lokiarchaeia	GCF_008000775.2	Promethearchaeum syntrophicum	Lokiarchaeia|GCF_008000775.2|WP_147661248.1	PF01423	64.4	0.0	Sm/Lsm
+Lokiarchaeia	GCF_008000775.2	Promethearchaeum syntrophicum	Lokiarchaeia|GCF_008000775.2|WP_147661531.1	PF01423	82.3	0.0	Sm/Lsm
+Lokiarchaeia	GCF_025839675.1	Candidatus Lokiarchaeum ossiferum	Lokiarchaeia|GCF_025839675.1|WP_371803412.1	PF01423	52.1	0.0	Sm/Lsm
+Lokiarchaeia	GCF_025839675.1	Candidatus Lokiarchaeum ossiferum	Lokiarchaeia|GCF_025839675.1|WP_371806456.1	PF01423	75.7	0.0	Sm/Lsm
+Lokiarchaeia	GCF_025839675.1	Candidatus Lokiarchaeum ossiferum	Lokiarchaeia|GCF_025839675.1|WP_371806200.1	PF01423	59.4	0.0	Sm/Lsm
+Lokiarchaeia	GCF_041410205.1	Candidatus Lokiarchaeum ossiferum	Lokiarchaeia|GCF_041410205.1|WP_371803412.1	PF01423	52.1	0.0	Sm/Lsm
+Lokiarchaeia	GCF_041410205.1	Candidatus Lokiarchaeum ossiferum	Lokiarchaeia|GCF_041410205.1|WP_371806200.1	PF01423	59.4	0.0	Sm/Lsm
+Lokiarchaeia	GCF_041410205.1	Candidatus Lokiarchaeum ossiferum	Lokiarchaeia|GCF_041410205.1|WP_371806456.1	PF01423	75.7	0.0	Sm/Lsm
+Lokiarchaeia	GCF_054039255.1	Candidatus Harpocratesius sp.	Lokiarchaeia|GCF_054039255.1|WP_457558710.1	PF01423	76.5	0.0	Sm/Lsm
+Lokiarchaeia	GCF_054039255.1	Candidatus Harpocratesius sp.	Lokiarchaeia|GCF_054039255.1|WP_457557101.1	PF01423	59.4	0.0	Sm/Lsm
+Lokiarchaeia	GCF_054039255.1	Candidatus Harpocratesius sp.	Lokiarchaeia|GCF_054039255.1|WP_457557663.1	PF01423	42.7	0.0	Sm/Lsm
+Micrarchaeota	GCA_053576655.1	Candidatus Bilamarchaeum sp.	Micrarchaeota|GCA_053576655.1|MGV8085742.1	PF01423	69.4	0.0	Sm/Lsm
+Micrarchaeota	GCF_002214165.1	Candidatus Mancarchaeum acidiphilum	Micrarchaeota|GCF_002214165.1|WP_232780225.1	PF01423	74.8	0.0	Sm/Lsm
+Micrarchaeota	GCF_016806735.1	Candidatus Micrarchaeum sp.	Micrarchaeota|GCF_016806735.1|WP_203134435.1	PF01423	76.2	0.0	Sm/Lsm
+Micrarchaeota	GCF_030646255.1	Candidatus Burarchaeum sp.	Micrarchaeota|GCF_030646255.1|WP_304767179.1	PF01423	76.0	0.0	Sm/Lsm
+Nanoarchaeota	GCA_022014835.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_022014835.1|MCG2868584.1	PF01423	66.4	0.0	Sm/Lsm
+Nanoarchaeota	GCA_022014935.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_022014935.1|MCG2868038.1	PF01423	66.4	0.0	Sm/Lsm
+Nanoarchaeota	GCA_022015015.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_022015015.1|MCG2882773.1	PF01423	66.4	0.0	Sm/Lsm
+Nanoarchaeota	GCA_028275775.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_028275775.1|JAPWTZ010000022.1_5	PF01423	65.6	0.0	Sm/Lsm
+Nanoarchaeota	GCA_028275885.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_028275885.1|JAPWTW010000001.1_94	PF01423	65.6	0.0	Sm/Lsm
+Nanoarchaeota	GCA_028276785.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_028276785.1|JAPYVP010000006.1_3	PF01423	64.5	0.0	Sm/Lsm
+Nanoarchaeota	GCA_028276855.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_028276855.1|JAPYVN010000028.1_2	PF01423	65.3	0.0	Sm/Lsm
+Nanoarchaeota	GCA_046533395.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_046533395.1|MFP3132128.1	PF01423	63.9	0.0	Sm/Lsm
+Nanoarchaeota	GCA_046533775.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_046533775.1|MFP3167366.1	PF01423	65.4	0.0	Sm/Lsm
+Nanoarchaeota	GCA_046536775.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_046536775.1|MFP3316786.1	PF01423	63.9	0.0	Sm/Lsm
+Nanoarchaeota	GCA_049414405.1	Candidatus Nanopusillus sp.	Nanoarchaeota|GCA_049414405.1|MFZ8800556.1	PF01423	64.6	0.0	Sm/Lsm
+Nanoarchaeota	GCF_000008085.1	Nanoarchaeum equitans Kin4-M	Nanoarchaeota|GCF_000008085.1|NC_005213.1_40	PF01423	52.5	0.0	Sm/Lsm
+Nanoarchaeota	GCF_003086415.1	Candidatus Nanobsidianus stetteri	Nanoarchaeota|GCF_003086415.1|WP_228615063.1	PF01423	65.4	0.0	Sm/Lsm
+Nanoarchaeota	GCF_023169545.1	Nanobdella aerobiophila	Nanoarchaeota|GCF_023169545.1|WP_258393482.1	PF01423	64.0	0.0	Sm/Lsm
+Nanohaloarchaeota	GCF_009617975.1	Candidatus Nanohalobium constans	Nanohaloarchaeota|GCF_009617975.1|WP_153550500.1	PF01423	54.3	0.0	Sm/Lsm
+Nanohaloarchaeota	GCF_029207735.1	Candidatus Nanohalococcus occultus	Nanohaloarchaeota|GCF_029207735.1|WP_347721571.1	PF01423	66.3	0.0	Sm/Lsm
+Nanohaloarchaeota	GCF_029232205.1	Candidatus Nanohalovita haloferacivicina	Nanohaloarchaeota|GCF_029232205.1|WP_347720426.1	PF01423	47.7	0.0	Sm/Lsm
+Nanohaloarchaeota	GCF_047555075.1	Candidatus Nanohalococcus occultus	Nanohaloarchaeota|GCF_047555075.1|WP_347721571.1	PF01423	66.3	0.0	Sm/Lsm
+Parvarchaeota	GCA_015122075.1	Candidatus Acidifodinimicrobium mancum	Parvarchaeota|GCA_015122075.1|MBE5730138.1	PF01423	70.7	0.0	Sm/Lsm
+Parvarchaeota	GCA_049965335.1	Candidatus Acidifodinimicrobium sp.	Parvarchaeota|GCA_049965335.1|MGC8516825.1	PF01423	70.3	0.0	Sm/Lsm
+Parvarchaeota	GCA_049967035.1	Candidatus Acidifodinimicrobium sp.	Parvarchaeota|GCA_049967035.1|MGC8682284.1	PF01423	70.3	0.0	Sm/Lsm
+Parvarchaeota	GCA_049967895.1	Candidatus Acidifodinimicrobium sp.	Parvarchaeota|GCA_049967895.1|MGC8699180.1	PF01423	70.3	0.0	Sm/Lsm

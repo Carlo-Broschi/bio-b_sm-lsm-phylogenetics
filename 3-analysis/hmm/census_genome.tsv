@@ -1,0 +1,51 @@
+accession	taxon	species	completeness	n_SmLsm	n_Hfq
+GCA_019057695.1	Asgardarchaeota	Candidatus Jordarchaeum sp. ERP4	51.32	3	0
+GCA_055385335.1	Asgardarchaeota	Candidatus Margulisarchaeum peptidophila	94.86	2	0
+GCA_055394625.1	Asgardarchaeota	Candidatus Flexarchaeum multiprotrusionis	94.39	0	0
+GCA_058420545.1	Asgardarchaeota	Candidatus Jordarchaeum sp.	79.33	3	0
+GCA_058422185.1	Asgardarchaeota	Candidatus Jordarchaeum sp.	81.4	2	0
+GCA_058432505.1	Asgardarchaeota	Candidatus Jordarchaeum sp.	77.62	3	0
+GCA_058435725.1	Asgardarchaeota	Candidatus Jordarchaeum sp.	73.37	2	0
+GCF_019058535.1	Asgardarchaeota	Candidatus Borrarchaeum sp.	91.73	2	0
+GCF_052745115.1	Asgardarchaeota	Candidatus Jordarchaeum sp.	91.74	3	0
+GCF_975850365.1	Asgardarchaeota	Candidatus Hodarchaeum mangrovi	94.55	2	0
+GCF_975970155.1	Asgardarchaeota	Candidatus Hodarchaeum mangrovi	81.46	2	0
+GCA_030588345.1	Lokiarchaeia	Promethearchaeum sp.	54.21	1	0
+GCA_030600675.1	Lokiarchaeia	Promethearchaeum sp.	56.15	1	0
+GCA_030611625.1	Lokiarchaeia	Promethearchaeum sp.	70.56	3	0
+GCA_030612265.1	Lokiarchaeia	Promethearchaeum sp.	81.15	3	0
+GCF_008000775.2	Lokiarchaeia	Promethearchaeum syntrophicum	92.06	3	0
+GCF_025839675.1	Lokiarchaeia	Candidatus Lokiarchaeum ossiferum	91.74	3	0
+GCF_041410205.1	Lokiarchaeia	Candidatus Lokiarchaeum ossiferum	90.65	3	0
+GCF_054039255.1	Lokiarchaeia	Candidatus Harpocratesius sp.	91.12	3	0
+GCA_053576655.1	Micrarchaeota	Candidatus Bilamarchaeum sp.	92.4	1	0
+GCF_002214165.1	Micrarchaeota	Candidatus Mancarchaeum acidiphilum	81.46	1	0
+GCF_016806735.1	Micrarchaeota	Candidatus Micrarchaeum sp.	81.42	1	0
+GCF_030646255.1	Micrarchaeota	Candidatus Burarchaeum sp.	89.49	1	0
+GCA_022014835.1	Nanoarchaeota	Candidatus Nanopusillus sp.	73.13	1	0
+GCA_022014935.1	Nanoarchaeota	Candidatus Nanopusillus sp.	72.2	1	0
+GCA_022015015.1	Nanoarchaeota	Candidatus Nanopusillus sp.	72.2	1	0
+GCA_028275775.1	Nanoarchaeota	Candidatus Nanopusillus sp.	65.81	1	0
+GCA_028275885.1	Nanoarchaeota	Candidatus Nanopusillus sp.	71.26	1	0
+GCA_028276585.1	Nanoarchaeota	Candidatus Nanopusillus sp.	50.98	0	0
+GCA_028276785.1	Nanoarchaeota	Candidatus Nanopusillus sp.	64.25	1	0
+GCA_028276855.1	Nanoarchaeota	Candidatus Nanopusillus sp.	71.26	1	0
+GCA_032249435.1	Nanoarchaeota	Candidatus Nanopusillus sp.	68.46	0	0
+GCA_046533395.1	Nanoarchaeota	Candidatus Nanopusillus sp.	69.39	1	0
+GCA_046533775.1	Nanoarchaeota	Candidatus Nanopusillus sp.	69.63	1	0
+GCA_046536775.1	Nanoarchaeota	Candidatus Nanopusillus sp.	66.74	1	0
+GCA_049414405.1	Nanoarchaeota	Candidatus Nanopusillus sp.	71.26	1	0
+GCF_000008085.1	Nanoarchaeota	Nanoarchaeum equitans Kin4-M	73.13	1	0
+GCF_003086415.1	Nanoarchaeota	Candidatus Nanobsidianus stetteri	54.67	1	0
+GCF_023169545.1	Nanoarchaeota	Nanobdella aerobiophila	72.66	1	0
+GCF_009617975.1	Nanohaloarchaeota	Candidatus Nanohalobium constans	85.2	1	0
+GCF_029207735.1	Nanohaloarchaeota	Candidatus Nanohalococcus occultus	86.06	1	0
+GCF_029232205.1	Nanohaloarchaeota	Candidatus Nanohalovita haloferacivicina	85.36	1	0
+GCF_047555075.1	Nanohaloarchaeota	Candidatus Nanohalococcus occultus	85.12	1	0
+GCA_015122025.1	Parvarchaeota	Candidatus Acidifodinimicrobium mancum	55.69	0	0
+GCA_015122035.1	Parvarchaeota	Candidatus Acidifodinimicrobium mancum	56.46	0	0
+GCA_015122065.1	Parvarchaeota	Candidatus Acidifodinimicrobium mancum	55.06	0	0
+GCA_015122075.1	Parvarchaeota	Candidatus Acidifodinimicrobium mancum	66.74	1	0
+GCA_049965335.1	Parvarchaeota	Candidatus Acidifodinimicrobium sp.	76.56	1	0
+GCA_049967035.1	Parvarchaeota	Candidatus Acidifodinimicrobium sp.	80.3	1	0
+GCA_049967895.1	Parvarchaeota	Candidatus Acidifodinimicrobium sp.	77.49	1	0
