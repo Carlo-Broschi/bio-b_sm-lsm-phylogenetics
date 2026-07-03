@@ -1,0 +1,136 @@
+# bio-b 設計メモ：文献知見の統合（rooting・構造アンカー・DPANN HMM）
+
+**作成：2026-07-04**
+**根拠：** 精読5本（Reichelt/Grohmann 2023, Kambach 1999, Santiago-Frangos 2019, Kim/Tevenvirinae 2025, Zhang 2025）＋ Claude Science archaeal deep-dive（Payá & Bonete 2023 ほか構造アンカー系譜）
+
+このメモは「読んだ文献をどう bio-b の設計判断に落とすか」だけを書く。文献の要約自体は各ノート/memory を参照。
+
+---
+
+## 0. 一枚要約：進化の骨格（設計の前提）
+
+文献群が一致して支持する方向性：
+
+```
+細菌 Hfq(ヘキサマー)  ←機能アナログ・別系統→  古細菌 SmAP(ヘプタ/ヘキサマー)
+   [bio-a]                                        │ 祖先的 Lsm 様
+                                                   ▼
+                              真核 Lsm型リング(祖先状態) ──→ 真核 Sm型リング(派生状態)
+                                                              [Zhang 2025 が実験的に確定]
+```
+
+- **Lsm型=祖先、Sm型=派生**は Zhang 2025 が実験（リング相互変換）で確定 → これが rooting の最重要根拠。
+- 古細菌 SmAP は真核 Lsm に近い（Reichelt 2023：PfuSmAP1 は真核型 RNA homeostasis network に入り、細菌 Hfq の sRNA matchmaker とは役割が違う）。
+- 細菌 Hfq は同じ Sm フォールドの**機能アナログだが独立系統** → bio-a↔bio-b の相互外群設計の生化学的裏付け。
+
+---
+
+## 1. Rooting（有根化）の設計
+
+### 採用する根拠の階層
+> ⚠️ **2026-07-04 訂正**：本節の Zhang 由来記述は当初セッション要約に依拠しており、原著（Mu et al. 2025, NAR gkaf451）の一次精読で誤りを修正した。以下は精読後の正しい記述。
+
+1. **主根拠（実験）**: Mu et al. 2025（"Zhang 2025"）の4段階モデル（Fig 6）。真核内部では Lsm2-8(祖先, Ring1) → Sm core(派生, Ring2)。変換スイッチは **SC1-SC3 接触（= Interface C = SmB-SmD1 ⇔ Lsm8-Lsm2）の親和性**。Sm→Lsm は「Step I: SC1-SC3 強化」、Lsm→Sm は「Step I: SC1-SC3 弱化 + Step II: RNA結合残基の最適化」。
+   - 親和性順位（PISA計算値）：Sm core **I-A(−9.4) > I-B(−6.8) > I-C(−2.9)**／Lsm2-8 **I-C(−9.4) > I-A(−5.9) > I-B(−3.9)**。※ I-C の逆転が要。
+2. **ドメイン間の根**: 古細菌 SmAP を真核 Sm/Lsm の外群に、細菌 Hfq を全体の最外群に置く（相互外群）。Reichelt 2023 が「archaeal SmAP ≈ 祖先 Lsm 型」を機能面から支持。
+3. **残基レベルの検証軸（molecular character、ただし格に注意）**: Mu et al. 2025 が挙げた残基。
+   - **【検証済み】Lsm→Sm 変換に効いた RNA 結合残基変異**：**F46Y/N75K（Lsm5, loop3/5）・L43F（Lsm7, loop3）＋ loop2 置換**（Lsm3/5/6 を SmD2/E/F 型に）。これらは実験で変換を達成した実残基 → 系統形質として使える。
+   - **【未検証・構造推論】Interface C の側鎖**：Lsm 側 **Val69(Lsm8 β5)/Phe61(Lsm2 β4)** ↔ Sm 側 **Ser79(SmB β5)/Ser59(SmD1 β4)**。**原著が "await experimental confirmation" と明記**（Supplementary Fig S3 からの推論）。系統形質に使う場合は「未検証の構造推論」と明示必須。断定的な synapomorphy 扱いは不可。
+   - 残基番号はすべて**ヒト (L)Sm タンパク質**の座標。bio-b への写像には各ヒト参照配列のアライメントが必要（§Q3運用）。
+
+### 既知のリスクと対策
+- **Veretnik 2009 Comment #3**：古細菌 SmAP を外群にすると木が崩れた。短鎖・高乖離が原因 → **§2 の構造アンカーで緩和**してから rooting する。
+- bio-a 側で観測した ASDSF プラトー（短鎖ゆえの深部枝の解像不能）は bio-b でも起こりうる前提で設計する。
+- **【一次精読で判明・重要】「細菌=Hfq／古細菌=Sm」は綺麗に割れない**（Nielsen 2007, *M. jannaschii*）。ある古細菌は Sm型でなく **Hfq型（ヘキサマー）** を持ち *E. coli* Hfq と機能互換。→ 単純な相互外群前提は危険。**rooting 前に、古細菌側に Hfq様が混在しないか（PF01423/構造で）確認**し、Hfq clade と Sm clade の帰属を taxon ごとに検証する。これは §3 の HMM 検索とも連動（古細菌ゲノムで Hfq型/Sm型どちらを持つかを判定）。
+
+### 具体的手順
+1. §2 の構造ガイドアライメントを入力にする。
+2. IQ-TREE3 で unrooted ML → 古細菌 SmAP / 細菌 Hfq を outgroup 指定して有根化。
+3. Zhang の残基極性（Val/Phe vs Ser/Ser、Loop2/3/5）を末端形質としてマップし、Lsm→Sm 極性と樹形が一致するか確認。矛盾すれば long-branch/rogue を疑う（bio-a と同じ RogueNaRok 手順）。
+
+---
+
+## 2. 構造アンカー較正アライメント
+
+### なぜ必要か
+Hfq/Sm/Lsm は**短鎖かつ配列乖離が大きい**。生配列 MSA は深部ノードで信頼できない（＝ bio-a の収束難・Veretnik Comment #3 の崩壊と同根の問題）。Kambach 1999 は Sm1/Sm2 モチーフの Cα が **<0.9 Å で重畳**することを示した＝**配列では見えない相同性が構造では保存**。よって構造で整列を拘束する。
+
+### 使う構造アンカー（PDB ID を RCSB/PDBe で一次確認、2026-07-04）
+
+**【確定＝RCSB/PDBe 照合済み】** 3ドメイン・apo/RNA複合体・ヘプタ/ヘキサを網羅：
+
+| ドメイン | 構造 | PDB | 生物 / 状態 | 出典 |
+|---|---|---|---|---|
+| 真核 | Sm core D3B / D1D2 | **1D3B / 1B34** | ヒト / ヘテロ二量体（Sm fold 基準） | Kambach 1999（精読済） |
+| 真核 | U1 snRNP の Sm core | **3PGW** | ヒト / 7量体+snRNA、4.4 Å | Weber/Wahl 2010 |
+| 古細菌 | SmAP1 ヘプタマー | **1I8F** | *P. aerophilum* / 7量体, 1.75 Å | Mura/Eisenberg 2001 |
+| 古細菌 | SmAP1 + UMP | **1LOJ** | Methanobacterial / 7量体+UMP | Mura 2002 関連 |
+| 古細菌 | Sm2 **ヘキサマー** | **1LJO** | *A. fulgidus* / 6量体, 1.95 Å | Törő/Suck 2002 |
+| 古細菌 | **Sm + U7 RNA** | **1M8V** | *P. abyssi* / 7量体+ウリジン七量体 | Thore/Suck 2003 ← **RNA接触残基の要** |
+| 細菌 | Hfq ヘキサマー | **1HK9** | *E. coli* / 6量体 | Sauter 2003 |
+| 細菌 | Hfq + CTD 自己阻害 | **6GWK** | *C. crescentus* / 6量体, 2.15 Å | Santiago-Frangos 2019（精読済） |
+
+**構造から読める整列アンカー（一次確認）**：
+- Sm1(β1-3)/Sm2(β4-5) モチーフが Cα <0.9 Å で重畳（Kambach）。**ここを整列固定点**に。
+- ウリジン結合ポケット＝リング内側の**保存3残基**＋ N末αヘリックス＋β2 の保存芳香族残基（Thore 1M8V）。→ RNA接触ループ（L3/L5）を第二アンカーに。
+- Mura 1I8F：ヘプタマー＋陽イオン性中央孔。3PGW：各サブユニットが Sm1/Sm2 で snRNA 1ヌクレオチドを認識。
+
+**【未確認＝ID 要確定】**（§2 実装時に RCSB で確定）：Törő 2002 AF-Sm1 ヘプタマー（AF-Sm2=1LJO は確定）／Mura 2003 augmented SmAP3 14-mer（*Pyrobaculum*, PNAS 100:4539）／Nielsen 2007 *M. jannaschii* Hfq様（PMC2080587）／Collins 2001 *Methanobacterium*（1I5L or 1IS1）／crenarchaeal SmAP1/2（Bläsi 2015 は機能論文、新規PDB無しの可能性）。
+
+### 方法
+- PROMALS3D / T-Coffee Expresso / mTM-align 等で上記 PDB をテンプレートに構造ガイド MSA を作る。
+- Foldseek は「遠縁ホモログの探索＋引用可能な構造相同性の定量」に使う（DPANN 反論対策にも流用、§3）。
+- 較正の要点：Sm1(β1-3)/Sm2(β4-5) モチーフをアンカー、可変な N末 helix・Loop L4 は緩く。
+
+---
+
+## 3. PF01423 HMM 検索（DPANN/Asgard 分布）
+
+### 位置づけ
+deep-dive の opening #1。**文献上 DPANN/Asgard の Sm/Lsm を扱った論文はゼロ**（陰性証拠）。bio-b は既に BLAST で DPANN 0ヒットを確認済みだが、BLAST は感度が低い。
+
+### なぜ HMM か（査読対策の核心）
+- **BLAST 0ヒット**では「本当に無い」のか「配列が乖離して当たらない」のか区別できない。
+- **Pfam SM (PF01423) の hmmsearch は高感度** → 「遺伝子の真の欠如」と「アノテーション/配列乖離の欠如」を切り分けられる。
+- これは査読者の想定反論「短鎖で乖離しているだけでは？」への**決定的な備え**。どちらの結果でも publishable：
+  - ヒットあり → 新規分布データ、ツリーに追加
+  - 真に欠如 → 「縮小ゲノムでの喪失」主張を BLAST 以上に強化
+
+### 手順
+1. RefSeq から DPANN 代表（Nanoarchaeota・Woesearchaeota・Pacearchaeota・ARMAN 等）＋ Asgard ゲノムを取得。
+2. `hmmsearch`（Pfam **PF01423**）でスキャン → コピー数・ドメイン構造。
+3. **Payá & Bonete 2023 の 109古細菌コピー数マトリックス**（Euryarchaeota baseline、1-3 Lsm パラログ、シンテニー Lrp/AsnC・MarR・L37e）と比較。
+4. ヒット配列は §2 の構造ガイドアライメントに追加 → §1 の有根ツリーへ。
+5. 補助軸：Kim et al. 2025（Tevenvirinae）の GoF/MotB.1/Frd.2 → フォールドがファージゲノムまで及ぶ＝分布/水平伝播の別軸。**ただし精読で判明した強い制約**：(i) 配列相同性がなく BLAST では検出不可（PSI-BLAST 5ラウンドでようやく 210 配列、AlphaFold3 で初めてフォールド同定）、(ii) **リング/オリゴマー形成は未実証**（AlphaFold の homomultimer モデルが ipTM<0.4 で失敗）。→ これらは**配列 ML ツリーには入れられない**（整列不能）。**構造フォールドレベルの相同として、Foldseek/構造ツリーで別扱い**が妥当。系統本体の taxon にはしない。
+
+---
+
+## 4. bio-a への波及（一次精読済み 2026-07-04）
+
+**Santiago-Frangos et al. 2019（PNAS、PDB 6GWK、2.15 Å）** ※要約の記述を一次確認 → 正確だった。
+- 機構：*C. crescentus* Hfq の **CTD 酸性チップ −DADD（残基78-82）** が近位面の**正電荷 rim（R18/K19/K21）**に結合し、RNA と競合して非特異的 annealing を自己阻害。具体接触：Asp81/82→Lys19/Arg18、Asp79→隣接プロトマーの Arg49、Glu75→Arg49/Ser39。
+- **Cc CTD は短い（15 aa、tip −DADD）**、*E. coli* は長い（38 aa、tip −DSEETE）。短い方が**局所濃度が高く自己阻害が強い**。
+- CTD は **sRNA 結合の選択性を上げる**。in vivo：Cc Hfq は Ec の RybB/ompF・DsrA/hns 制御を相補できるが、**RydC/cfa は相補不可**（Cc Hfq の RydC 結合が弱い）。
+- **bio-a への含意（原著 Discussion が明言）**：「**Hfq CTD は新規 sRNA の獲得に合わせて急速に多様化しうる**」。CTD は core より速く（非保存置換＋indel）進化し、rim との相互作用は静電支配で配列非依存＝modular。
+- **設計上の運用注意（私の判断）**：CTD は**速進化・indel 多で core アライメントに入れられない**（bio-a が既に 50-150 aa で長さフィルタしているのと同根）。よって「phylogenetic signal」として使うなら、**CTD をアライメントに入れるのではなく、CTD長・酸性チップ motif型（−DADD / −DSEETE 等）を離散/連続形質として core ベースのツリーにマップ**（祖先状態推定）する形が正しい。
+
+**Reichelt 2023** の「Hfq は転写に関与、SmAP は RNAP 活性に非影響」は bio-a/bio-b の機能分離の根拠。
+
+---
+
+## 5. 未処理・要確認（正直な棚卸し）
+
+- Claude Science 成果物 `archaeal_sm_lsm_deepdive.md` / `archaeal_sm_lsm_papers.csv` / `archaeal_sm_coverage.png` は**ローカル未保存**（Claude Science 内生成のまま）。回収推奨。
+- deep-dive の構造アンカー系（Mura 2001/2003, Törő 2002, Nikulin 2020, Bläsi 2015, Weichenrieder 2014, Nielsen/Valentin-Hansen 2007）は**要旨レベルのみ**、本文未精読。§2 を実装する前に PDB ID と各構造の残基定義を一次確認する必要。
+- PF01423 が Sm フォールド全体を十分カバーするか（Hfq/Lsm も拾うか）は hmmsearch 前に Pfam の HMM 定義を確認。
+- **Zhang(Mu et al. 2025) は 2026-07-04 に一次精読済み**。残基→アライメント写像は前提(a)Zhang=クリア、前提(b)キュレート版アライメント=未（bio-a CPU 待ち）。アライメント完成後に：検証済み残基（F46Y/N75K・L43F・loop2）を優先、未検証の Interface-C 側鎖（Val69/Phe61 vs Ser79/Ser59）は「構造推論」注記付きで写像。残基番号はヒト座標。
+- **要修正の痕跡**：当初の Zhang 記述には要約由来の誤り（Lsm2-8 親和性順位の A/B 逆転、Lsm8-Lsm4→Lsm8-Lsm2、未検証残基の断定扱い）があり §1 で訂正済み。memory/notes への波及なしを確認済み。
+
+### 精読検証ステータス（2026-07-04）
+5本すべて**私が一次精読済み**：
+- **Zhang (Mu et al. 2025)** — 要約に誤り3件 → 訂正済み（§1）。
+- **Reichelt/Grohmann 2023**、**Kambach 1999** — 一次精読、memory 記録済み。
+- **Santiago-Frangos 2019**、**Kim et al. 2025** — 本日一次精読。**要約は正確だった**（Zhang と異なり誤りなし）。§4/§3 に一次確認済み詳細を反映。
+- 構造アンカーの **PDB ID は RCSB/PDBe で一次確認済み**（§2 表：1D3B/1B34/3PGW/1I8F/1LOJ/1LJO/1M8V/1HK9/6GWK）。3ドメイン・apo/RNA・ヘプタ/ヘキサを網羅。→ §2 の構造ガイドアライメントは PDB 座標を RCSB から回収すれば実装可能。
+- ただし各アンカー**論文の全文は未精読**（PNAS/EMBO/JBC は 403/ペイウォール/リダイレクトで WebFetch 不可）。設計に必要な事実（生物・オリゴマー状態・RNA接触残基）は RCSB エントリ＋deep-dive で取得済みだが、残基レベルの厳密実装時は OA分（PMC にある M. jannaschii 等）を精読する。
+- 未確定 PDB ID 4件（§2 末尾）は §2 実装時に確定。
