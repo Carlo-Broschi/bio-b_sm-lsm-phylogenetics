@@ -124,8 +124,7 @@ The two prokaryotic reduced-genome radiations went opposite ways: reduced-genome
 | Figure | Caption | Status |
 |--------|---------|--------|
 | Fig. 1 | Structure-guided Sm/Lsm phylogeny across three domains, tips colored by type (Hfq / SmAP / Lsm / Sm-core). | Curated-tree version rendered (`4-results/smlsm_curated_types.pdf`); structure-guided tree pending |
-| Fig. 2 | Distribution of Sm/Lsm and Hfq across DPANN/Asgard (and CPR) lineages by HMM, with completeness-based assessability. | Data ready (`3-analysis/hmm/census_lineage.tsv`); figure TBD |
-| Fig. 3 | Structural verification of DPANN/Asgard hits: ESMFold models vs Sm-fold anchors (Foldseek TM-score). | Data ready (`4-results/smfold_foldseek_verification.tsv`); figure TBD |
+| Fig. 2 | (A) Sm-fold distribution across reduced-genome radiations: DPANN/Asgard archaea retain Sm/Lsm (high per-lineage fraction) while CPR bacteria have lost it (0/393 Saccharibacteria etc.); (B) structural verification — all 55 archaeal ESMFold hits match a Sm-fold anchor by Foldseek (TM-score ≥ 0.92, median 0.96). | **Rendered** (`4-results/fig_distribution_verification.pdf`) |
 
 ## Tables
 
