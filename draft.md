@@ -1,7 +1,7 @@
 # The Sm fold diverges in fate between reduced-genome archaea and bacteria: a structure-informed phylogenomic census — Manuscript Draft
 
 **Project:** bio-b — Sm/Lsm Phylogenetics
-**Author:** Sui Nakai
+**Author:** Minoru Nakai
 **Target journal:** Genome Biology and Evolution / Molecular Biology and Evolution
 **Status:** Submission preparation (2026-07); integrated framing (framework + finding) finalized, science QC-locked, GBE format assembly in `../_gbe_submission/`
 

@@ -1,6 +1,6 @@
 # bio-b Research Notes — Sm/Lsm Phylogenetics
 
-**Author:** Sui Nakai
+**Author:** Minoru Nakai
 **Started:** 2026-06-22
 
 ---

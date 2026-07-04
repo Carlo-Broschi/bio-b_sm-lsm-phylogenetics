@@ -64,5 +64,5 @@ archive (Zenodo) will be minted at submission.
 
 ## Author
 
-Sui Nakai — Independent researcher
+Minoru Nakai — Independent researcher
 Email: vivaldi.rv484@gmail.com
