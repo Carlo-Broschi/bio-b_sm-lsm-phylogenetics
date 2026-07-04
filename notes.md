@@ -542,6 +542,16 @@ DPANN/Asgard と同じ completeness＋二重HMM＋Prodigal パイプラインを
 - 最良アンカーの型：**古細菌 Sm 49／真核 Sm 4／細菌 Hfq 2**＝DPANN/Asgard ヒットは構造的に古細菌 Sm に最も近い（期待どおり）。
 - → **査読の最大の攻撃点「HMM ヒット≠本物」を完全に無力化**。DPANN/Asgard の Sm/Lsm 保持が配列＋構造の二重証拠に。目玉が盤石化。
 
+### 2026-07-05 — 投稿直前フェーズ：フレーミング確定・GBE パッケージ・Table 1
+
+- **フレーミング最終確定（統合型）**：「系統樹＝frame、古細菌保持／CPR喪失の非対称＝finding」。構造ガイド IQ-TREE 完了（1101×184・Q.INSECT+G4・logL −81864.0368・UFBoot≥95=470/1092=43%）は素の版（519/1087=48%）より**深部解像を改善せず** → 系統樹を"足場"、census/構造検証の非対称を主張、が正当と実測で裏付け。
+- **保持は既出・我々の貢献の再定義**：DPANN/Asgard の Sm/Lsm 保持自体は Willkomm/Reichelt 2018（Fig3）が既出。genuine な貢献は ① completeness 制御の系統的 MAG センサス ② 構造検証 ESMFold+foldseek（55/55、TM 中央値 0.967≈0.97、49/55 古細菌アンカー最良）③ **CPR 対照** ④ Prodigal 交絡除去。「DPANN で発見」と過剰主張しない。
+- **CPR 再検証＝決定的対照（確定）**：同 HMM+completeness で **0/397（393 Saccharibacteria 等、Sm/Lsm・Hfq とも 0）**。陽性対照 OK（古細菌側 70 ヒット、CPR 側 290,425 タンパク・843 リボソームタンパク注釈あり＝検出系は機能）。completeness は CPR の方が高い(82.0 vs 古細菌 75.6%)→「低品質だから」の反論封じ。
+- **Hfq 喪失一次文献**：Sun, Zhulin & Wartell 2002（NAR 30:3662）を Discussion に追加。
+- **Table 1 レンダリング**：`census_lineage{,_cpr}.tsv` から lineage 別カウント＋completeness の実表を draft に埋込（display items 2→3）。Fig.1 の in-plot タイトルを "Structure-guided ... framework tree" に修正・CMYK TIFF 再変換。
+- **GBE 投稿パッケージ**（`Biology/_gbe_submission/`）：submission.md・参考文献リスト（DOI 全検証・GBE 著者年式）・CMYK 300dpi TIFF・compliance（全上限クリア：abstract 223w/title 114字/本文 2440w/refs 9）。Significance statement・Data Availability 追加済。参考文献は `REFS_zotero_doi.txt`（21件、全 DOI 検証）で Zotero 一括投入可能。
+- **残る手作業**：repo public化 or Zenodo DOI／Zotero 整形／FoldMason 引用の出版版差替。
+
 ---
 
 ## 配列リスト
@@ -602,7 +612,7 @@ DPANN/Asgard と同じ completeness＋二重HMM＋Prodigal パイプラインを
 - 先行研究：Veretnik et al. (2009, PLoS Comput Biol)、PhyML による最尤法
 - 方法論的改善：IQ-TREE3 + MrBayes、新モデル、最新データ、構造ガイド MSA、HMM 分布センサス
 - **⚡シナリオ転換（2026-07-04）：当初の顔は「DPANN/CPR での Sm/Lsm 欠落の実証」だった（BLAST 0ヒット）。だが completeness フィルタ＋二重HMM＋Prodigal で再探索したところ DPANN/Asgard は Sm/Lsm を保持していた（*N. equitans* 含む・Lokiarchaeia 全数、ESMFold+foldseek で 55/55 が Sm fold と構造検証済）。旧「欠落」は BLAST の感度限界。→ 顔を「欠落の実証」から「予想外の保持＝祖先型 Lsm・真核 Sm 起源への一次データ」へ転換。**
-- 新規性の核心（現在）：DPANN/Asgard における Sm/Lsm **保持**の実証（配列 HMM ＋構造 ESMFold/foldseek の二重証拠）＋祖先型 Lsm としての eukaryogenesis 含意（Lokiarchaeia）。※CPR は未再検証（旧 BLAST 0 のまま＝残タスク）。
+- **新規性の核心（最終確定 2026-07-05、統合フレーミング）**：系統樹＝frame、「古細菌は Sm フォールド保持／縮小ゲノム細菌 CPR は喪失」の非対称＝finding。保持自体は Willkomm 2018 が既出→我々の貢献は (1) completeness 制御の系統的 MAG センサス (2) 構造検証 ESMFold+foldseek（55/55）(3) **CPR 対照＝0/397 で喪失を実証（再検証完了・陽性対照 real）** (4) Prodigal 交絡除去。eukaryogenesis 含意（Lokiarchaeia）は有効。「DPANN で発見」とは主張しない。
 
 ## 参考文献メモ
 
