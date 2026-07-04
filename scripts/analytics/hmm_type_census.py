@@ -82,13 +82,23 @@ def read_seqs(target):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--tag", default="", help="cpr で proteomes_cpr/ + cpr_manifest.tsv を集計し census_cpr_* に出力")
+    args = ap.parse_args()
+    global PROT_DIR, MANIFEST
+    suf = ""
+    if args.tag == "cpr":
+        PROT_DIR = BASE / "1-downloaded-data" / "proteomes_cpr"
+        MANIFEST = BASE / "1-downloaded-data" / "cpr_manifest.tsv"
+        suf = "_cpr"
     man = load_manifest()
     faas = sorted(PROT_DIR.glob("*.faa"))
     if not faas:
         sys.exit("proteomes/*.faa がありません。先に取得スクリプトを実行してください。")
 
     # 全プロテオームを1本に結合（ヘッダは taxon|acc|protein... 形式）
-    combined = HMM_DIR / "_all_proteomes.faa"
+    combined = HMM_DIR / f"_all_proteomes{suf}.faa"
     with combined.open("w") as out:
         for fa in faas:
             out.write(fa.read_text())
@@ -112,7 +122,7 @@ def main():
                      "type": typ})
 
     HMM_DIR.mkdir(exist_ok=True)
-    with (HMM_DIR / "hits_all.tsv").open("w") as f:
+    with (HMM_DIR / f"hits_all{suf}.tsv").open("w") as f:
         f.write("taxon\taccession\tspecies\tprotein\tbest_model\tscore_lsm\tscore_hfq\ttype\n")
         for h in sorted(hits, key=lambda d: (d["taxon"], d["acc"])):
             best = "PF01423" if h["type"] == "Sm/Lsm" else "PF17209"
@@ -124,7 +134,7 @@ def main():
     g_hfq = defaultdict(int)
     for h in hits:
         (g_sm if h["type"] == "Sm/Lsm" else g_hfq)[h["acc"]] += 1
-    with (HMM_DIR / "census_genome.tsv").open("w") as f:
+    with (HMM_DIR / f"census_genome{suf}.tsv").open("w") as f:
         f.write("accession\ttaxon\tspecies\tcompleteness\tn_SmLsm\tn_Hfq\n")
         for acc, meta in sorted(man.items(), key=lambda kv: (kv[1]["taxon"], kv[0])):
             f.write(f"{acc}\t{meta['taxon']}\t{meta['species']}\t"
@@ -142,7 +152,7 @@ def main():
     for h in hits:
         sp = h["species"]
         (sp_sm if h["type"] == "Sm/Lsm" else sp_hfq)[sp] += 1
-    with (HMM_DIR / "census_species.tsv").open("w") as f:
+    with (HMM_DIR / f"census_species{suf}.tsv").open("w") as f:
         f.write("species\ttaxon\tn_genomes\thas_SmLsm\thas_Hfq\ttotal_SmLsm_hits\ttotal_Hfq_hits\n")
         for sp in sorted(sp_tax, key=lambda s: (sp_tax[s], s)):
             if not sp:
@@ -162,7 +172,7 @@ def main():
             lin_sp[meta["taxon"]].add(meta["species"])
     for h in hits:
         (lin_sm_g if h["type"] == "Sm/Lsm" else lin_hfq_g)[h["taxon"]].add(h["acc"])
-    with (HMM_DIR / "census_lineage.tsv").open("w") as f:
+    with (HMM_DIR / f"census_lineage{suf}.tsv").open("w") as f:
         f.write("taxon\tn_genomes\tn_species\tgenomes_with_SmLsm\tgenomes_with_Hfq\tassessable\n")
         for tax in sorted(lin_g):
             ng = len(lin_g[tax])
@@ -171,7 +181,7 @@ def main():
                     f"{len(lin_sm_g[tax])}\t{len(lin_hfq_g[tax])}\t{assess}\n")
 
     # ヒット配列を書き出し（§2/§1 用）
-    with (HMM_DIR / "smfold_hits.faa").open("w") as f:
+    with (HMM_DIR / f"smfold_hits{suf}.faa").open("w") as f:
         for h in sorted(hits, key=lambda d: d["protein"]):
             f.write(f">{h['protein']} type={h['type']}\n{seqs.get(h['protein'],'')}\n")
 

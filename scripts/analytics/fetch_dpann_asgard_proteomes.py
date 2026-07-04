@@ -30,6 +30,7 @@ HDR = {"api-key": KEY} if KEY else {}
 DATASETS = "https://api.ncbi.nlm.nih.gov/datasets/v2/genome"
 FTP = "https://ftp.ncbi.nlm.nih.gov/genomes/all"
 OUT = Path(__file__).resolve().parents[2] / "1-downloaded-data"
+# 出力パスは main() で --tag に応じて上書き（既定は DPANN/Asgard）
 PROT_DIR = OUT / "proteomes"
 MANIFEST = OUT / "dpann_asgard_manifest.tsv"
 
@@ -43,6 +44,12 @@ DPANN = [
 ASGARD = [
     "Lokiarchaeia", "Thorarchaeia", "Heimdallarchaeia", "Odinarchaeia",
     "Asgardarchaeota",
+]
+# CPR（Patescibacteria）＝細菌側の縮小ゲノム超門。クラスを門より先に。
+CPR = [
+    "Saccharibacteria", "Candidatus Parcubacteria", "Candidatus Microgenomates",
+    "Gracilibacteria", "Candidatus Absconditabacteria", "Candidatus Dojkabacteria",
+    "Patescibacteria",
 ]
 
 
@@ -184,13 +191,25 @@ def main():
     ap.add_argument("--cap", type=int, default=40, help="1系統あたり取得上限（completeness 上位）")
     ap.add_argument("--min-completeness", type=float, default=80.0)
     ap.add_argument("--max-contamination", type=float, default=5.0)
-    ap.add_argument("--groups", choices=["dpann", "asgard", "both"], default="both")
+    ap.add_argument("--groups", choices=["dpann", "asgard", "both", "cpr"], default="both")
     ap.add_argument("--only", nargs="*")
+    ap.add_argument("--tag", default="dpann_asgard",
+                    help="出力名前空間。cpr で proteomes_cpr/ + cpr_manifest.tsv に分離")
     args = ap.parse_args()
 
+    global PROT_DIR, MANIFEST
+    if args.tag == "cpr":
+        PROT_DIR = OUT / "proteomes_cpr"
+        MANIFEST = OUT / "cpr_manifest.tsv"
+
     PROT_DIR.mkdir(parents=True, exist_ok=True)
-    taxa = args.only or ((DPANN if args.groups in ("dpann", "both") else [])
-                         + (ASGARD if args.groups in ("asgard", "both") else []))
+    if args.only:
+        taxa = args.only
+    elif args.groups == "cpr":
+        taxa = CPR
+    else:
+        taxa = ((DPANN if args.groups in ("dpann", "both") else [])
+                + (ASGARD if args.groups in ("asgard", "both") else []))
 
     rows = []
     seen = set()

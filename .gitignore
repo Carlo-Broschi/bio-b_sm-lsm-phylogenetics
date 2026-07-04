@@ -49,3 +49,5 @@ Thumbs.db
 # ESMFold predicted structures (regenerable via API)
 3-analysis/predicted/
 3-analysis/foldseek_tmp/
+
+1-downloaded-data/proteomes_cpr/
