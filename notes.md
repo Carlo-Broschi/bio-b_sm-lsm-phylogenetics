@@ -502,6 +502,22 @@ design memo §3 の実装。HMMER 3.4 導入。
 
 ---
 
+### 2026-07-04 — DPANN/Asgard ヒットの構造予測検証（査読対策①）
+
+**目的：** HMM（配列プロファイル）で見つけた DPANN/Asgard の Sm/Lsm ヒットが**本物の Sm fold か**を、配列に依存しない構造で独立検証。査読の最大の攻撃点「HMM ヒット＝本物とは限らない」を先に潰す。design memo §3 の Foldseek 活用の実装。
+
+**構造アライメント（済）とは別物**：§2 は実験構造で配列を並べた。ここは**実験構造の無いヒット配列の3D形を予測**して検証する。
+
+**手順：**
+1. `scripts/analytics/predict_smfold_hits.py`：`smfold_hits.faa` の 70件（Asgard 24・Loki 20・Nanoarch 14・Micrarch/Nanohalo/Parvarch 各4、長さ46–142）を **ESMFold（ESMAtlas API、ローカル不要）** で構造予測 → `3-analysis/predicted/*.pdb`、pLDDT 記録。動作確認：Nanoarchaeota ヒットが **mean pLDDT 0.8（高信頼）で Sm fold**。
+2. `scripts/analytics/verify_smfold_foldseek.py`：予測構造を **foldseek** で確定アンカー（1I8F 等 Sm 系）と照合 → TM-score≥0.5 かつ Sm アンカー命中で「Sm fold 確認」。出力 `4-results/smfold_foldseek_verification.tsv`。
+
+**状態：** ESMFold 予測 実行中（PID 64698、API が遅く ~30分超）。完了後に foldseek 照合。予測構造は gitignore（API 再生成可）、スクリプトとサマリのみ追跡。
+
+**期待成果：** *Nanoarchaeum equitans*・Lokiarchaeia 等のヒットが構造でも Sm fold と確定すれば、目玉（DPANN/Asgard にも Sm/Lsm）が**配列（HMM）＋構造（ESMFold+foldseek）の二重証拠**になる。
+
+---
+
 ## 配列リスト
 
 | Accession | Organism | タンパク質 | 備考 |
