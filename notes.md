@@ -471,7 +471,7 @@ design memo §3 の実装。HMMER 3.4 導入。
 
 **主要な発見：**
 1. **全70ヒットが Sm/Lsm 型、Hfq 型ゼロ**。DPANN/Asgard は（Nielsen 2007 の Euryarchaeota *M. jannaschii* 型 Hfq とは異なり）Sm/Lsm 型フォールドを持つ。
-2. ***Nanoarchaeum equitans*（DPANN 基準種）が Sm/Lsm を保持**（1ヒット）。06-22 の BLAST 0ヒット結論を**覆す**＝あの 0 は感度限界だった。Saito 2019 の Clp1 欠如とは対照的に、Sm/Lsm は残存。
+2. ***Nanoarchaeum equitans*（DPANN 基準種）が Sm/Lsm を保持**（1ヒット）。我々の 06-22 BLAST 0ヒットは感度限界だった。**※ただし Willkomm/Reichelt 2018（Fig3）が既に *N. equitans*・一部 DPANN/Asgard の SmAP 保有を提示済み**＝「保持自体」は新発見でない。我々の貢献は completeness 制御の系統的センサス＋構造検証＋CPR 対照（過剰主張回避、2026-07-05 修正）。
 3. **Lokiarchaeia（真核起源に直結）は全 8 genome・4 種が保有**。培養株 *Promethearchaeum syntrophicum*／*Ca. Lokiarchaeum ossiferum* を含む。→ 真核 Sm の起源議論に一次データを提供。
 4. **種レベルでも presence は堅牢**（over-sequencing 中和後も評価可能系統でほぼ普遍）。唯一 *Ca. Flexarchaeum multiprotrusionis*（Asgard, 1 genome）が 0 ヒット＝欠如候補だが単一 genome で弱い。
 5. **評価可能は6系統のみ**。Woesearchaeota 等8系統は completeness≥50 の genome が皆無＝配列決定の現実的限界。**presence は主張可・absence はデータ不足**として正直に報告する。

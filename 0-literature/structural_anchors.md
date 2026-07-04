@@ -66,6 +66,13 @@
 - **その他（要旨/既知レベルで把握、フル精読は優先度低）**：Fischer/Marchfelder 2010（初の古細菌 Lsm-sRNA 結合実証、*Hfx. volcanii*）、Vogel/Luisi 総説（細菌 sRNA と Hfq）、Bläsi 2017（Sso SmAP2 の 3'UTR mRNA 安定性）、Payá 2024/2021（*Hfx. mediterranei* Lsm 機能・ストレス応答）、Sabater-Muñoz 2017（endosymbiont ゲノム進化、CPR baseline）。
 - **⚠ 対象外の混入**：`Structural basis for stop codon recognition in eukaryotes`（eRF1/eRF3 の終止コドン認識）は **Sm/Lsm と無関係**。誤 DL か Claude Science の誤言及の可能性 → 使わない。
 
+## 精読ログ追補（2026-07-05 その2）
+
+- **Collins & Mabbutt 2001（JMB 309:915、A11）原著精読＝1I81 を一次確定**（従来は孫引き）：MtLsmα（*M. thermoautotrophicum* Lsmα）ヘプタマー 2.0Å、径65Å・孔10-15Å。RNA結合スロット＝**Asp44/Asn48(100%保存)/Gly73/Arg72**（+Asp74/Asn75）。**古細菌 Lsm 遺伝子は2型**：(1) Lsmα＝ほぼ全古細菌共通・高保存、(2) Lsmβ/γ＝可変・一部種のみ（＝SmAP1/SmAP2 パラログの起源）。**lsmα は L37e リボソームタンパク遺伝子の直上流で保存オペロン**（Fig5：Pho/Pab/Afu/Mth/Ape）→ Payá&Bonete 2023 の rpl37e シンテニーと独立に一致。**結論「archaeal Lsmα＝最古の Sm/Lsm、Sm domain 進化の手がかり」**＝bio-b framing の原典。M. jannaschii は Lsm 遺伝子ゼロ（Hfq型 SmAP を持つ、Nielsen 2007 と整合）。
+- **⚠⚠ Willkomm/Reichelt/Grohmann 2018（Emerg Top Life Sci 2:647、レビュー）精読＝新規性の修正が必要**：**999 古細菌 Lsm ドメインタンパクの EFI 解析（Fig3）で、DPANN群（*N. equitans*・Woesearchaeota）と Asgard群（Loki/Thor/Heimdall/Odin）が SmAP を持つことを既に提示**。→ **「DPANN/Asgard が Sm/Lsm を持つ」自体は完全新発見でない**（Claude Science「文献ゼロ」・我々「BLAST 0を覆す」は Willkomm 2018 を見落とした過剰主張リスク）。**我々の真の貢献に修正**：(1) completeness 制御の系統的 MAG センサス（Willkomm は代表21生物）、(2) 構造検証 ESMFold+foldseek（Willkomm は配列 EFI のみ）、(3) **CPR 対照（縮小ゲノム細菌は喪失）＝genuinely novel**、(4) Prodigal 交絡除去。SmAP1 は通常 rpl37e とバイシストロニック、**DPANN は smap1-rpl37e 連関の例外**とも記載。RNA結合：Lsm=RGXX motif／Hfq=YKHAI motif。MjaHfq(4X9C)は distal 面が負電荷で poly(A) 結合部位を欠く＝Hfq3サイトのうち一部のみ。
+- **Moran & Bennett 2014（Annu Rev Microbiol、CPR/縮小ゲノム baseline）**：入手済み・未精読（Discussion の「縮小ゲノム細菌で遺伝子喪失」ベースライン用、必要時に該当箇所参照）。
+- **Mura 2003b（Protein Sci、SmAP oligomerization/biophysics、B5）**：入手済み・要旨レベル（構造アンカー価値低、SmAP のオリゴマー化・リガンド結合の溶液生物物理）。
+
 ## 確定作業メモ
 - B群の未抽出 PDB ID（B2 Nielsen, B3 Someya）は各論文の Data deposition / Methods 節に記載。§2 実装時に該当ページ精読 or RCSB で確定。
 - §2 実装：A群10構造の PDB 座標を RCSB REST から取得 → PROMALS3D/Expresso で構造ガイド MSA。3ドメイン・apo/RNA・ヘプタ(7)/ヘキサ(6)を網羅済み。
