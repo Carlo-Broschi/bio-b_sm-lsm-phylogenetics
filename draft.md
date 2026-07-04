@@ -9,17 +9,19 @@
 
 ## Title candidates
 
-- Sm/Lsm proteins are retained across the reduced-genome DPANN and Asgard archaea: a structure-informed phylogenomic reassessment
-- (alt) Widespread retention of the ancestral Sm fold in DPANN and Asgard archaea
+- The Sm fold diverges in fate between reduced-genome archaea and bacteria: a structure-informed phylogenomic census
+- (alt) Reduced-genome archaea retain, but CPR bacteria have lost, the Sm/Lsm fold
+- (alt) A structure-guided phylogeny and reduced-genome distribution of the Sm/Lsm/Hfq superfamily
 
 ---
 
 ## Abstract
 
-<!-- 後で。骨子：Sm/Lsm 超科の3ドメイン系統を現代手法＋構造ガイドで更新。従来「縮小ゲノム
-（DPANN/CPR）は Sm/Lsm を欠く」とされたが、completeness フィルタ＋高感度 HMM＋ab initio 遺伝子
-予測で再検証すると DPANN/Asgard は Sm/Lsm を保持（N. equitans・Lokiarchaeia 含む）。ESMFold+
-foldseek で 55/55 が Sm fold と構造検証。これらは祖先型 Lsm に近く、真核 Sm 起源に一次データを与える。 -->
+<!-- 骨子（統合型）：Sm/Lsm/Hfq 超科の3ドメイン構造ガイド系統を framework とし、その上で
+縮小ゲノム2放散の分布を completeness 制御＋ab initio＋構造検証で census。結果＝古細菌
+（DPANN/Asgard）は Sm/Lsm 保持（既知の定性観察を系統的に定量・構造確認）、細菌 CPR は完全喪失
+（0/397、新規）。→ 縮小ゲノムでも Sm フォールドの運命が domain で分かれるという非対称を確立。
+深部系統は情報律速で scaffold に留める。eukaryogenesis 含意（Lokiarchaeia）は維持。 -->
 
 ---
 
@@ -35,10 +37,12 @@ The most comprehensive phylogenetic study of the Sm/Lsm family to date (Veretnik
 
 ### Aims
 
-1. To reconstruct the phylogeny of the Sm/Lsm family across the three domains of life using current best-practice methods (structure-guided alignment, IQ-TREE3 + MrBayes), updating Veretnik et al. (2009).
-2. To rigorously test whether the reduced-genome DPANN and Asgard archaea encode Sm/Lsm proteins, controlling for genome completeness and annotation gaps, and to verify any detected homologs at the structural level.
+This study is organized as a phylogenetic *framework* plus a comparative-distribution *finding*.
 
-> **Note on scenario (2026-07-04):** an early framing of this project was to *demonstrate the absence* of Sm/Lsm in reduced-genome organisms (following an initial BLAST result of zero hits). Re-analysis with a completeness-filtered, dual-HMM, ab initio gene-prediction pipeline overturned this: DPANN and Asgard archaea in fact **retain** Sm/Lsm. The manuscript is framed around this retention finding.
+1. **Framework** — to place the Sm/Lsm/Hfq superfamily in an updated, structure-guided three-domain phylogeny (IQ-TREE3 + MrBayes; reciprocal archaeal-SmAP / bacterial-Hfq outgroups shared with the companion Hfq study), providing the evolutionary scaffold for the distribution analysis.
+2. **Finding** — to test, with a completeness-controlled, ab-initio-annotated, structurally-verified census, how the Sm fold has fared in the two prokaryotic reduced-genome radiations, and to show that they diverge: reduced-genome **archaea (DPANN, Asgard) retain** the fold whereas the reduced-genome **bacterial radiation (CPR/Patescibacteria) has lost** it.
+
+> **Framing note (updated 2026-07-05).** The project began as an attempt to *demonstrate absence* of Sm/Lsm in reduced-genome organisms (after an initial zero-hit BLAST). Two corrections followed. First, completeness-filtered HMM + ab-initio prediction showed DPANN/Asgard in fact retain the fold. Second — and importantly — a prior EFI-based survey (Reichelt et al. 2018) had already reported Sm-like proteins in representative DPANN/Asgard organisms, so this retention is *confirmed and quantified here, not discovered*. The manuscript's novel core is therefore the **rigorous, structurally-verified distribution and the archaea-vs-bacteria asymmetry**, set within the phylogenetic framework — not a claim of first detection. The deep phylogenetic backbone is data-limited (Section 3.2) and is used as scaffold rather than as the primary result.
 
 ---
 
@@ -76,9 +80,11 @@ To confirm that HMM hits represent genuine Sm folds, each hit sequence was struc
 
 <!-- コンタミ診断（15%）と除去、curated 5,665、型配色木で Hfq/Sm/Lsm/SmAP が分離しコンタミ大ブロックが消えたことを提示（Fig. curated types）。 -->
 
-### 3.2 Structure-guided phylogeny of the Sm/Lsm family
+### 3.2 A structure-guided phylogenetic framework
 
-<!-- 構造ガイド MSA による3ドメイン系統。生配列版との比較（深部支持の改善）。IQ-TREE 完了後に数値。 -->
+We used 19 experimentally determined Sm-fold structures spanning the three domains to build a structure-guided alignment (Section 2.3) and inferred a maximum-likelihood tree as the evolutionary framework for the distribution analysis that follows. Consistent with the short length and high divergence of these proteins, the terminal and mid-depth clades — corresponding to the recognized Sm/Lsm/SmAP/Hfq types — are recovered, whereas the deepest backbone relationships are only weakly supported (as in the companion Hfq analysis, this reflects a data limit rather than a method limit). We therefore treat the tree as a scaffold that assigns each sequence to a fold type and domain, rather than as a resolved deep phylogeny, and interpret the distribution results (Sections 3.3–3.6) within it.
+
+<!-- IQ-TREE 完了後に：選択モデル・logL・UFBoot 分布・生配列版との比較（改善なし/微差）を数値で。型配色図を Fig.1 に。 -->
 
 ### 3.3 DPANN and Asgard archaea retain Sm/Lsm proteins
 
@@ -102,18 +108,17 @@ The two prokaryotic reduced-genome radiations went opposite ways: reduced-genome
 
 ---
 
-## 4. Discussion
-
-- The headline result overturns the intuitive expectation that genome reduction eliminates the Sm/Lsm machinery in archaea: DPANN and Asgard archaea retain the fold, detectable only once completeness filtering, high-sensitivity HMMs and ab initio gene prediction remove the artifacts that make BLAST report absence.
-- The retained archaeal proteins are Sm/SmAP-type (structurally closest to archaeal anchors), consistent with the view that the eukaryotic Sm/Lsm system derives from an archaeal ancestor; presence in Asgard (Lokiarchaeia) provides primary data relevant to eukaryogenesis.
-- The archaea-vs-bacteria contrast (Section 3.6) is the deeper point: the same rigorous, completeness-controlled method yields retention in reduced-genome archaea and clean loss in reduced-genome bacteria (CPR). The archaeal retention is therefore not a generic consequence of the method finding hits everywhere — the negative CPR control demonstrates the pipeline reports true absence when the gene is genuinely gone.
-- <!-- 構造ガイド系統の位置づけ（Veretnik Fig1 との比較、SmAP の系統的位置）。 -->
-- <!-- SmAP1/SmAP2 パラログ史（Nikulin 2020：Sm1 第3位 His vs Thr が SmAP1/2 を分ける残基指標）。 -->
-- Limitations: DPANN/Asgard and non-Saccharibacteria CPR genome quality caps the survey at a subset of lineages; the structure-guided alignment still leaves the deepest backbone data-limited.
+- **Central result — a domain-level asymmetry in Sm-fold fate under genome reduction.** Using one rigorous, completeness-controlled, ab-initio-annotated and structurally-verified pipeline, we find that the two prokaryotic reduced-genome radiations diverge: reduced-genome archaea (DPANN, Asgard) retain the Sm fold, whereas the reduced-genome bacterial radiation (CPR/Patescibacteria) has lost it entirely (0/397, including 393 Saccharibacteria genomes with full ribosomal machinery). The negative CPR result is also an internal control: the pipeline reports true absence when the gene is genuinely gone, so the archaeal retention is not an artifact of a method that "finds hits everywhere."
+- **On novelty and prior work.** That DPANN/Asgard archaea encode Sm-like proteins was already indicated qualitatively (Reichelt et al. 2018); our contribution is the systematic, completeness-controlled, structurally-verified quantification and — the genuinely new element — the contrast with the bacterial CPR loss. We deliberately avoid claiming first detection.
+- **Evolutionary interpretation.** The retained archaeal proteins are Sm/SmAP-type (structurally closest to archaeal anchors), consistent with the eukaryotic Sm/Lsm system deriving from an archaeal ancestor (Collins & Mabbutt 2001; Törő et al. 2001); retention in Asgard (Lokiarchaeia) provides primary data relevant to eukaryogenesis. The bacterial loss is consistent with Hfq's known dispensability under bacterial genome reduction (e.g., endosymbionts; Moran & Bennett 2014), of which CPR is the extreme, radiation-wide case.
+- <!-- SmAP1/SmAP2 パラログ史（Collins 2001 の Lsmα普遍/Lsmβγ可変、Nikulin 2020 の Sm1 第3位 His vs Thr）を系統的形質として。lsmα-L37e オペロン(Collins 2001/Payá 2023)をシンテニー形質に。 -->
+- **Limitations.** Genome quality caps the assessable archaeal lineages to six and the assessable CPR to essentially Saccharibacteria; the structure-guided alignment leaves the deepest backbone data-limited (hence the phylogeny is used as a framework, not a resolved deep tree). The CPR side of the contrast rests chiefly on one well-sampled lineage, which we treat as the decisive test rather than a domain-wide claim.
 
 ---
 
 ## 5. Conclusion
+
+Within an updated, structure-guided phylogenetic framework for the Sm/Lsm/Hfq superfamily, a completeness-controlled and structurally-verified census reveals that the two prokaryotic reduced-genome radiations have taken opposite paths: archaea (DPANN, Asgard) retain the Sm fold, whereas the CPR/Patescibacteria bacteria have lost it. This domain-level asymmetry — quantified rigorously here rather than discovered — is the study's central contribution, with the archaeal retention bearing on the archaeal ancestry of the eukaryotic Sm/Lsm machinery.
 
 ---
 
