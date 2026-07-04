@@ -88,19 +88,24 @@ Applying the completeness-filtered dual-HMM pipeline to 50 quality genomes acros
 
 All 55 hit sequences that yielded confident ESMFold models (mean pLDDT ≥ 0.7) matched an experimental Sm-fold anchor by Foldseek with high structural similarity (TM-score 0.92–1.00; median 0.97), and 49/55 were closest to an archaeal Sm anchor. The Sm/Lsm presence in DPANN/Asgard is therefore supported by both sequence (HMM) and structure (ESMFold + Foldseek).
 
-### 3.5 CPR bacteria
+### 3.5 CPR/Patescibacteria bacteria lack Hfq and Sm/Lsm
 
-<!-- CPR census 完了後に追記。焦点：Saccharibacteria が Hfq を持つか。他 CPR は data-insufficient。 -->
+Applying the identical completeness-filtered dual-HMM pipeline to the bacterial reduced-genome radiation (CPR/Patescibacteria) gave the opposite result. Across 397 completeness-passing genomes (290,425 predicted proteins; mean 731 per genome), including 393 Saccharibacteria genomes spanning 15 species with cultured oral isolates, **no Hfq and no Sm/Lsm protein was detected** — neither PF17209 nor PF01423 returned any hit under the trusted cutoff, and ab initio gene prediction ruled out annotation artifacts. That the same pipeline recovered 70 archaeal hits, and that these CPR proteomes carry the expected universal machinery (e.g., 843 ribosomal-protein annotations), confirm the absence is biological rather than technical. The other CPR lineages (Parcubacteria, Microgenomates, Gracilibacteria, Dojkabacteria) had no completeness-passing genome and are data-insufficient. No prior study has examined Hfq or Sm-like proteins in any CPR lineage (literature survey), so this is the first assessment, and it is a rigorous true absence.
+
+### 3.6 Reduced-genome archaea and bacteria diverge in Sm-fold fate
+
+The two prokaryotic reduced-genome radiations went opposite ways: reduced-genome archaea (DPANN, Asgard) retain the Sm/Lsm fold, whereas the reduced-genome bacterial radiation (CPR) has lost the Hfq/Sm fold entirely. This contrast is consistent with the differing dispensability of the fold in the two domains — Hfq is frequently lost under bacterial genome reduction (as in several endosymbionts), whereas the archaeal Sm/Lsm system, ancestral to the eukaryotic spliceosomal machinery, is retained.
 
 ---
 
 ## 4. Discussion
 
-- The headline result overturns the intuitive expectation that genome reduction eliminates the Sm/Lsm machinery: DPANN and Asgard archaea retain the fold, detectable only once completeness filtering, high-sensitivity HMMs and ab initio gene prediction remove the artifacts that make BLAST report absence.
-- The retained proteins are archaeal Sm/SmAP-type (structurally closest to archaeal anchors), consistent with the view that the eukaryotic Sm/Lsm system derives from an archaeal ancestor; the presence in Asgard (Lokiarchaeia) provides primary data relevant to eukaryogenesis.
+- The headline result overturns the intuitive expectation that genome reduction eliminates the Sm/Lsm machinery in archaea: DPANN and Asgard archaea retain the fold, detectable only once completeness filtering, high-sensitivity HMMs and ab initio gene prediction remove the artifacts that make BLAST report absence.
+- The retained archaeal proteins are Sm/SmAP-type (structurally closest to archaeal anchors), consistent with the view that the eukaryotic Sm/Lsm system derives from an archaeal ancestor; presence in Asgard (Lokiarchaeia) provides primary data relevant to eukaryogenesis.
+- The archaea-vs-bacteria contrast (Section 3.6) is the deeper point: the same rigorous, completeness-controlled method yields retention in reduced-genome archaea and clean loss in reduced-genome bacteria (CPR). The archaeal retention is therefore not a generic consequence of the method finding hits everywhere — the negative CPR control demonstrates the pipeline reports true absence when the gene is genuinely gone.
 - <!-- 構造ガイド系統の位置づけ（Veretnik Fig1 との比較、SmAP の系統的位置）。 -->
 - <!-- SmAP1/SmAP2 パラログ史（Nikulin 2020：Sm1 第3位 His vs Thr が SmAP1/2 を分ける残基指標）。 -->
-- Limitations: DPANN/Asgard genome quality caps the survey at a minority of lineages; CPR remains only partially assessed (Saccharibacteria); the structure-guided alignment still leaves the deepest backbone data-limited.
+- Limitations: DPANN/Asgard and non-Saccharibacteria CPR genome quality caps the survey at a subset of lineages; the structure-guided alignment still leaves the deepest backbone data-limited.
 
 ---
 

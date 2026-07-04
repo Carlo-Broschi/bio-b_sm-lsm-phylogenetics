@@ -1,0 +1,398 @@
+taxon	species	accession	completeness	contamination	source	n_proteins
+Saccharibacteria	Candidatus Minimicrobia sp. QA0096	GCF_963967315.1	89.66		annotated	688
+Saccharibacteria	Candidatus Mycosynbacter amalyticus	GCF_025273655.1	87.77		annotated	1125
+Saccharibacteria	Candidatus Southlakia epibionticum	GCF_030253535.1	86.21		annotated	834
+Saccharibacteria	Candidatus Saccharimonas aalborgensis	GCF_000392435.1	86.05		annotated	1036
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307935.1	86.05		prodigal	715
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312175.1	86.05		prodigal	766
+Saccharibacteria	Candidatus Nanogingivalis gingivitcus	GCF_004151455.1	84.33		annotated	597
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308455.1	84.33		prodigal	710
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306935.1	84.33		prodigal	721
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295795.1	84.33		prodigal	718
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305435.1	84.33		prodigal	765
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312155.1	84.33		prodigal	719
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295735.1	84.33		prodigal	760
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295215.1	84.33		prodigal	723
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306675.1	84.33		prodigal	709
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307745.1	84.33		prodigal	752
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305395.1	84.33		prodigal	719
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307955.1	84.33	1.72	prodigal	785
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306355.1	84.33		prodigal	716
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307075.1	84.33		prodigal	720
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306315.1	84.33		prodigal	681
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296135.1	84.33		prodigal	708
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295235.1	84.33		prodigal	702
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304155.1	84.33		prodigal	723
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307455.1	84.33		prodigal	726
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294615.1	84.33		prodigal	730
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304755.1	84.33		prodigal	711
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296175.1	84.33		prodigal	725
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308015.1	84.33		prodigal	728
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307975.1	84.33		prodigal	705
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294435.1	84.33		prodigal	730
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295615.1	84.33		prodigal	730
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308635.1	84.33		prodigal	722
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308575.1	84.33		prodigal	777
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307875.1	84.33		prodigal	708
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308995.1	84.33		prodigal	812
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295695.1	84.33		prodigal	771
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304395.1	84.33		prodigal	720
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306395.1	84.33		prodigal	708
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305295.1	84.33	0.86	prodigal	735
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306435.1	84.33		prodigal	721
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306055.1	84.33		prodigal	704
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308375.1	84.33		prodigal	656
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307655.1	84.33		prodigal	729
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312075.1	84.33		prodigal	718
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305575.1	84.33		prodigal	726
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295255.1	84.33		prodigal	769
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307055.1	84.33		prodigal	755
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294035.1	84.33		prodigal	681
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304775.1	84.33		prodigal	760
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295475.1	84.33		prodigal	706
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305835.1	84.33		prodigal	735
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295115.1	84.33		prodigal	766
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295555.1	84.33		prodigal	712
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304315.1	84.33		prodigal	718
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057303955.1	84.33		prodigal	711
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305955.1	84.33		prodigal	707
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305895.1	84.33		prodigal	710
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296215.1	84.33		prodigal	774
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296015.1	84.33		prodigal	708
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057309035.1	84.33		prodigal	802
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307535.1	84.33		prodigal	717
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057293995.1	84.33		prodigal	712
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296095.1	84.33		prodigal	733
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308775.1	84.33		prodigal	722
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295755.1	84.33		prodigal	715
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304855.1	84.33		prodigal	681
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307015.1	84.33		prodigal	718
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308655.1	84.33		prodigal	701
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304275.1	84.33		prodigal	773
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294785.1	84.33		prodigal	668
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296075.1	84.33		prodigal	724
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308955.1	84.33		prodigal	804
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311875.1	84.33		prodigal	721
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294275.1	84.33		prodigal	728
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306815.1	84.33		prodigal	721
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306115.1	84.33		prodigal	721
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295635.1	84.33		prodigal	720
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305175.1	84.33	2.59	prodigal	782
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307615.1	84.33		prodigal	698
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306375.1	84.33		prodigal	720
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306195.1	84.33		prodigal	716
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304495.1	84.33	1.72	prodigal	730
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312115.1	84.33		prodigal	765
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304875.1	84.33		prodigal	725
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305415.1	84.33		prodigal	755
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306015.1	84.33		prodigal	763
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306335.1	84.33		prodigal	710
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308755.1	84.33		prodigal	811
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308735.1	84.33		prodigal	797
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295835.1	84.33		prodigal	730
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295595.1	84.33	1.72	prodigal	723
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305335.1	84.33		prodigal	705
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308715.1	84.33		prodigal	718
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304055.1	84.33		prodigal	730
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312275.1	84.33		prodigal	766
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294995.1	84.33		prodigal	735
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304895.1	84.33		prodigal	745
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306155.1	84.33		prodigal	707
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305225.1	84.33		prodigal	703
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304375.1	84.33		prodigal	727
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307915.1	84.33		prodigal	710
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306975.1	84.33		prodigal	758
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304535.1	84.33		prodigal	709
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304295.1	84.33		prodigal	718
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305215.1	84.33		prodigal	720
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306255.1	84.33		prodigal	761
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306835.1	84.33		prodigal	747
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308395.1	84.33		prodigal	713
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311735.1	84.33		prodigal	745
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311895.1	84.33		prodigal	752
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295175.1	84.33		prodigal	712
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304595.1	84.33		prodigal	736
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306755.1	84.33		prodigal	705
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304195.1	84.33		prodigal	723
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306615.1	84.33		prodigal	680
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295375.1	84.33		prodigal	719
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295955.1	84.33		prodigal	728
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305795.1	84.33		prodigal	727
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306855.1	84.33		prodigal	784
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312035.1	84.33		prodigal	741
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306075.1	84.33		prodigal	733
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307235.1	84.33		prodigal	709
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308615.1	84.33		prodigal	723
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294285.1	84.33		prodigal	713
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307735.1	84.33		prodigal	772
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308555.1	84.33		prodigal	744
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306035.1	84.33		prodigal	747
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057293895.1	84.33		prodigal	701
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308135.1	84.33		prodigal	734
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308435.1	84.33		prodigal	793
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294755.1	84.33		prodigal	710
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305315.1	84.33		prodigal	739
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057298775.1	84.33		prodigal	706
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295935.1	84.33		prodigal	726
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305075.1	84.33		prodigal	776
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312095.1	84.33		prodigal	679
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307175.1	84.33		prodigal	729
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304435.1	84.33		prodigal	737
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307995.1	84.33		prodigal	870
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294255.1	84.33		prodigal	743
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306875.1	84.33		prodigal	712
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307855.1	84.33	0.34	prodigal	780
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306175.1	84.33		prodigal	743
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304675.1	84.33		prodigal	717
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306455.1	84.33		prodigal	719
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304475.1	84.33		prodigal	767
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305375.1	84.33	0.34	prodigal	739
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306535.1	84.33		prodigal	709
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308315.1	84.33		prodigal	737
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308835.1	84.33		prodigal	729
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295875.1	84.33		prodigal	731
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304255.1	84.33		prodigal	688
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308915.1	84.33		prodigal	698
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304095.1	84.33		prodigal	707
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307415.1	84.33		prodigal	719
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311355.1	84.33		prodigal	717
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304975.1	84.33		prodigal	741
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311775.1	84.33	0.34	prodigal	787
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057298855.1	84.33		prodigal	731
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305815.1	84.33		prodigal	734
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296375.1	84.33		prodigal	711
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308335.1	84.33		prodigal	763
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311505.1	84.33		prodigal	782
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308355.1	84.33		prodigal	763
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308495.1	84.33		prodigal	725
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304615.1	84.33		prodigal	722
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295715.1	84.33		prodigal	789
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307435.1	84.33		prodigal	773
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308095.1	84.33		prodigal	722
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305515.1	84.33		prodigal	714
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306095.1	84.33		prodigal	687
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307375.1	84.33		prodigal	710
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295855.1	84.33		prodigal	728
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308855.1	84.33		prodigal	761
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307515.1	84.33		prodigal	717
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294215.1	84.33		prodigal	728
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308075.1	84.33		prodigal	639
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294855.1	84.33		prodigal	669
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304035.1	84.33	1.72	prodigal	762
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306295.1	84.33		prodigal	730
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294155.1	84.33		prodigal	827
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305915.1	84.33		prodigal	745
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308515.1	84.33	0.31	prodigal	719
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295455.1	84.33		prodigal	787
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305695.1	84.33		prodigal	747
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296275.1	84.33		prodigal	750
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304575.1	84.33		prodigal	739
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311915.1	84.33		prodigal	705
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305255.1	84.33		prodigal	718
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306735.1	84.33		prodigal	734
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307195.1	84.33		prodigal	732
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305195.1	84.33		prodigal	716
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308175.1	84.33	1.72	prodigal	868
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305135.1	84.33		prodigal	744
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304015.1	84.33		prodigal	752
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311835.1	84.33		prodigal	721
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311575.1	84.17		prodigal	725
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308535.1	84.17		prodigal	720
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312255.1	84.17		prodigal	758
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057298895.1	84.17		prodigal	830
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304695.1	84.01		prodigal	706
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305555.1	84.01		prodigal	704
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296195.1	84.01		prodigal	731
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296335.1	84.01		prodigal	770
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311535.1	84.01		prodigal	760
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304935.1	84.01		prodigal	751
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295775.1	83.98		prodigal	717
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295055.1	83.98		prodigal	685
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305615.1	83.98		prodigal	717
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295975.1	83.98		prodigal	691
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311995.1	83.86		prodigal	685
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305655.1	83.82		prodigal	715
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295915.1	83.75		prodigal	717
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304635.1	83.7		prodigal	717
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307215.1	83.7		prodigal	768
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312135.1	83.7		prodigal	683
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307335.1	83.7		prodigal	727
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311635.1	83.7		prodigal	736
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294415.1	83.64		prodigal	782
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306915.1	83.64		prodigal	688
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295335.1	83.64		prodigal	729
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305855.1	83.54	0.86	prodigal	816
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304735.1	83.46		prodigal	738
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305115.1	83.46	0.86	prodigal	723
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306275.1	83.46		prodigal	724
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307675.1	83.46		prodigal	720
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307125.1	83.46	1.72	prodigal	770
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304555.1	83.32		prodigal	740
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307315.1	83.23		prodigal	760
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295995.1	83.01		prodigal	793
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305875.1	82.76		prodigal	744
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312195.1	82.68	3.45	prodigal	770
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304835.1	82.62		prodigal	730
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307595.1	82.6		prodigal	729
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304955.1	82.6		prodigal	695
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305935.1	82.6		prodigal	711
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295355.1	82.6		prodigal	717
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311555.1	82.6		prodigal	784
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304815.1	82.6		prodigal	725
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307795.1	82.6		prodigal	719
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305715.1	82.6		prodigal	667
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307355.1	82.6		prodigal	736
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296035.1	82.6		prodigal	684
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294015.1	82.6		prodigal	737
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306555.1	82.6		prodigal	705
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306515.1	82.6		prodigal	650
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304215.1	82.6		prodigal	794
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311475.1	82.6		prodigal	745
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308235.1	82.6		prodigal	743
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304455.1	82.6	0.86	prodigal	729
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307775.1	82.6	1.72	prodigal	720
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057293915.1	82.6	0.86	prodigal	732
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295815.1	82.6		prodigal	703
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308475.1	82.6		prodigal	710
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304715.1	82.6		prodigal	741
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308595.1	82.6		prodigal	710
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306575.1	82.6		prodigal	705
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306715.1	82.6	3.45	prodigal	715
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306655.1	82.6		prodigal	738
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306595.1	82.6		prodigal	804
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306215.1	82.6	0.86	prodigal	713
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307715.1	82.6		prodigal	631
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296155.1	82.6	1.72	prodigal	696
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311615.1	82.6		prodigal	751
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294975.1	82.6		prodigal	723
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305355.1	82.6		prodigal	732
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307295.1	82.6		prodigal	735
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305755.1	82.6		prodigal	752
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305595.1	82.6		prodigal	770
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304655.1	82.6		prodigal	849
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305775.1	82.45	2.07	prodigal	778
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308675.1	82.45	3.61	prodigal	792
+Saccharibacteria	Candidatus Microsaccharimonas sp.	GCA_036569465.1	82.26	1.72	annotated	968
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304135.1	82.26		prodigal	725
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304235.1	82.26	2.04	prodigal	712
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306995.1	82.03		prodigal	714
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305035.1	81.97		prodigal	657
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305535.1	81.91		prodigal	736
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306895.1	81.74		prodigal	687
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305095.1	81.74		prodigal	779
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311675.1	81.74		prodigal	755
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_052829825.1	81.58	1.72	prodigal	1070
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057298915.1	81.5	1.72	prodigal	754
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311955.1	81.45	0.47	prodigal	797
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296295.1	81.45	0.16	prodigal	701
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307255.1	81.4		prodigal	753
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306775.1	81.11	1.72	prodigal	784
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295675.1	81.03		prodigal	626
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294735.1	80.88		prodigal	636
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305675.1	80.88		prodigal	757
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295435.1	80.88		prodigal	685
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295895.1	80.88	1.72	prodigal	743
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306405.1	80.88		prodigal	688
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307495.1	80.88		prodigal	643
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304335.1	80.88		prodigal	590
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308275.1	80.88		prodigal	590
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294875.1	80.88		prodigal	697
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308935.1	80.88		prodigal	691
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294655.1	80.88		prodigal	693
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308415.1	80.88		prodigal	616
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294375.1	80.88		prodigal	736
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307695.1	80.88		prodigal	643
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294135.1	80.88		prodigal	697
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307575.1	80.88		prodigal	661
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307115.1	80.88		prodigal	701
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308975.1	80.88	0.86	prodigal	585
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311495.1	80.88		prodigal	695
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305995.1	80.88		prodigal	727
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311655.1	80.88		prodigal	677
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306475.1	80.88		prodigal	706
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305735.1	80.88	3.76	prodigal	724
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305475.1	80.88	0.16	prodigal	757
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296255.1	80.88		prodigal	733
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311415.1	80.88	0.86	prodigal	782
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306235.1	80.72	0.16	prodigal	737
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307815.1	80.56		prodigal	710
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305495.1	80.3		prodigal	683
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308255.1	80.25	0.86	prodigal	778
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308815.1	80.19		prodigal	723
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_052833645.1	80.09		prodigal	734
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312015.1	80.03		prodigal	683
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304415.1	80.02		prodigal	657
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308155.1	80.02		prodigal	635
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311795.1	80.02	0.16	prodigal	799
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304915.1	79.94	2.59	prodigal	744
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057318295.1	79.87		prodigal	772
+Saccharibacteria	Candidatus Nanosyncoccus alces	GCF_004138395.1	79.86		annotated	707
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311385.1	79.55		prodigal	703
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304355.1	79.15		prodigal	694
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305975.1	79.15		prodigal	683
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312215.1	79.15		prodigal	577
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296055.1	79.15		prodigal	705
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307095.1	79.15		prodigal	782
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307395.1	79.15	3.45	prodigal	751
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311695.1	79.15		prodigal	680
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308055.1	79.15	0.16	prodigal	721
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307475.1	78.81	2.59	prodigal	689
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_052830325.1	78.68		prodigal	687
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057309015.1	78.53		prodigal	742
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296115.1	78.53		prodigal	867
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311755.1	78.46	0.16	prodigal	814
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296355.1	78.29	1.72	prodigal	832
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304075.1	78.21	1.72	prodigal	789
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311855.1	77.9		prodigal	772
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308195.1	77.82		prodigal	744
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305635.1	77.66	1.72	prodigal	1010
+Saccharibacteria	Candidatus Nanoperiomorbus periodonticus	GCF_004138445.1	77.59		annotated	650
+Saccharibacteria	uncultured Candidatus Nanosyncoccus sp.	GCA_977052205.1	77.43		prodigal	650
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294915.1	77.43		prodigal	764
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307835.1	77.43		prodigal	667
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307035.1	77.43		prodigal	743
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311975.1	77.16	2.59	prodigal	752
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304175.1	76.72	1.72	prodigal	659
+Saccharibacteria	Candidatus Microsaccharimonas sp.	GCA_036569385.1	76.57		annotated	822
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295095.1	76.57		prodigal	609
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_052831185.1	76.41		prodigal	792
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296315.1	76.18		prodigal	774
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057312055.1	75.99		prodigal	752
+Saccharibacteria	Candidatus Nanoperiomorbus periodonticus	GCF_004138455.1	75.86		annotated	647
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057295655.1	75.86		prodigal	677
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305155.1	75.86		prodigal	711
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308295.1	74.84		prodigal	637
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306955.1	74.84		prodigal	607
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057296235.1	74.84		prodigal	672
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306695.1	74.84	0.86	prodigal	585
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306135.1	74.84		prodigal	703
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294675.1	74.84	1.72	prodigal	619
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308115.1	73.98	0.86	prodigal	735
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311935.1	73.98		prodigal	671
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308795.1	73.28		prodigal	705
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304795.1	73.12		prodigal	703
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307555.1	72.96		prodigal	723
+Saccharibacteria	Candidatus Nanosynsacchari sp. TM7_ANC_38.39_G1_1	GCF_004138385.1	72.83		annotated	750
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306795.1	72.26		prodigal	654
+Saccharibacteria	Candidatus Nanosyncoccus nanoralicus	GCF_004138405.1	72.18	1.72	annotated	517
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311435.1	71.39	0.16	prodigal	584
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308875.1	71.39		prodigal	594
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305275.1	71.11		prodigal	625
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057304105.1	70.69		prodigal	681
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294495.1	70.61		prodigal	611
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294515.1	70.53		prodigal	647
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307155.1	69.84		prodigal	613
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057307895.1	68.81		prodigal	683
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294535.1	68.81		prodigal	551
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057308215.1	67.6		prodigal	627
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057311375.1	67.55	4.31	prodigal	750
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057305015.1	67.08		prodigal	579
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057294095.1	66.93		prodigal	606
+Saccharibacteria	Candidatus Minimicrobia vallesae	GCF_018866205.1	66.19	9.48	annotated	924
+Saccharibacteria	Candidatus Nanosyncoccus sp.	GCA_057306495.1	62.49		prodigal	579
+Saccharibacteria	Candidatus Minimicrobia sp. IHU4	GCA_947086375.1	61.12	3.76	prodigal	880
+Saccharibacteria	Candidatus Minimicrobia naudis	GCF_018866225.1	56.89	1.88	annotated	1135
+Candidatus Absconditabacteria	Candidatus Absconditicoccus praedator	GCF_021057185.1	82.6		annotated	1011
+Candidatus Absconditabacteria	Candidatus Vampirococcus lugosii	GCF_018420025.1	80.88		annotated	1070
+Candidatus Absconditabacteria	Strigamonas methylophilicida	GCA_055692645.1	80.88	3.79	annotated	1623
+Patescibacteria	Candidatus Chazhemtobacterium aquaticus	GCF_009936135.1	80.72		annotated	803

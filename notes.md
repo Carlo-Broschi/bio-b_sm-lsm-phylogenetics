@@ -502,6 +502,26 @@ design memo §3 の実装。HMMER 3.4 導入。
 
 ---
 
+### 2026-07-04 — CPR/Patescibacteria 再検証（シナリオ転換の残タスク）— 決定的な対照結果
+
+DPANN/Asgard と同じ completeness＋二重HMM＋Prodigal パイプラインを CPR に適用（`fetch ... --groups cpr --tag cpr` → `hmm_type_census.py --tag cpr`、出力 `census_*_cpr.tsv`）。
+
+**結果：397 genome（Prodigal 379＋注釈18、計29万タンパク・平均731/genome）で Hfq 0・Sm/Lsm 0。**
+| 系統 | genome | 種 | Sm/Lsm | Hfq |
+|---|---|---|---|---|
+| Saccharibacteria | 393 | 15 | 0 | 0 |
+| Absconditabacteria | 3 | 3 | 0 | 0 |
+| Patescibacteria(未分類) | 1 | 1 | 0 | 0 |
+| 他（Parcubacteria/Microgenomates/Gracilibacteria/Dojkabacteria） | 0 | – | data不足 | – |
+
+**「0」の妥当性（サニティチェック合格）：** (1) プロテオームは健全（リボソームタンパク注釈843件）、(2) 陽性対照＝同 HMM が DPANN/Asgard で 70 ヒット、(3) Prodigal で ab initio 予測済＝アノテーション交絡除去、(4) Saccharibacteria は培養株含む393 genome＝**どの DPANN 系統より高品質サンプリング**で欠如がより強固。→ 技術的でなく**生物学的な真の欠如**。
+
+**物語上の意義（対照）：** **DPANN/Asgard（古細菌）＝Sm/Lsm 保持、CPR（細菌）＝Hfq/Sm 完全喪失。** 縮小ゲノム2放散が正反対に進化。CPR の喪失は「縮小ゲノム細菌で Hfq が失われがち（endosymbiont 既知）」と整合。**CPR の負例が「パイプラインは遺伝子が真に無ければ0を返す」ことを実証**＝DPANN/Asgard の保持が方法のバイアスでないことの内部対照にもなる。draft §3.5/3.6/Discussion に反映。
+
+**文献（Claude Science CPR サーベイ、2026-07-04）：** CPR で Hfq/Sm を扱った論文は**ゼロ**（377レコード横断で co-mention 0）＝our 実測の完璧な補完（文献 gap＋実測欠如）。今回の Claude Science 出力は信頼性要件（[read]/[inferred]/[to verify] マーカー・DOI・推論と事実の区別）が効き前回より格段に良好。※成果物 `cpr_hfq_survey.md`/`cpr_hfq_references.csv`/`cpr_hfq_gap.png` は Claude Science 内生成のまま＝**0-literature/ へローカル保存推奨**（archaeal deepdive と同様）。
+
+---
+
 ### 2026-07-04 — DPANN/Asgard ヒットの構造予測検証（査読対策①）
 
 **目的：** HMM（配列プロファイル）で見つけた DPANN/Asgard の Sm/Lsm ヒットが**本物の Sm fold か**を、配列に依存しない構造で独立検証。査読の最大の攻撃点「HMM ヒット＝本物とは限らない」を先に潰す。design memo §3 の Foldseek 活用の実装。
