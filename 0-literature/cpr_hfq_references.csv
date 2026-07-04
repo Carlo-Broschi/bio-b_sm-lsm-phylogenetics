@@ -1,0 +1,10 @@
+authors,year,journal,doi,maps_to,evidence,relevance
+Brown et al.,2015,Nature,10.1038/nature14486,Q1/Q3,inferred,"Foundational CPR genomes; describes unusual biology (self-splicing introns, unusual ribosomes) across >15% of bacterial diversity — baseline for what CPR genomes encode."
+Hug et al.,2016,Nature Microbiology,10.1038/nmicrobiol.2016.48,Q3,inferred,The tree of life placing CPR/Patescibacteria as a major bacterial radiation; phylogenetic framing.
+Parks et al.,2017,Nature Microbiology,10.1038/s41564-017-0012-7,Q1,inferred,"~8,000 MAGs substantially expanding CPR sampling; the genome resource any census would draw on."
+Danczak et al.,2017,Microbiome,10.1186/s40168-017-0331-1,Q1/Q2,read,"CPR members functionally uniform, generally obligate fermenters; little functional diversity — context for reduced regulatory needs."
+Grosjean et al.,2014,PLoS Genetics,10.1371/journal.pgen.1004363,Q2,read,Minimal translation apparatus in Mollicutes (Mycoplasma) under massive genome reduction; core RNA machinery retained.
+Moran & Bennett,2014,Annual Review of Microbiology,10.1146/annurev-micro-091213-112901,Q2,inferred,"The tiniest genomes (Carsonella, Nasuia); reference on extreme endosymbiont reduction."
+Martínez-Cano et al.,2015,Frontiers in Microbiology,10.3389/fmicb.2014.00742,Q2,read,Comparative genomics of small prokaryotic genomes; free-living vs endosymbiont reduction mechanisms.
+Hansen & Degnan,2014,ISME Journal,10.1038/ismej.2014.121,Q2,inferred,Conserved small RNAs widely expressed in a small symbiont genome (Buchnera-type) — sRNA regulation persists in reduced genomes; Hfq status is the open comparative question.
+Sabater-Muñoz et al.,2017,ISME Journal,10.1038/ismej.2017.18,Q2,inferred,Chance and necessity in endosymbiont genome evolution; gene-loss trajectories.
