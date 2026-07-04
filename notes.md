@@ -496,6 +496,10 @@ design memo §3 の実装。HMMER 3.4 導入。
 
 **位置づけ：** design memo §2 の実体。生配列 MAFFT の trim（1097×196）を置換する "本番" アライメント。次段は IQ-TREE3（+ MrBayes）を `smlsm_structguided_trim.fasta` で実行し、生配列版と樹形・深部支持を比較。
 
+**IQ-TREE3 実行中（2026-07-04 起動、PID 64151）：** `-s smlsm_structguided_trim.fasta -m TEST -B 1000 -T AUTO`、prefix `4-results/smlsm_tree_structguided`。~7時間見込み。完了後の確認事項：
+- 生配列版（Q.INSECT+G4、UFBoot 48%≥95）との**深部支持の比較**（構造ガイドで改善するか＝§2 の狙い）。
+- 型配色（`plot_biob_types.R` を構造ガイド木に適用）で主要型クレードの分離が向上するか。
+
 ---
 
 ## 配列リスト
