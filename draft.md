@@ -131,7 +131,7 @@ Within an updated, structure-guided phylogenetic framework for the Sm/Lsm/Hfq su
 | Figure | Caption | Status |
 |--------|---------|--------|
 | Fig. 1 | Structure-guided Sm/Lsm phylogeny across three domains, tips colored by type (Hfq / SmAP / Lsm / Sm-core). | Curated-tree version rendered (`4-results/smlsm_curated_types.pdf`); structure-guided tree pending |
-| Fig. 2 | (A) Sm-fold distribution across reduced-genome radiations: DPANN/Asgard archaea retain Sm/Lsm (high per-lineage fraction) while CPR bacteria have lost it (0/393 Saccharibacteria etc.); (B) structural verification — all 55 archaeal ESMFold hits match a Sm-fold anchor by Foldseek (TM-score ≥ 0.92, median 0.96). | **Rendered** (`4-results/fig_distribution_verification.pdf`) |
+| Fig. 2 | (A) Sm-fold distribution across reduced-genome radiations: DPANN/Asgard archaea retain Sm/Lsm (high per-lineage fraction) while CPR bacteria have lost it (0/393 Saccharibacteria etc.); (B) structural verification — all 55 archaeal ESMFold hits match a Sm-fold anchor by Foldseek (TM-score ≥ 0.92, median 0.97). | **Rendered** (`4-results/fig_distribution_verification.pdf`) |
 
 ## Tables
 

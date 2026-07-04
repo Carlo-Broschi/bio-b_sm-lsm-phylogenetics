@@ -73,7 +73,7 @@ axB.set_ylabel("archaeal hits (n=55)", fontsize=10)
 axB.set_title("B  Structural verification of archaeal hits",
               fontsize=11, loc="left", weight="bold")
 axB.text(0.945, axB.get_ylim()[1] * 0.9,
-         "all 55 hits ≥0.92\n(median 0.96)\n→ genuine Sm fold",
+         "all 55 hits ≥0.92\n(median 0.97)\n→ genuine Sm fold",
          fontsize=9, ha="center", color="#333")
 for sp in ("top", "right"):
     axB.spines[sp].set_visible(False)
