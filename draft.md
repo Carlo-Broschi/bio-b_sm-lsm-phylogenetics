@@ -17,11 +17,7 @@
 
 ## Abstract
 
-<!-- 骨子（統合型）：Sm/Lsm/Hfq 超科の3ドメイン構造ガイド系統を framework とし、その上で
-縮小ゲノム2放散の分布を completeness 制御＋ab initio＋構造検証で census。結果＝古細菌
-（DPANN/Asgard）は Sm/Lsm 保持（既知の定性観察を系統的に定量・構造確認）、細菌 CPR は完全喪失
-（0/397、新規）。→ 縮小ゲノムでも Sm フォールドの運命が domain で分かれるという非対称を確立。
-深部系統は情報律速で scaffold に留める。eukaryogenesis 含意（Lokiarchaeia）は維持。 -->
+The Sm/Lsm/Hfq superfamily builds the RNA-associated toroidal rings that underlie processes from eukaryotic pre-mRNA splicing to bacterial small-RNA regulation, and its distribution across the three domains bears on the archaeal ancestry of the eukaryotic spliceosome. Using structures from all three domains, we built a structure-guided alignment and an updated phylogenetic framework for the superfamily, and on that scaffold we asked how the Sm fold has fared in the two prokaryotic reduced-genome radiations. A completeness-controlled census — using dual profile-HMMs (Sm/Lsm PF01423 and Hfq PF17209), ab initio gene prediction to remove annotation gaps, and structural verification of hits by ESMFold and Foldseek — shows that the radiations diverge. Reduced-genome archaea (DPANN and Asgard, including *Nanoarchaeum equitans* and cultured Lokiarchaeia) retain the Sm fold in every quality-genome lineage examined, with all 55 confidently modelled hits matching an experimental Sm-fold anchor (TM-score ≥ 0.92); this retention, indicated qualitatively by earlier work, is quantified and structurally verified here. In contrast, the bacterial CPR/Patescibacteria radiation has lost the fold entirely: no Hfq or Sm/Lsm protein was found in 397 quality genomes (including 393 Saccharibacteria with otherwise complete ribosomal machinery), a clean negative that also serves as an internal control on the method. The Sm fold thus shows a domain-level asymmetry in its fate under genome reduction — retained in archaea, lost in the bacterial CPR — establishing rigorously a contrast not previously drawn.
 
 ---
 
@@ -76,9 +72,11 @@ To confirm that HMM hits represent genuine Sm folds, each hit sequence was struc
 
 ## 3. Results
 
-### 3.1 A curated, contamination-controlled Sm/Lsm dataset
+### 3.1 A curated, contamination-controlled reference dataset
 
-<!-- コンタミ診断（15%）と除去、curated 5,665、型配色木で Hfq/Sm/Lsm/SmAP が分離しコンタミ大ブロックが消えたことを提示（Fig. curated types）。 -->
+Gene-name–based retrieval of 6,103 sequences proved substantially contaminated: colour-coding an initial tree showed ~15% of tips to be unrelated proteins recruited by symbol-similar names — for example, `SmG[Gene Name]` matched hundreds of "Smaug"/SAM-domain proteins, and `SmAP[Gene Name]` returned eukaryotic "Small Acidic Protein" entries and no genuine archaeal Sm at all. After removing these with a curated description filter and substituting a manually curated set of archaeal Sm sequences, 5,665 clean sequences remained; length-filtering (50–150 aa) and 90% clustering reduced this to 1,107 representatives for alignment.
+
+To confirm the curation, we mapped protein type onto the resulting tree (Fig. 1): the four expected assemblages — bacterial Hfq (231 tips), archaeal SmAP (27), eukaryotic Lsm (499) and eukaryotic Sm-core (335) — separate cleanly, with the paralogue-specific subclades expected for each. Only five tips (0.5%) remained unclassifiable, and no large block of misplaced contaminants persisted, in contrast to the 15% seen before curation. Consistent with the reciprocal-outgroup design, the bacterial Hfq clade is distinct while the archaeal SmAP sequences fall among the eukaryotic Sm/Lsm assemblages rather than with Hfq, as expected if archaeal Sm is ancestral to the eukaryotic system.
 
 ### 3.2 A structure-guided phylogenetic framework
 
