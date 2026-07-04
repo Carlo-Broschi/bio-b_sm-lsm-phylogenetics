@@ -45,3 +45,7 @@ Thumbs.db
 
 # raw PDB structures (regenerable from RCSB by ID)
 3-analysis/structures/
+
+# ESMFold predicted structures (regenerable via API)
+3-analysis/predicted/
+3-analysis/foldseek_tmp/
