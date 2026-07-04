@@ -581,7 +581,8 @@ design memo §3 の実装。HMMER 3.4 導入。
 ### 論文方針（bio-b）
 - 先行研究：Veretnik et al. (2009, PLoS Comput Biol)、PhyML による最尤法
 - 方法論的改善：IQ-TREE3 + MrBayes、新モデル、最新データ、構造ガイド MSA、HMM 分布センサス
-- 新規性の核心：DPANN/Asgard における Sm/Lsm 分布の実証（completeness フィルタ＋Prodigal＋二重 HMM）→ 縮小ゲノム進化・eukaryogenesis の文脈で論じる
+- **⚡シナリオ転換（2026-07-04）：当初の顔は「DPANN/CPR での Sm/Lsm 欠落の実証」だった（BLAST 0ヒット）。だが completeness フィルタ＋二重HMM＋Prodigal で再探索したところ DPANN/Asgard は Sm/Lsm を保持していた（*N. equitans* 含む・Lokiarchaeia 全数、ESMFold+foldseek で 55/55 が Sm fold と構造検証済）。旧「欠落」は BLAST の感度限界。→ 顔を「欠落の実証」から「予想外の保持＝祖先型 Lsm・真核 Sm 起源への一次データ」へ転換。**
+- 新規性の核心（現在）：DPANN/Asgard における Sm/Lsm **保持**の実証（配列 HMM ＋構造 ESMFold/foldseek の二重証拠）＋祖先型 Lsm としての eukaryogenesis 含意（Lokiarchaeia）。※CPR は未再検証（旧 BLAST 0 のまま＝残タスク）。
 
 ## 参考文献メモ
 
