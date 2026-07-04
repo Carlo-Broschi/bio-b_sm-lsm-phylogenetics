@@ -9,7 +9,7 @@
 | A1 | Kambach et al. 1999 (Cell) | 10.1016/s0092-8674(00)80550-4 | **1D3B / 1B34** | ヒト Sm D3B / D1D2（Sm fold 基準） | 本文精読 |
 | A2 | Weber & Wahl 2010 (EMBO J) | 10.1038/emboj.2010.295 | **3PGW** | ヒト U1 snRNP + snRNA, 4.4 Å | PDBe（本文精読で 4.4 Å・7 Sm 蛋白は一次確認、ID は末尾脚注のため PDBe 据置） |
 | A3 | Mura & Eisenberg 2001 (PNAS) | 10.1073/pnas.091102298 | **1I8F** | *P. aerophilum* SmAP1 7量体, 1.75 Å | **本文精読（脚注 "PDB ID code 1I8F"）** |
-| A4 | **Törő et al. 2001 (EMBO J)** | 10.1093/emboj/20.9.2293 | **1I5L**（apo）/ **1I4K**（+U5 RNA） | *A. fulgidus* AF-Sm1 7量体 | **本文精読（p.2301）** |
+| A4 | **Törő et al. 2001 (EMBO J)** | 10.1093/emboj/20.9.2293 | **1I5L**（apo）/ **1I4K**（+U5 RNA） | *A. fulgidus* AF-Sm1 7量体（径65Å・厚30Å・中央孔13Å）| **✅原著精読済（2026-07-05、PDF入手）** |
 | A5 | Törő & Suck 2002 (JMB) | 10.1016/s0022-2836(02)00406-0 | **1LJO**（AF-Sm2, 6量体） | *A. fulgidus* Sm2 ヘキサマー, 1.95 Å | RCSB。AF-Sm1 7量体は B4 |
 | A6 | Thore & Suck 2003 (JBC) | 10.1074/jbc.m207685200 | **1H64**（apo）/ **1M8V**（+U7 RNA） | *P. abyssi* PA-Sm1 7量体（±ウリジン） | **本文精読（脚注 "1H64 and 1M8V"）。1H64=apo は新規追加** |
 | A7 | **Mura & Eisenberg 2003 (PNAS)** | 10.1073/pnas.0538042100 | **1M5Q** | *P. aerophilum* **SmAP3 14量体**（Sm+CTD, Cd²⁺依存） | **本文精読** |
@@ -57,6 +57,14 @@
 - **Sauter 2003 Table 2（RMSD）**：`1KQ1`/`1KQ2`（S. aureus Hfq）・`1I4K`/`1I5L`（AF-Sm1）・`1LJO`・`1I8F`・`1M8V`・`1I81`・`1D3B`/`1B34` を同一表で照合。加えて M. jannaschii に Sm/Lsm 遺伝子を欠くまま Hfq様ホモログを同定（YKHAI モチーフ）＝§C-1（Nielsen 2007）を独立補強。
 
 → A1・A3・A4・A5・A6・A9・A11 は複数一次ソースで確定。**A2（3PGW）のみ ID が末尾脚注依存で PDBe 据置**、A4 論文本体は権限で未入手だが 1I4K/1I5L は他2論文の表で確定。
+
+## 精読ログ追補（2026-07-05、Claude Science 言及の追加文献）
+
+- **Payá & Bonete 2023（Microorganisms 11:1196）＝我々の census の比較基準（原著精読）**：UniProt 手動収集で **109古細菌種・163 Lsm タンパク**。**全ゲノムが 1〜3 Lsm を保有**（欠如ゼロ）。コピー数分布：**Nanoarchaeota 100%が単一 Lsm**／Euryarchaeota 74%が1・23%が2／**Crenarchaeota は多パラログ（65%が2、23%が3）**。2つのMW群（54-105残基 vs 139-164残基、後者はほぼ Crenarchaeota 限定）。遺伝子環境：Lrp/AsnC・MarR 転写因子、PUA ドメイン RNA結合タンパク、**リボソーム L37e（rpl37e）**隣接（Halobacteria では lsm と rpl37e が重複・共転写）。RNA結合残基（P. abyssi）＝**His37/Asn39/Arg63**（内部ポケット）、Lys22/Asp35/Asn39/Arg63 が>90%保存。→ **我々の census（MAG ベースで DPANN/Asgard へ拡張）と相補**：Payá は培養古細菌で「全て 1-3 Lsm」、我々は未培養 DPANN/Asgard でも保持を確認し、さらに CPR(細菌)で喪失を対比。**Nanoarchaeota が Payá で 100%単一 Lsm ＝我々の Nanoarchaeota 14/16 と整合**。
+- **Törő 2001（A4）原著精読**：ウリジンポケット **His37・Asn39・Arg63**（loop3/5）。uracil を His37/Arg63 でサンドイッチ、Asn39（普遍保存）が O4/N3 と水素結合（Asp35 と Gly64 主鎖が Asn39 の向きを固定＝U特異性）、隣接サブユニットの Met38。**Sm fold ＋ Sm core 構築 ＋ RNA結合様式が古細菌↔真核で保存**（Cα rmsd ~0.6Å vs ヒト D3）＝古細菌 Sm を真核 Sm core のモデルにする根拠の原典。C2'-endo リボース必須。AF-Sm1/Sm2 は in vivo で RNase P RNA と会合。→ **ウリジンポケット His/Asn/Arg は Törő2001・Thore2003・Payá2023・Nikulin2020/21 の4論文で確定**。
+- **Mura 2013（RNA Biol 総説、原著精読）framing**：Sm/Lsm/SmAP/Hfq は2002年に統一。**用語指針＝「Sm1/Sm2 motif は構造・進化的に区別する証拠がない」ので proximal(L3面)/distal(L4面) で呼ぶ**（本論文執筆時の用語に採用推奨）。Sm core ~60-70残基、N末αヘリックスは「inessential・多くの Sm 配列で欠く」＝定義的特徴でない。SmAP はオリゴマー可塑性（単環ヘキサ/ヘプタ・多環・高次集合）。L4=distal 面＝Hfq の A-rich RNA 部位。**「古細菌は Sm 生物学の missing link かつ opportunity」**＝bio-b の Introduction/Discussion の framing に使える。Sm fold はウイルスにも（Herpesvirus saimiri・cyanophage Sm・Brome mosaic virus が host Lsm1-7 を利用）＝Kim 2025 ファージ fold の先行文脈。
+- **その他（要旨/既知レベルで把握、フル精読は優先度低）**：Fischer/Marchfelder 2010（初の古細菌 Lsm-sRNA 結合実証、*Hfx. volcanii*）、Vogel/Luisi 総説（細菌 sRNA と Hfq）、Bläsi 2017（Sso SmAP2 の 3'UTR mRNA 安定性）、Payá 2024/2021（*Hfx. mediterranei* Lsm 機能・ストレス応答）、Sabater-Muñoz 2017（endosymbiont ゲノム進化、CPR baseline）。
+- **⚠ 対象外の混入**：`Structural basis for stop codon recognition in eukaryotes`（eRF1/eRF3 の終止コドン認識）は **Sm/Lsm と無関係**。誤 DL か Claude Science の誤言及の可能性 → 使わない。
 
 ## 確定作業メモ
 - B群の未抽出 PDB ID（B2 Nielsen, B3 Someya）は各論文の Data deposition / Methods 節に記載。§2 実装時に該当ページ精読 or RCSB で確定。
