@@ -6,7 +6,7 @@
 # --- 手法ツール ---
 10.1093/bioinformatics/btl158     # CD-HIT (Li & Godzik 2006)
 10.1093/molbev/mst010             # MAFFT (Katoh & Standley 2013)
-10.1101/2024.08.01.606130         # FoldMason (Gilchrist et al. 2024) ※preprint
+10.1126/science.ads6733             # FoldMason (Gilchrist et al. 2026, Science 391:485-488) [peer-reviewed版に差替 2026-07-05]
 10.1093/molbev/msag117            # IQ-TREE3 (Wong et al. 2026)
 10.1038/nmeth.4285                # ModelFinder (Kalyaanamoorthy et al. 2017)
 10.1093/molbev/msx281             # UFBoot2 (Hoang et al. 2018)

@@ -60,7 +60,7 @@ Curated sequences were length-filtered to 50–150 aa (retaining the ~76-aa Sm c
 
 ### 2.3 Structure-guided multiple sequence alignment
 
-Because Sm/Lsm/Hfq proteins are short and highly divergent across domains, plain sequence alignment is unreliable at deep nodes (a straightforward MAFFT alignment expanded to ~92% gaps). A structural reference was therefore built from 19 experimentally determined Sm-fold structures spanning all three domains (eukaryotic Sm/U1 snRNP, archaeal SmAP, bacterial Hfq; PDB accessions listed in Table S1). These were structurally aligned with FoldMason (Gilchrist et al. 2024) and dereplicated (CD-HIT 95%) into a 25-sequence structural seed, which was used to guide alignment of the full sequence set with MAFFT (`--seed`). After occupancy trimming, the analysis alignment comprised 1,101 sequences × 184 columns, with a structurally-defined core of ~76 columns corresponding to the Sm fold.
+Because Sm/Lsm/Hfq proteins are short and highly divergent across domains, plain sequence alignment is unreliable at deep nodes (a straightforward MAFFT alignment expanded to ~92% gaps). A structural reference was therefore built from 19 experimentally determined Sm-fold structures spanning all three domains (eukaryotic Sm/U1 snRNP, archaeal SmAP, bacterial Hfq; PDB accessions listed in Table S1). These were structurally aligned with FoldMason (Gilchrist et al. 2026) and dereplicated (CD-HIT 95%) into a 25-sequence structural seed, which was used to guide alignment of the full sequence set with MAFFT (`--seed`). After occupancy trimming, the analysis alignment comprised 1,101 sequences × 184 columns, with a structurally-defined core of ~76 columns corresponding to the Sm fold.
 
 ### 2.4 Phylogenetic analysis
 
