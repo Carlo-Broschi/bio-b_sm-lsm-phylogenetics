@@ -23,7 +23,9 @@
 | 最良アンカー古細菌Sm | 49/55 | verification tsv（1I5L14+1I4K11+1M5Q9+1I8F8+1M8V4+1H64 3） | ✅ |
 | CPR census | 0/397（Saccha 393）、リボソーム注釈843 | census_lineage_cpr.tsv / proteomes_cpr | ✅ |
 | Payá&Bonete 比較 | 109種・163 Lsm | Payá&Bonete 2023 原著（精読済） | ✅ |
-| §3.2 系統樹の数値 | **未確定** | 構造ガイド IQ-TREE 実行中（完了後に記入） | ⏳ |
+| §3.2 構造ガイド木 | 1101×184、Q.INSECT+G4、logL −81864、UFBoot≥95 470/1092(43%)、非収束 | smlsm_tree_structguided.iqtree/.contree | ✅ |
+| §3.2 生配列版対照 | 196 sites、UFBoot≥95 519/1087(48%)、非収束（構造ガイドで改善せず） | smlsm_tree_curated_nr90.contree | ✅ |
+| Fig.1 型内訳（構造ガイド木） | Hfq231/SmAP27/Lsm498/Sm335/Other10(~1%) | smlsm_structguided_types + biob_tip_types.tsv | ✅ |
 
 ## 自己 QC で見つけて修正した不整合（レビュアーへの申し送り）
 - **TM-score 中央値**：図・caption が「0.96」、本文§3.4 が「0.97」で不整合。正確な中央値＝0.967(≈0.97)。→ 図(`plot_distribution_figure.py`)と Fig.2 caption を **0.97 に統一済み**（2026-07-05）。
