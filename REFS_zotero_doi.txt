@@ -23,6 +23,7 @@
 # --- ドメイン・生物学 ---
 10.1371/journal.pcbi.1000315      # Veretnik et al. 2009 (Sm/Lsm early evolution, 元ネタ)
 10.1042/etls20180034              # Reichelt/Grohmann/Willkomm 2018 (archaeal Lsm/Hfq review, 新規性の位置づけ)
+10.1515/hsz-2023-0215              # Reichelt et al. 2023 (PfuSmAP1 機能, Biol Chem 404:1085)
 10.3390/microorganisms11051196    # Payá & Bonete 2023 (109古細菌 Lsm census, 比較基準)
 10.1006/jmbi.2001.4693            # Collins & Mabbutt 2001 (MtLsmα 1I81, archaeal Lsm=最古)
 10.1093/emboj/20.9.2293           # Törő et al. 2001 (AF-Sm1, 古細菌↔真核 Sm 保存)

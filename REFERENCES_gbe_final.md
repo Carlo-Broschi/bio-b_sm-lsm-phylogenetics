@@ -19,8 +19,9 @@
 15. Parks DH, Imelfort M, Skennerton CT, Hugenholtz P, Tyson GW. 2015. CheckM: assessing the quality of microbial genomes recovered from isolates, single cells, and metagenomes. Genome Research. 25(7):1043–1055. https://doi.org/10.1101/gr.186072.114
 16. Payá G, Bautista V, Camacho M, Esclapez J, Bonete M-J. 2023. Comprehensive bioinformatics analysis of the biodiversity of Lsm proteins in the Archaea domain. Microorganisms. 11(5):1196. https://doi.org/10.3390/microorganisms11051196
 17. Reichelt R, Grohmann D, Willkomm S. 2018. A journey through the evolutionary diversification of archaeal Lsm and Hfq proteins. Emerging Topics in Life Sciences. 2(4):647–657. https://doi.org/10.1042/etls20180034
-18. Ronquist F et al. 2012. MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space. Systematic Biology. 61(3):539–542. https://doi.org/10.1093/sysbio/sys029
-19. Sun X, Zhulin I, Wartell RM. 2002. Predicted structure and phyletic distribution of the RNA-binding protein Hfq. Nucleic Acids Research. 30(17):3662–3671. https://doi.org/10.1093/nar/gkf508
-20. Törő I et al. 2001. RNA binding in an Sm core domain: X-ray structure and functional analysis of an archaeal Sm protein complex. The EMBO Journal. 20(9):2293–2303. https://doi.org/10.1093/emboj/20.9.2293
-21. Veretnik S, Wills C, Youkharibache P, Valas RE, Bourne PE. 2009. Sm/Lsm genes provide a glimpse into the early evolution of the spliceosome. PLoS Computational Biology. 5(3):e1000315. https://doi.org/10.1371/journal.pcbi.1000315
-22. Wong TKF et al. 2026. IQ-TREE 3: phylogenomic inference software using complex evolutionary models. Molecular Biology and Evolution. 43(5). https://doi.org/10.1093/molbev/msag117
+18. Reichelt R et al. 2023. The archaeal Lsm protein from Pyrococcus furiosus binds co-transcriptionally to poly(U)-rich target RNAs. Biological Chemistry. 404(11-12):1085–1100. https://doi.org/10.1515/hsz-2023-0215
+19. Ronquist F et al. 2012. MrBayes 3.2: efficient Bayesian phylogenetic inference and model choice across a large model space. Systematic Biology. 61(3):539–542. https://doi.org/10.1093/sysbio/sys029
+20. Sun X, Zhulin I, Wartell RM. 2002. Predicted structure and phyletic distribution of the RNA-binding protein Hfq. Nucleic Acids Research. 30(17):3662–3671. https://doi.org/10.1093/nar/gkf508
+21. Törő I et al. 2001. RNA binding in an Sm core domain: X-ray structure and functional analysis of an archaeal Sm protein complex. The EMBO Journal. 20(9):2293–2303. https://doi.org/10.1093/emboj/20.9.2293
+22. Veretnik S, Wills C, Youkharibache P, Valas RE, Bourne PE. 2009. Sm/Lsm genes provide a glimpse into the early evolution of the spliceosome. PLoS Computational Biology. 5(3):e1000315. https://doi.org/10.1371/journal.pcbi.1000315
+23. Wong TKF et al. 2026. IQ-TREE 3: phylogenomic inference software using complex evolutionary models. Molecular Biology and Evolution. 43(5). https://doi.org/10.1093/molbev/msag117
