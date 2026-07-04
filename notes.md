@@ -550,7 +550,7 @@ DPANN/Asgard と同じ completeness＋二重HMM＋Prodigal パイプラインを
 - **Hfq 喪失一次文献**：Sun, Zhulin & Wartell 2002（NAR 30:3662）を Discussion に追加。
 - **Table 1 レンダリング**：`census_lineage{,_cpr}.tsv` から lineage 別カウント＋completeness の実表を draft に埋込（display items 2→3）。Fig.1 の in-plot タイトルを "Structure-guided ... framework tree" に修正・CMYK TIFF 再変換。
 - **GBE 投稿パッケージ**（`Biology/_gbe_submission/`）：submission.md・参考文献リスト（DOI 全検証・GBE 著者年式）・CMYK 300dpi TIFF・compliance（全上限クリア：abstract 223w/title 114字/本文 2440w/refs 9）。Significance statement・Data Availability 追加済。参考文献は `REFS_zotero_doi.txt`（21件、全 DOI 検証）で Zotero 一括投入可能。
-- **残る手作業**：repo public化 or Zenodo DOI／Zotero 整形／FoldMason 引用の出版版差替。
+- **残る手作業**：Zotero 整形のみ。【完了】repo public化＋Zenodo DOI（bio-a 10.5281/zenodo.21197822、bio-b 10.5281/zenodo.21197824、相互リンク済）; FoldMason 引用→Science 2026 差替済。
 
 ---
 

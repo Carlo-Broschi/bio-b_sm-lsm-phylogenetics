@@ -59,8 +59,8 @@ Sm-fold PDB structures, and ESMFold + Foldseek structural verification of hits.
 ## Data and code availability
 
 All analysis code and derived data are in this repository. Genome and sequence
-accessions are listed in the manuscript's supplementary material. A DOI-bearing
-archive (Zenodo) will be minted at submission.
+accessions are listed in the manuscript's supplementary material. Archived at Zenodo:
+doi:10.5281/zenodo.21197824 (this study) and doi:10.5281/zenodo.21197822 (companion Hfq study).
 
 ## Author
 

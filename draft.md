@@ -128,7 +128,7 @@ Within an updated, structure-guided phylogenetic framework for the Sm/Lsm/Hfq su
 
 ## Data Availability
 
-Reference sequences were retrieved from NCBI RefSeq; DPANN/Asgard/CPR genomes via the NCBI Datasets API (accessions in the manifests). The curated sequence set, structure-guided alignment, tree files, HMM profiles (PF01423, PF17209), the census output tables, ESMFold-predicted structures and Foldseek verification, the structural-anchor PDB list, and all analysis and figure-generating scripts are available in the project repository (https://github.com/Carlo-Broschi/bio-b_sm-lsm-phylogenetics). Bulk downloaded proteomes and predicted structures are regenerable from accession numbers via the provided scripts. <!-- 投稿時：private→public 化、または Zenodo deposit で DOI 付与。 -->
+Reference sequences were retrieved from NCBI RefSeq; DPANN/Asgard/CPR genomes via the NCBI Datasets API (accessions in the manifests). The curated sequence set, structure-guided alignment, tree files, HMM profiles (PF01423, PF17209), the census output tables, ESMFold-predicted structures and Foldseek verification, the structural-anchor PDB list, and all analysis and figure-generating scripts are available in the project repository (https://github.com/Carlo-Broschi/bio-b_sm-lsm-phylogenetics) and archived at Zenodo under DOI [10.5281/zenodo.21197824](https://doi.org/10.5281/zenodo.21197824). Bulk downloaded proteomes and predicted structures are regenerable from accession numbers via the provided scripts. The companion Hfq study, which supplies the bacterial Hfq outgroup used here, is archived at [10.5281/zenodo.21197822](https://doi.org/10.5281/zenodo.21197822).
 
 ---
 
