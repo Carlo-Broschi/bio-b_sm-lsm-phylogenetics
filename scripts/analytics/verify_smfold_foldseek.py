@@ -25,12 +25,15 @@ def main():
     preds = list(PRED.glob("*.pdb"))
     if not preds:
         raise SystemExit("予測構造がありません。predict_smfold_hits.py を先に。")
+    # ANCHOR 直下の foldmason 残骸 tmp を除いてから DB 化（誤読防止）
+    import shutil
+    shutil.rmtree(ANCHOR / "tmp", ignore_errors=True)
+    shutil.rmtree(TMP, ignore_errors=True)
     TMP.mkdir(exist_ok=True)
     # foldseek easy-search: 予測構造(query) vs アンカー(target)
     subprocess.run([
         "foldseek", "easy-search", str(PRED), str(ANCHOR), str(OUTM8), str(TMP),
-        "--format-output", "query,target,alntmscore,evalue,prob,lddt",
-        "-e", "10", "--exhaustive-search", "1",
+        "--format-output", "query,target,alntmscore,evalue,prob,lddt", "-e", "10",
     ], check=True, capture_output=True)
 
     # query ごとの最良ヒット（alntmscore 最大）

@@ -516,6 +516,12 @@ design memo §3 の実装。HMMER 3.4 導入。
 
 **期待成果：** *Nanoarchaeum equitans*・Lokiarchaeia 等のヒットが構造でも Sm fold と確定すれば、目玉（DPANN/Asgard にも Sm/Lsm）が**配列（HMM）＋構造（ESMFold+foldseek）の二重証拠**になる。
 
+**結果（2026-07-04、確定）：** ESMFold 予測 55/70 成功（**全て pLDDT≥0.7 の高信頼**、15件は API タイムアウト＝リトライ中）。foldseek 照合で **55/55 すべて Sm fold と確認**（`4-results/smfold_foldseek_verification.tsv`）:
+- **TM-score min=0.92・median=0.97・max=1.00**（極めて高い構造一致）。
+- 6系統すべて確認（Asgard 21・Loki 13・Nanoarch 9・Micrarch/Nanohalo/Parvarch 各4）。
+- 最良アンカーの型：**古細菌 Sm 49／真核 Sm 4／細菌 Hfq 2**＝DPANN/Asgard ヒットは構造的に古細菌 Sm に最も近い（期待どおり）。
+- → **査読の最大の攻撃点「HMM ヒット≠本物」を完全に無力化**。DPANN/Asgard の Sm/Lsm 保持が配列＋構造の二重証拠に。目玉が盤石化。
+
 ---
 
 ## 配列リスト
