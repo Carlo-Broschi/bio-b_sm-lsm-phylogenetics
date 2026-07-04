@@ -1,0 +1,36 @@
+# bio-b 参考文献 — Zotero「識別子から項目を追加」用 DOI リスト
+# 使い方：Zotero のマジックワンド（緑）で下の DOI 群をまとめて貼る（#コメントは除く）。
+# 全 DOI は CrossRef で検証済み。M&M で名前を挙げているツールは inline 引用が無くても
+# リストには必要なので全て含む（投稿版で M&M に (Author year) を補うこと）。
+
+# --- 手法ツール ---
+10.1093/bioinformatics/btl158     # CD-HIT (Li & Godzik 2006)
+10.1093/molbev/mst010             # MAFFT (Katoh & Standley 2013)
+10.1101/2024.08.01.606130         # FoldMason (Gilchrist et al. 2024) ※preprint
+10.1093/molbev/msag117            # IQ-TREE3 (Wong et al. 2026)
+10.1038/nmeth.4285                # ModelFinder (Kalyaanamoorthy et al. 2017)
+10.1093/molbev/msx281             # UFBoot2 (Hoang et al. 2018)
+10.1093/sysbio/sys029             # MrBayes 3.2 (Ronquist et al. 2012)
+10.1371/journal.pcbi.1002195      # HMMER3 / hmmsearch (Eddy 2011)
+10.1093/nar/gkaa913               # Pfam (PF01423, PF17209) (Mistry et al. 2021)
+10.1186/1471-2105-11-119          # Prodigal (Hyatt et al. 2010)
+10.1101/gr.186072.114             # CheckM completeness (Parks et al. 2015) ※CPR の Parks 2017 とは別人
+10.1038/nbt.3893                  # MIMAG quality standard (Bowers et al. 2017)
+10.1126/science.ade2574           # ESMFold / ESM-2 (Lin et al. 2023)
+10.1038/s41587-023-01773-0        # Foldseek (van Kempen et al. 2024)
+# NCBI Datasets（ゲノム取得）：canonical DOI が定まりにくい → Zotero でタイトル検索
+#   "Sayers ... Database resources of the National Center for Biotechnology Information"（NAR 年次）
+#   または NCBI Datasets ツール文献を手動追加。
+
+# --- ドメイン・生物学 ---
+10.1371/journal.pcbi.1000315      # Veretnik et al. 2009 (Sm/Lsm early evolution, 元ネタ)
+10.1042/etls20180034              # Reichelt/Grohmann/Willkomm 2018 (archaeal Lsm/Hfq review, 新規性の位置づけ)
+10.3390/microorganisms11051196    # Payá & Bonete 2023 (109古細菌 Lsm census, 比較基準)
+10.1006/jmbi.2001.4693            # Collins & Mabbutt 2001 (MtLsmα 1I81, archaeal Lsm=最古)
+10.1093/emboj/20.9.2293           # Törő et al. 2001 (AF-Sm1, 古細菌↔真核 Sm 保存)
+10.1146/annurev-micro-091213-112901  # Moran & Bennett 2014 (縮小ゲノム遺伝子喪失 baseline)
+10.1093/nar/gkf508                # Sun, Zhulin & Wartell 2002 (Hfq 縮小ゲノム細菌で喪失)
+
+# 計 21 文献（＋NCBI Datasets は手動、＋自己引用 companion Hfq study=bio-a）
+# 注：CPR 背景文献（Brown2015/Hug2016/Parks2017/Danczak2017 等の cpr_hfq_references.csv 9本）は
+#     現ドラフト本文では未引用。Introduction/Discussion で CPR を導入する文を足すなら追加する。
