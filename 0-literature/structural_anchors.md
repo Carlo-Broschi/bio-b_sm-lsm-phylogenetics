@@ -33,8 +33,10 @@
 |---|---|---|---|---|
 | B4 | Törő & Suck 2002 の **AF-Sm1 7量体** | 10.1016/s0022-2836(02)00406-0 | *A. fulgidus* Sm1（A5=AF-Sm2 1LJO と同論文の別鎖） | ID 未確定（AF-Sm1 apo 7量体） |
 | B5 | Mura & Eisenberg 2003b (Protein Sci) | 10.1110/ps.0224703 | SmAP オリゴマー化・リガンド結合（溶液生物物理） | **未読**（構造アンカー価値低） |
-| B6 | Nikulin 2020 (Biochimie) | 10.1016/j.biochi.2020.05.001 | Sso vs Mvann Lsm U結合比較 | **PDF 入手待ち**（ユーザーが朝に ResearchGate 再アクセス） |
-| B7 | Nikulin 2021 (Biochem Moscow) | 10.1134/s000629792107004x | *H. salinarum* Lsm | **PDF 入手待ち**（同上） |
+| ~~B6~~ | Nikulin 2020 (Biochimie) | 10.1016/j.biochi.2020.05.001 | Sso vs Mvann Lsm U結合比較 | **✅確定（PDF不要、RCSB 引用検索で特定 2026-07-04）：5MKI（*M. vannielii* SmAP, 2.05Å）／5MKL（*S. acidocaldarius* SmAP, 2.09Å）／5MKN（*M. vannielii* 第2形, 2.55Å）** |
+| ~~B7~~ | Nikulin 2021 (Biochem Moscow) | 10.1134/s000629792107004x | *H. salinarum* Lsm | **✅確定：6TFL（*H. salinarum* R1 Lsm/SmAP, 2.40Å）** |
+
+**上記4構造は §2 のアンカー拡張候補**（Sulfolobus acidcaldarius / Methanococcus vannielii / Halobacterium salinarum ＝現アンカー19に無い古細菌 Lsm 系統。特に Nikulin 2020 の Sso vs Mvann の U結合様式の違いは RNA接触残基の第二アンカーに使える）。関連：8XAP/8XAQ/8XAO（S. acidocaldarius Lsm の 2024年新規構造、別論文）も RCSB テキスト検索でヒット。
 
 ## C. 設計に効く重要ニュアンス（一次精読で判明）
 
