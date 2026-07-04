@@ -1,4 +1,4 @@
-# [Title TBD] — Manuscript Draft
+# The Sm fold diverges in fate between reduced-genome archaea and bacteria: a structure-informed phylogenomic census — Manuscript Draft
 
 **Project:** bio-b — Sm/Lsm Phylogenetics
 **Author:** Sui Nakai
@@ -18,6 +18,12 @@
 ## Abstract
 
 The Sm/Lsm/Hfq superfamily builds the RNA-associated toroidal rings that underlie processes from eukaryotic pre-mRNA splicing to bacterial small-RNA regulation, and its distribution across the three domains bears on the archaeal ancestry of the eukaryotic spliceosome. Using structures from all three domains, we built a structure-guided alignment and an updated phylogenetic framework for the superfamily, and on that scaffold we asked how the Sm fold has fared in the two prokaryotic reduced-genome radiations. A completeness-controlled census — using dual profile-HMMs (Sm/Lsm PF01423 and Hfq PF17209), ab initio gene prediction to remove annotation gaps, and structural verification of hits by ESMFold and Foldseek — shows that the radiations diverge. Reduced-genome archaea (DPANN and Asgard, including *Nanoarchaeum equitans* and cultured Lokiarchaeia) retain the Sm fold in every quality-genome lineage examined, with all 55 confidently modelled hits matching an experimental Sm-fold anchor (TM-score ≥ 0.92); this retention, indicated qualitatively by earlier work, is quantified and structurally verified here. In contrast, the bacterial CPR/Patescibacteria radiation has lost the fold entirely: no Hfq or Sm/Lsm protein was found in 397 quality genomes (including 393 Saccharibacteria with otherwise complete ribosomal machinery), a clean negative that also serves as an internal control on the method. The Sm fold thus shows a domain-level asymmetry in its fate under genome reduction — retained in archaea, lost in the bacterial CPR — establishing rigorously a contrast not previously drawn.
+
+---
+
+## Significance statement
+
+The Sm/Lsm/Hfq fold builds the RNA-associated rings that underlie machinery across all cellular life, and its fate in reduced-genome lineages informs the archaeal origin of the eukaryotic spliceosome. Using a completeness-controlled, ab-initio-annotated and structurally-verified census, we show that the two prokaryotic reduced-genome radiations diverge: archaea (DPANN, Asgard) retain the Sm fold whereas the bacterial CPR radiation has lost it entirely. This domain-level asymmetry — drawn rigorously here — distinguishes genuine gene loss from the detection and assembly artifacts that confound reduced-genome surveys.
 
 ---
 
@@ -117,6 +123,12 @@ The two prokaryotic reduced-genome radiations went opposite ways: reduced-genome
 ## 5. Conclusion
 
 Within an updated, structure-guided phylogenetic framework for the Sm/Lsm/Hfq superfamily, a completeness-controlled and structurally-verified census reveals that the two prokaryotic reduced-genome radiations have taken opposite paths: archaea (DPANN, Asgard) retain the Sm fold, whereas the CPR/Patescibacteria bacteria have lost it. This domain-level asymmetry — quantified rigorously here rather than discovered — is the study's central contribution, with the archaeal retention bearing on the archaeal ancestry of the eukaryotic Sm/Lsm machinery.
+
+---
+
+## Data Availability
+
+Reference sequences were retrieved from NCBI RefSeq; DPANN/Asgard/CPR genomes via the NCBI Datasets API (accessions in the manifests). The curated sequence set, structure-guided alignment, tree files, HMM profiles (PF01423, PF17209), the census output tables, ESMFold-predicted structures and Foldseek verification, the structural-anchor PDB list, and all analysis and figure-generating scripts are available in the project repository (https://github.com/Carlo-Broschi/bio-b_sm-lsm-phylogenetics). Bulk downloaded proteomes and predicted structures are regenerable from accession numbers via the provided scripts. <!-- 投稿時：private→public 化、または Zenodo deposit で DOI 付与。 -->
 
 ---
 
