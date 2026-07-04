@@ -3,7 +3,7 @@
 **Project:** bio-b — Sm/Lsm Phylogenetics
 **Author:** Sui Nakai
 **Target journal:** Genome Biology and Evolution / Molecular Biology and Evolution
-**Status:** Pre-draft (updated 2026-07-04 to reflect scenario pivot: absence → retention)
+**Status:** Submission preparation (2026-07); integrated framing (framework + finding) finalized, science QC-locked, GBE format assembly in `../_gbe_submission/`
 
 ---
 
