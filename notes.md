@@ -482,6 +482,22 @@ design memo §3 の実装。HMMER 3.4 導入。
 
 ---
 
+### 2026-07-04 — 構造ガイド MSA（design memo §2）— "本番"アライメント準備
+
+ツール選定：PROMALS3D(Web)／T-Coffee Expresso／FoldMason を比較し **FoldMason** を採用。判断基準＝(1) Sm/Lsm は近縁 PDB をほぼ持たず T-Coffee の「配列ごとテンプレ割当」の強みが効かない→構造シグナルは実質同じ19アンカー、(2) FoldMason は単一バイナリで完全ローカル・再現的（Bioconda 回避方針と合致）、(3) T-Coffee Expresso は外部サーバ依存で再現性リスク。
+
+**ツール導入：** FoldMason（Steinegger lab、mmseqs.com の macOS universal バイナリ、`~/tools/foldmason` → `/opt/homebrew/bin/foldmason`。foldseek と同じ導入モデル）。
+
+**手順（`scripts/analytics/build_structguided_msa.py` に集約）：**
+1. **確定アンカー19 PDB** を RCSB から取得（`3-analysis/structures/*.pdb`）。
+2. `foldmason easy-msa` で構造 MSA（全243鎖×224列）→ ユニーク鎖 → CD-HIT 0.95 で **構造 seed 25配列×219列**（3ドメイン網羅：真核 Sm パラログ[3PGW/1D3B]・古細菌 SmAP[1I8F/1I81/1TH7/1LJO/1M5Q/1M8V/1I5L]・細菌 Hfq[1HK9/1KQ1/1U1S/2QTX/3AHU]・Caulobacter[6GWK]）。
+3. `mafft --seed structure_anchor_seed.fa` で curated nr90（1107）を構造ガイド整列 → `smlsm_curated_structguided.fasta`（1132×1480）。
+4. 占有率トリム（列≥10%・行≥30%、seed 除外）→ `smlsm_structguided_trim.fasta`（**1101×184**）。構造 seed の≥50%充填列＝**76列**＝Sm fold ~70残基と一致＝構造座標に較正されたコア。
+
+**位置づけ：** design memo §2 の実体。生配列 MAFFT の trim（1097×196）を置換する "本番" アライメント。次段は IQ-TREE3（+ MrBayes）を `smlsm_structguided_trim.fasta` で実行し、生配列版と樹形・深部支持を比較。
+
+---
+
 ## 配列リスト
 
 | Accession | Organism | タンパク質 | 備考 |

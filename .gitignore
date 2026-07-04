@@ -42,3 +42,6 @@ Thumbs.db
 
 # bulk proteome downloads (regenerable by accession)
 1-downloaded-data/proteomes/
+
+# raw PDB structures (regenerable from RCSB by ID)
+3-analysis/structures/
