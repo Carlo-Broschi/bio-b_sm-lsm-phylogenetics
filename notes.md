@@ -416,6 +416,15 @@ iqtree3 -s 3-analysis/smlsm_curated_aln_nr90_trim.fasta \
 
 **方針：** 有根化は後段の構造アンカー工程（古細菌 SmAP / 細菌 Hfq 相互外群、design memo §1）で実施。この初回 ML は無根で樹形の健全性（コンタミ除去でクレードが整理されたか）を確認する位置づけ。**次段階の "本番" アライメントは PROMALS3D/Expresso による構造ガイド MSA に置換予定**（trim 版は暫定）。
 
+**IQ-TREE 完了（2026-07-04）：** Q.INSECT+G4、logL −81688、1090 taxa、7h45m。UFBoot 相関 0.982（目標0.99にわずか未達だが実用範囲）。強支持枝 519/1087（48%）。
+
+**クレード評価（型配色）：** `scripts/analytics/build_biob_types.py`（記述＋生物名から型分類）→ `4-results/biob_tip_types.tsv`、`scripts/viz/plot_biob_types.R`（fan レイアウト）→ `4-results/smlsm_curated_types.{pdf,png}`。
+- 型内訳：Lsm 499・Sm-core 335・Hfq 231・SmAP(古細菌) 27・**Other 5**。
+- **①コンタミ除去の確証**：Other は5 tip のみ（旧 nr70 の15%汚染から激減）。誤配置の大ブロックなし。
+- **②主要型の分離が明瞭**：**Hfq（細菌）が凝集した独立クラスタ**、Sm-core・Lsm は各々パラログ特異的クラスタを形成（各オーソログが単系統的）。
+- **③古細菌 SmAP は真核 Sm/Lsm 領域に散在し Hfq とは離れる**＝「古細菌 Sm が真核 Lsm/Sm の祖先、Hfq は別系統」という相互外群設計（design memo §1）を支持。
+- → curated データセットが健全と確認。構造ガイド MSA（"本番"）へ進める状態。
+
 ---
 
 ### 2026-07-04 — PF01423/PF17209 HMM 検索パイプライン構築（DPANN/Asgard 分布）
