@@ -149,5 +149,21 @@ Reference sequences were retrieved from NCBI RefSeq; DPANN/Asgard/CPR genomes vi
 
 | Table | Caption | Status |
 |-------|---------|--------|
-| Table 1 | Sm/Lsm and Hfq counts per DPANN/Asgard/CPR lineage (genome- and species-level), with completeness. | Data ready |
+| Table 1 | Sm/Lsm and Hfq counts per DPANN/Asgard/CPR lineage (genome- and species-level), with completeness. | **Rendered** (below) |
 | Table S1 | Sm-fold structural anchors (PDB accessions, organism, domain) used for structure-guided alignment. | Ready (`0-literature/structural_anchors.md`) |
+
+**Table 1.** Sm/Lsm and Hfq incidence across the sampled reduced-genome radiations. Genome and species counts are after CheckM completeness filtering (≥50% complete, ≤10% contaminated); "genomes with Sm/Lsm" and "genomes with Hfq" count genomes carrying at least one PF01423 (Sm/Lsm) or PF17209 (Hfq) hit, respectively; "Sm/Lsm hits" and "Hfq hits" are total domain hits summed over genomes; mean completeness is the CheckM mean over each lineage's genomes. Every archaeal lineage retains the Sm fold in nearly all assessable genomes, whereas the bacterial CPR radiation carries neither Sm/Lsm nor Hfq in any of 397 genomes despite comparable assembly completeness — excluding low completeness as an explanation for the bacterial absence.
+
+| Domain (radiation) | Lineage | Genomes | Species | Genomes w/ Sm/Lsm | Genomes w/ Hfq | Sm/Lsm hits | Hfq hits | Mean completeness (%) |
+|---|---|--:|--:|--:|--:|--:|--:|--:|
+| Archaea (DPANN/Asgard) | *Nanoarchaeota* | 16 | 4 | 14 | 0 | 14 | 0 | 67.9 |
+| Archaea (DPANN/Asgard) | *Asgardarchaeota* | 11 | 6 | 10 | 0 | 24 | 0 | 82.9 |
+| Archaea (DPANN/Asgard) | *Lokiarchaeia* | 8 | 4 | 8 | 0 | 20 | 0 | 78.5 |
+| Archaea (DPANN/Asgard) | *Parvarchaeota* | 7 | 2 | 4 | 0 | 4 | 0 | 66.9 |
+| Archaea (DPANN/Asgard) | *Micrarchaeota* | 4 | 4 | 4 | 0 | 4 | 0 | 86.2 |
+| Archaea (DPANN/Asgard) | *Nanohaloarchaeota* | 4 | 3 | 4 | 0 | 4 | 0 | 85.4 |
+| **Archaea — subtotal** | | **50** | **23** | **44** | **0** | **70** | **0** | **75.6** |
+| Bacteria (CPR/Patescibacteria) | *Saccharibacteria* | 393 | 15 | 0 | 0 | 0 | 0 | 82.0 |
+| Bacteria (CPR/Patescibacteria) | *Candidatus* Absconditabacteria | 3 | 3 | 0 | 0 | 0 | 0 | 81.5 |
+| Bacteria (CPR/Patescibacteria) | *Patescibacteria* (unclassified) | 1 | 1 | 0 | 0 | 0 | 0 | 80.7 |
+| **Bacteria — subtotal** | | **397** | **19** | **0** | **0** | **0** | **0** | **82.0** |

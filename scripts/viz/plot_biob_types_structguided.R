@@ -26,7 +26,7 @@ cols <- c("Hfq" = "#E15759", "SmAP (archaea)" = "#4E79A7",
 p <- ggtree(tr, layout = "fan", open.angle = 12, linewidth = 0.15) %<+% tipdf +
   geom_tippoint(aes(color = category), size = 0.6, na.rm = TRUE) +
   scale_color_manual(values = cols, name = "Sm/Lsm type", na.translate = FALSE) +
-  ggtitle("bio-b curated ML tree (1097 tips) colored by Sm/Lsm type") +
+  ggtitle("Structure-guided Sm/Lsm framework tree (1097 tips), colored by type") +
   theme(legend.position = "right", plot.title = element_text(size = 11),
         legend.text = element_text(size = 9))
 
