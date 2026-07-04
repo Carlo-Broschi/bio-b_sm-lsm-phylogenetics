@@ -1,0 +1,22 @@
+{
+  "title": "The Sm fold diverges in fate between reduced-genome archaea and bacteria: a structure-informed phylogenomic census",
+  "description": "Analysis code and derived data for a structure-informed phylogenomic census of the Sm/Lsm/Hfq superfamily across the three domains of life, including a completeness-controlled, ab-initio-annotated, structurally-verified distribution census of DPANN/Asgard archaea versus the bacterial CPR/Patescibacteria radiation. Companion to the Hfq family study (bio-a).",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Nakai, Sui"
+    }
+  ],
+  "keywords": [
+    "phylogenetics",
+    "Sm/Lsm",
+    "Hfq",
+    "DPANN",
+    "Asgard archaea",
+    "CPR / Patescibacteria",
+    "structure-guided alignment",
+    "molecular evolution"
+  ]
+}

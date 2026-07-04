@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: >-
+  The Sm fold diverges in fate between reduced-genome archaea and bacteria:
+  a structure-informed phylogenomic census
+abstract: >-
+  Analysis code and derived data for a structure-informed phylogenomic census of
+  the Sm/Lsm/Hfq superfamily across the three domains of life, including a
+  completeness-controlled, ab-initio-annotated, structurally-verified distribution
+  census of DPANN/Asgard archaea versus the bacterial CPR/Patescibacteria radiation.
+type: software
+authors:
+  - family-names: Nakai
+    given-names: Sui
+    email: vivaldi.rv484@gmail.com
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # add if available
+license: CC-BY-4.0
+repository-code: "https://github.com/Carlo-Broschi/bio-b_sm-lsm-phylogenetics"
+keywords:
+  - phylogenetics
+  - Sm/Lsm
+  - Hfq
+  - DPANN
+  - Asgard archaea
+  - CPR / Patescibacteria
+  - structure-guided alignment
+  - molecular evolution
