@@ -33,10 +33,12 @@
 |---|---|---|---|---|
 | B4 | Törő & Suck 2002 の **AF-Sm1 7量体** | 10.1016/s0022-2836(02)00406-0 | *A. fulgidus* Sm1（A5=AF-Sm2 1LJO と同論文の別鎖） | ID 未確定（AF-Sm1 apo 7量体） |
 | B5 | Mura & Eisenberg 2003b (Protein Sci) | 10.1110/ps.0224703 | SmAP オリゴマー化・リガンド結合（溶液生物物理） | **未読**（構造アンカー価値低） |
-| ~~B6~~ | Nikulin 2020 (Biochimie) | 10.1016/j.biochi.2020.05.001 | Sso vs Mvann Lsm U結合比較 | **✅確定（PDF不要、RCSB 引用検索で特定 2026-07-04）：5MKI（*M. vannielii* SmAP, 2.05Å）／5MKL（*S. acidocaldarius* SmAP, 2.09Å）／5MKN（*M. vannielii* 第2形, 2.55Å）** |
-| ~~B7~~ | Nikulin 2021 (Biochem Moscow) | 10.1134/s000629792107004x | *H. salinarum* Lsm | **✅確定：6TFL（*H. salinarum* R1 Lsm/SmAP, 2.40Å）** |
+| ~~B6~~ | Nikulin 2020 (Biochimie 175:1) | 10.1016/j.biochi.2020.05.001 | Sac SmAP2 vs Mva SmAP1 の U結合様式比較 | **✅確定（本文精読 2026-07-04）：5MKI（*M. vannielii* SmAP1 apo, 2.05Å, 2ヘプタマー）／5MKL（*S. acidocaldarius* SmAP2 apo, 2.09Å, P1, 4ヘプタマー）／5MKN（*M. vannielii* SmAP1・**UMP複合体**, 2.55Å, 7 UMP/中央孔）** ※MR model：MvaSmAP1←1I4K、SacSmAP2←4XQ3 |
+| ~~B7~~ | Nikulin 2021 (Biochem Moscow 86:833) | 10.1134/s000629792107004x | *H. salinarum* Lsm（L4 loop 効果） | **✅確定（本文精読）：6TFL（*H. salinarum* HsaSmAP60・**UMP複合体**, 2.40Å, P4₁2₁2, 14 UMP）** ※MR model←1LJO（AF-Sm2） |
 
-**上記4構造は §2 のアンカー拡張候補**（Sulfolobus acidcaldarius / Methanococcus vannielii / Halobacterium salinarum ＝現アンカー19に無い古細菌 Lsm 系統。特に Nikulin 2020 の Sso vs Mvann の U結合様式の違いは RNA接触残基の第二アンカーに使える）。関連：8XAP/8XAQ/8XAO（S. acidocaldarius Lsm の 2024年新規構造、別論文）も RCSB テキスト検索でヒット。
+**上記5構造は §2 のアンカー拡張候補**（Sac/Mva/Hsa ＝現19に無い古細菌 SmAP 系統。特に UMP 複合体 5MKN・6TFL は RNA接触残基の較正に有用）。関連：8XAP/8XAQ/8XAO（S. acidocaldarius Lsm の 2024年新規構造、別論文）も RCSB ヒット。
+- **ウリジンポケット残基（精読で確認、両論文横断）**：MvaSmAP1（5MKN）＝**His39/Asn41/Arg63/Asp65**＋Leu38 主鎖。HsaSmAP（6TFL）＝**His37/Arg51/Asn39/Asp53**＋Gln36* 隣接。共通して Arg が uracil にスタック（H結合せず）、Asn が N3/O4 と、His が O2′ とリボース識別（Hfq の His57 相当）。His＝Hfq の Phe42 相当位置、Asn＝Hfq の Gln41 相当（Lsm 最保存残基＝PF01423）。
+- **【重要・新規 PDB】1LOJ＝*M. thermolithotrophicus* SmAP1・UMP**（Nikulin 2020 Fig6 で確定、`1LJO`＝AF-Sm2 とは別物・混同注意）。他の U複合体アンカー一覧（Fig6）：4MML（Pae Hfq+UMP）・1I5L（AF-Sm1+U3 RNA）・1M8V（Pab-Sm1+U7 RNA）。
 
 ## C. 設計に効く重要ニュアンス（一次精読で判明）
 
@@ -44,6 +46,9 @@
 2. **SmAP パラログは遺伝子重複起源**（Mura 2003）：SmAP2/SmAP3 は SmAP1 の重複で生じた（水平伝播でない）。→ §3 opening③（Crenarchaeal SmAP1/2 重複史）と §1 の重複ベース rooting を支持。
 3. **古細菌 Sm ⇔ RNase P RNA**（Törő 2001）：AF-Sm1/Sm2 は in vivo で RNase P RNA と会合＝tRNA プロセシング関与。真核 Lsm と機能的に平行（Reichelt 2023 の RNA homeostasis network と整合）。
 4. **archaeal Sm = 真核 Sm core の "primitive form"**（Törő 2001 結論）：古細菌 Sm を真核 Sm/Lsm の祖先型外群に置く §1 の根拠を補強。
+5. **【新規・設計形質①】SmAP1 vs SmAP2 の分子指標＝Sm1 モチーフ第3位の His vs Thr**（Nikulin 2020 精読）：SmAP1 は His（uracil にスタック、強い U結合）、SmAP2（Sso/Sac）は Thr40 → U18 RNA 親和性が **≥100倍低下**。T40H 置換でも cRBM 結合は回復せず。→ **クレナーキオータ SmAP1/2 パラログの機能分化を残基1つで説明**でき、design memo §3 の「SmAP1/2 重複史」の形質軸に直結。系統形質としてマップ可能。
+6. **【新規・設計形質②】U結合様式が Sm型 vs Hfq型で構造的に別**（Nikulin 2020/2021 精読）：**SmAP＝"baseball glove"（同一モノマーの His＋Arg 2残基）**／**Hfq＝"Frisbee trap"（隣接2モノマーの芳香族 Phe/Tyr）**。かつ SmAP は**ウリジン単一サイトのみ**（Hfq のアデニン/distal サイトを欠く＝L4 loop で遮蔽）。UMP は SmAP で Hfq より **~90°回転**。→ Hfq型/Sm型の型判定（§1 rooting・bio-a↔bio-b 相互外群）を**構造・残基レベルで裏付ける形質**。
+7. **【重要・仮説の反証】L4 loop 長は4次構造（ヘキサ/ヘプタ）を決めない**（Nikulin 2021 精読）：*H. salinarum* SmAP は L4 が**短い（3残基、細菌 Hfq 並み）のにヘプタマー**を形成。→ 「L4 短い＝ヘキサマー」という旧仮説を反証。オリゴマー状態を L4 長で予測する設計は不可。単量体構造はむしろ細菌 Hfq に近い（短 L4 が L2 loop 配向に影響）が、それでもヘプタ。※細胞内で実際に発現するのは HsaSmAP69（N末+電荷で RNA 結合↑）で、結晶化したのは HsaSmAP60。
 
 ## 相互確認（重畳表による独立クロスチェック）
 
