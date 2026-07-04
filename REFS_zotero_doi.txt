@@ -18,9 +18,7 @@
 10.1038/nbt.3893                  # MIMAG quality standard (Bowers et al. 2017)
 10.1126/science.ade2574           # ESMFold / ESM-2 (Lin et al. 2023)
 10.1038/s41587-023-01773-0        # Foldseek (van Kempen et al. 2024)
-# NCBI Datasets（ゲノム取得）：canonical DOI が定まりにくい → Zotero でタイトル検索
-#   "Sayers ... Database resources of the National Center for Biotechnology Information"（NAR 年次）
-#   または NCBI Datasets ツール文献を手動追加。
+10.1038/s41597-024-03571-y      # NCBI Datasets (O'Leary et al. 2024, Sci Data 11:732)
 
 # --- ドメイン・生物学 ---
 10.1371/journal.pcbi.1000315      # Veretnik et al. 2009 (Sm/Lsm early evolution, 元ネタ)
@@ -31,6 +29,6 @@
 10.1146/annurev-micro-091213-112901  # Moran & Bennett 2014 (縮小ゲノム遺伝子喪失 baseline)
 10.1093/nar/gkf508                # Sun, Zhulin & Wartell 2002 (Hfq 縮小ゲノム細菌で喪失)
 
-# 計 21 文献（＋NCBI Datasets は手動、＋自己引用 companion Hfq study=bio-a）
+# 計 22 文献（NCBI Datasets 収録済＝O'Leary 2024、＋自己引用 companion Hfq study=bio-a）
 # 注：CPR 背景文献（Brown2015/Hug2016/Parks2017/Danczak2017 等の cpr_hfq_references.csv 9本）は
 #     現ドラフト本文では未引用。Introduction/Discussion で CPR を導入する文を足すなら追加する。
