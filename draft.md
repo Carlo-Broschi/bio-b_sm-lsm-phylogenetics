@@ -17,7 +17,7 @@
 
 ## Abstract
 
-The Sm/Lsm/Hfq superfamily builds the RNA-associated toroidal rings that underlie processes from eukaryotic pre-mRNA splicing to bacterial small-RNA regulation, and its distribution across the three domains bears on the archaeal ancestry of the eukaryotic spliceosome. Using structures from all three domains, we built a structure-guided alignment and an updated phylogenetic framework for the superfamily, and on that scaffold we asked how the Sm fold has fared in the two prokaryotic reduced-genome radiations. A completeness-controlled census — using dual profile-HMMs (Sm/Lsm PF01423 and Hfq PF17209), ab initio gene prediction to remove annotation gaps, and structural verification of hits by ESMFold and Foldseek — shows that the radiations diverge. Reduced-genome archaea (DPANN and Asgard, including *Nanoarchaeum equitans* and cultured Lokiarchaeia) retain the Sm fold in every quality-genome lineage examined, with all 55 confidently modelled hits matching an experimental Sm-fold anchor (TM-score ≥ 0.92); this retention, indicated qualitatively by earlier work, is quantified and structurally verified here. In contrast, the bacterial CPR/Patescibacteria radiation has lost the fold entirely: no Hfq or Sm/Lsm protein was found in 397 quality genomes (including 393 Saccharibacteria with otherwise complete ribosomal machinery), a clean negative that also serves as an internal control on the method. The Sm fold thus shows a domain-level asymmetry in its fate under genome reduction — retained in archaea, lost in the bacterial CPR — establishing rigorously a contrast not previously drawn.
+The Sm/Lsm/Hfq superfamily builds the RNA-associated toroidal rings that underlie processes from eukaryotic pre-mRNA splicing to bacterial small-RNA regulation, and its distribution across the three domains bears on the archaeal ancestry of the eukaryotic spliceosome. Using structures from all three domains, we built a structure-guided alignment and an updated phylogenetic framework for the superfamily, and on that scaffold we asked how the Sm fold has fared in the two prokaryotic reduced-genome radiations. A completeness-controlled census — using dual profile-HMMs (Sm/Lsm PF01423 and Hfq PF17209), ab initio gene prediction to remove annotation gaps, and structural verification of hits by ESMFold and Foldseek — shows that the radiations diverge. Reduced-genome archaea (DPANN and Asgard, including *Nanoarchaeum equitans* and cultured Lokiarchaeia) retain the Sm fold in every quality-genome lineage examined, with all 55 confidently modelled hits matching an experimental Sm-fold anchor (TM-score ≥ 0.91); this retention, indicated qualitatively by earlier work, is quantified and structurally verified here. In contrast, the bacterial CPR/Patescibacteria radiation has lost the fold entirely: no Hfq or Sm/Lsm protein was found in 397 quality genomes (including 393 Saccharibacteria with otherwise complete ribosomal machinery), a clean negative that also serves as an internal control on the method. The Sm fold thus shows a domain-level asymmetry in its fate under genome reduction — retained in archaea, lost in the bacterial CPR — establishing rigorously a contrast not previously drawn.
 
 ---
 
@@ -98,7 +98,7 @@ Applying the completeness-filtered dual-HMM pipeline to 50 quality genomes acros
 
 ### 3.4 Structural verification
 
-All 55 hit sequences that yielded confident ESMFold models (mean pLDDT ≥ 0.7) matched an experimental Sm-fold anchor by Foldseek with high structural similarity (TM-score 0.92–1.00; median 0.97), and 49/55 were closest to an archaeal Sm anchor. The Sm/Lsm presence in DPANN/Asgard is therefore supported by both sequence (HMM) and structure (ESMFold + Foldseek).
+All 55 hit sequences that yielded confident ESMFold models (mean pLDDT ≥ 0.7) matched an experimental Sm-fold anchor by Foldseek with high structural similarity (TM-score ≥ 0.91; median 0.97), and 49/55 were closest to an archaeal Sm anchor. The Sm/Lsm presence in DPANN/Asgard is therefore supported by both sequence (HMM) and structure (ESMFold + Foldseek).
 
 ### 3.5 CPR/Patescibacteria bacteria lack Hfq and Sm/Lsm
 
@@ -143,7 +143,7 @@ Reference sequences were retrieved from NCBI RefSeq; DPANN/Asgard/CPR genomes vi
 | Figure | Caption | Status |
 |--------|---------|--------|
 | Fig. 1 | Structure-guided Sm/Lsm phylogeny across three domains, tips colored by type (Hfq / SmAP / Lsm / Sm-core). | **Rendered** (`4-results/smlsm_structguided_types.pdf`, structure-guided framework tree) |
-| Fig. 2 | (A) Sm-fold distribution across reduced-genome radiations: DPANN/Asgard archaea retain Sm/Lsm (high per-lineage fraction) while CPR bacteria have lost it (0/393 Saccharibacteria etc.); (B) structural verification — all 55 archaeal ESMFold hits match a Sm-fold anchor by Foldseek (TM-score ≥ 0.92, median 0.97). | **Rendered** (`4-results/fig_distribution_verification.pdf`) |
+| Fig. 2 | (A) Sm-fold distribution across reduced-genome radiations: DPANN/Asgard archaea retain Sm/Lsm (high per-lineage fraction) while CPR bacteria have lost it (0/393 Saccharibacteria etc.); (B) structural verification — all 55 archaeal ESMFold hits match a Sm-fold anchor by Foldseek (TM-score ≥ 0.91, median 0.97). | **Rendered** (`4-results/fig_distribution_verification.pdf`) |
 
 ## Tables
 
