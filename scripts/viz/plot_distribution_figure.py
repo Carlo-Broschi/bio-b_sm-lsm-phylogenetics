@@ -72,9 +72,9 @@ axB.set_xlabel("Foldseek TM-score to Sm-fold anchor", fontsize=10)
 axB.set_ylabel("archaeal hits (n=55)", fontsize=10)
 axB.set_title("B  Structural verification of archaeal hits",
               fontsize=11, loc="left", weight="bold")
-axB.text(0.945, axB.get_ylim()[1] * 0.9,
-         "all 55 hits ≥0.92\n(median 0.97)\n→ genuine Sm fold",
-         fontsize=9, ha="center", color="#333")
+axB.text(0.905, axB.get_ylim()[1] * 0.72,
+         "all 55 hits ≥ 0.91\n(median 0.97)\n→ genuine Sm fold",
+         fontsize=9, ha="left", va="top", color="#333")
 for sp in ("top", "right"):
     axB.spines[sp].set_visible(False)
 

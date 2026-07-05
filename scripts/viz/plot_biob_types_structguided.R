@@ -18,20 +18,24 @@ cat_vec <- ifelse(tr$tip.label %in% names(acc2cat), acc2cat[tr$tip.label], "Othe
 tipdf <- data.frame(node = seq_along(tr$tip.label), category = cat_vec)
 cat("tip カテゴリ内訳:\n"); print(sort(table(cat_vec), decreasing = TRUE))
 
-cols <- c("Hfq" = "#E15759", "SmAP (archaea)" = "#4E79A7",
-          "Lsm (eukaryote)" = "#59A14F", "Sm-core (eukaryote)" = "#F28E2B",
-          "Other" = "grey70")
+# 色覚バリアフリー（Okabe-Ito）：Hfq=vermillion / Lsm=blue は全 CVD 型で判別可
+cols <- c("Hfq" = "#D55E00", "SmAP (archaea)" = "#CC79A7",
+          "Lsm (eukaryote)" = "#0072B2", "Sm-core (eukaryote)" = "#E69F00",
+          "Other" = "grey55")
 
-# fan レイアウトで 1097 tips をコンパクトに
+# fan レイアウト。タイトルは図に焼き込まず caption に置く。余白を詰める。
 p <- ggtree(tr, layout = "fan", open.angle = 12, linewidth = 0.15) %<+% tipdf +
-  geom_tippoint(aes(color = category), size = 0.6, na.rm = TRUE) +
-  scale_color_manual(values = cols, name = "Sm/Lsm type", na.translate = FALSE) +
-  ggtitle("Structure-guided Sm/Lsm framework tree (1097 tips), colored by type") +
-  theme(legend.position = "right", plot.title = element_text(size = 11),
-        legend.text = element_text(size = 9))
+  geom_tippoint(aes(color = category), size = 0.9, na.rm = TRUE) +
+  scale_color_manual(values = cols, name = "Sm/Lsm fold type", na.translate = FALSE) +
+  guides(color = guide_legend(override.aes = list(size = 3))) +
+  theme(legend.position = c(0.5, 0.5),
+        legend.title = element_text(size = 13, face = "bold"),
+        legend.text = element_text(size = 11),
+        legend.background = element_rect(fill = "white", color = "grey40", linewidth = 0.4),
+        plot.margin = margin(-30, -30, -30, -30))
 
 ggsave(file.path(BASE, "4-results", "smlsm_structguided_types.pdf"), p,
-       width = 11, height = 11, limitsize = FALSE)
+       width = 9, height = 9, limitsize = FALSE)
 ggsave(file.path(BASE, "4-results", "smlsm_structguided_types.png"), p,
-       width = 11, height = 11, dpi = 150, limitsize = FALSE)
+       width = 9, height = 9, dpi = 300, limitsize = FALSE)
 cat("保存: 4-results/smlsm_structguided_types.{pdf,png}\n")
